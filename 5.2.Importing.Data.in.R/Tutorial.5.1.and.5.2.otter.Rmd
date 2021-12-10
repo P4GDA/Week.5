@@ -96,7 +96,7 @@ A CSV file called "hot_springs_illumina_read_info.csv" contains information abou
 
 Use the `read.csv()` function to read in the data from the file and save it as a data frame called "illumina_read_info". 
 
-Note: the file has a header and is located in the directory: "/home/joyvan/Week.5/5.2.Data.Files".
+Note: the file has a header and is located in the directory: "/home/joyvan/Week.5/5.2.Importing.Data.in.R/Tutorial.5.1.and.5.2/5.2.Data.Files".
 ```{r}
 # Write and execute your code here
 # YOUR CODE HERE
