@@ -1,0 +1,5 @@
+sample	total_reads	archea_reads	bacteria_reads
+Sun Spring	293022	159222	73017
+CH1102	945599	1818	911577
+It3	643433	2610	621248
+NL10	144401	17880	83869
