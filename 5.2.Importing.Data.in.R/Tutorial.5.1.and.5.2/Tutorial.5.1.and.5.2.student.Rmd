@@ -53,7 +53,7 @@ This paper looks at the types of microorganisms living in 8 terrestrial hot spri
 Create a data frame called "hot_springs" with 3 columns named "sample", "temp", "pH", containing the information above. Use the appropriate data type for each column.
 ```{r}
 # Write and execute your code here
-# YOUR CODE HERE
+
 ```
 
 ```{r}
@@ -71,7 +71,7 @@ countries <- c("China", "Russia", "Italy", "Italy", "Iceland", "Iceland", "USA",
 Use the `cbind()` function to add `cities` and `countries` to `hot_springs` (in that order). 
 ```{r}
 # Write and execute your code here
-# YOUR CODE HERE
+
 ```
 
 ```{r}
@@ -82,7 +82,7 @@ Use the `cbind()` function to add `cities` and `countries` to `hot_springs` (in 
 Change the column names of `hot_springs` so that the last two columns are "city" and "country".
 ```{r}
 # Write and execute your code here
-# YOUR CODE HERE
+
 ```
 
 ```{r}
@@ -99,7 +99,7 @@ Use the `read.csv()` function to read in the data from the file and save it as a
 Note: the file has a header and is located in the directory: "/home/joyvan/Week.5/5.2.Importing.Data.in.R/Tutorial.5.1.and.5.2/5.2.Data.Files".
 ```{r}
 # Write and execute your code here
-# YOUR CODE HERE
+
 ```
 
 ```{r}
@@ -114,7 +114,7 @@ Use the `read.table()` function to read in the data from the file and save it as
 Note: the file has a header and is located in the directory: "/home/joyvan/Week.5/5.2.Data.Files".
 ```{r}
 # Write and execute your code here
-# YOUR CODE HERE
+
 ```
 
 ```{r}
@@ -125,7 +125,7 @@ Note: the file has a header and is located in the directory: "/home/joyvan/Week.
 Combine `illumina_read_info` and `s454_read_info` into one data frame called "sequencing_reads".
 ```{r}
 # Write and execute your code here
-# YOUR CODE HERE
+
 ```
 
 ```{r}
@@ -142,7 +142,7 @@ Combine `illumina_read_info` and `s454_read_info` into one data frame called "se
 Calculate the mean hot spring temperature. Save the value to a variable named "mean_hot_spring_temp".
 ```{r}
 # Write and execute your code here
-# YOUR CODE HERE
+
 ```
 
 ```{r}
@@ -153,7 +153,7 @@ Calculate the mean hot spring temperature. Save the value to a variable named "m
 Use any type of indexing to return a data frame containing the sample, city, and country names for rows 3 and 7 in `hot_springs`. Save the new data frame to a variable called "hot_spring_3_7_location".
 ```{r}
 # Write and execute your code here
-# YOUR CODE HERE
+
 ```
 
 ```{r}
@@ -170,7 +170,7 @@ Use any type of indexing to return a data frame containing the sample, city, and
 Add a new column to `sequencing_reads` called "sequencing_tech". The first 4 values should be "illumina" and the last 4 values should be "454".
 ```{r}
 # Write and execute your code here
-# YOUR CODE HERE
+
 ```
 
 ```{r}
@@ -181,7 +181,7 @@ Add a new column to `sequencing_reads` called "sequencing_tech". The first 4 val
 Not all of the sequencing reads mapped to a Bacteria or Archea species, they may have mapped to a Eukaryotic or Viral species, or be unclassified. Subtract the columns `archea_reads` and `bacteria_reads` from `total_reads` to get the number of reads that mapped to something else to create a new vector called "other_reads".
 ```{r}
 # Write and execute your code here
-# YOUR CODE HERE
+
 ```
 
 ```{r}
@@ -192,7 +192,7 @@ Not all of the sequencing reads mapped to a Bacteria or Archea species, they may
 Add a new column called "other_reads" to `sequencing_reads` with the `other_reads` vector created above. 
 ```{r}
 # Write and execute your code here
-# YOUR CODE HERE
+
 ```
 
 ```{r}
@@ -203,7 +203,7 @@ Add a new column called "other_reads" to `sequencing_reads` with the `other_read
 Write a new CSV file to the directory "/home/joyvan/Week.5/5.2.Data.Files/Tutorial" called "sequencing_reads.csv". The CSV file should contain the data frame `sequencing_reads`.
 ```{r}
 # Write and execute your code here
-# YOUR CODE HERE
+
 ```
 
 ```{r}
@@ -214,7 +214,7 @@ Write a new CSV file to the directory "/home/joyvan/Week.5/5.2.Data.Files/Tutori
 To confirm the CSV was written correctly, read in the CSV you just created and save it to a variable called "my_CSV".
 ```{r}
 # Write and execute your code here
-# YOUR CODE HERE
+
 ```
 
 ```{r}
