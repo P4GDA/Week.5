@@ -1,0 +1,9 @@
+sample,temp,pH,city,country,sequencing_tech,total_reads,archea_reads,bacteria_reads,other_reads
+Ch2-EY65S,65,7.0,Eryuan,China,illumina,4330676,3123653,836385,370638
+Sun Spring,63,5.9,Uzon,Russia,454,293022,159222,73017,60783
+It6,76,3.0,Pozzuoli,Italy,illumina,6748124,5305457,1189914,252753
+It3,86,5.5,Pisciarelli,Italy,454,643433,2610,621248,19575
+Is2-5S,88,5.0,Grensdalur,Iceland,illumina,6683715,4218855,2140858,324002
+Is3-13,90,3.8,Krisuvik,Iceland,illumina,8062259,6378355,1585580,98324
+CH1102,79,1.8,YNP,USA,454,945599,1818,911577,32204
+NL10,92,3.5,YNP,USA,454,144401,17880,83869,42652

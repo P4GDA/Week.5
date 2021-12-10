@@ -1,0 +1,219 @@
+---
+title: "Week 5 Assignment"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, error = TRUE, warning = TRUE)
+
+library(ottr)
+library(testthat)
+library(dplyr)
+```
+
+---
+
+## Overview
+
+---
+
+This assignment covers the content in week 5 lectures and tutorials.
+
+#### Mark breakdown
+- Question 1 (6 marks)
+- Question 2 (8 marks)
+- Question 3 (X marks)
+
+---
+
+## Background
+
+---
+
+The International Mouse Phenotyping Consortium (IMPC) is an effort to "identify the function of every protein-coding gene in the mouse genome" (mousephenotype.org). To achieve this the IMPC knocks out each mouse gene individually and uses a panel of hundreds of standardized tests to assess phenotypes including morphological features, behavioural tendencies, echocardiogram results, and many other phenotypic tests.
+
+In this assignment we will look at data from two genes that were assessed:
+
+Dsg2: The DSG2 gene in humans is associated with dilated cardiomyopathy. We will examine some of the phenotypic data for Dsg2 knock out mice.
+
+Hmcn1: The HMCN1 gene in humans is associated with age related macular degeneration. We will examine some of the phenotypic data for Hmcn1 knock out mice.
+
+For both data sets, the following columns will be included:
+- `sampleID`: unique mouse identifier
+- `sex`: indicates if mouse is "female" or "male"
+- `sample_type`: indicates if mouse is "mutant" (knock out mouse) or "control"
+- `weight`: mouse weight (g)
+
+The Dsg2 data set also contains phenotypic data columns:
+- `coat appearance`: indicates if the appearance of the mouse's coat (fur) is "normal" or "abnormal"
+- `left_ventricle_diameter`: diameter of the left ventricle (mm)
+- `heart_rate`: heart rate (bpm)
+- `cardiac_output`: amount of blood pumped by the mouse in one minute (mL/min)
+
+The Hmcn1 data set also contains phenotypic data columns:
+- `optic_disc_morphology`: indicates if the mouse's optic disc is "normal" or "abnormal"
+- `cataract`: indicates if the mouse has cataract in one or more eye: "present" or "absent"
+- `time_dark_side`: the number of seconds the mouse spent on the dark side of the cage
+
+---
+
+### Question 1
+
+#### a. 
+(1 mark)
+Read in the phenotyping data for the Dsg2 gene knock out mice and controls. The data is stored in the CSV: "Dsg2_phenotypic_data.csv" which is located in the directory: "/home/jovyan/Week.5/Week.5.Assignment". Save the data to a variable called "Dsg2_phenotypes".
+```{r Assignment.W5.1.a}
+# YOUR CODE HERE
+```
+
+```{r}
+. = ottr::check("tests/Assignment.W5.1.a.R")
+```
+**IGNORE the above block: test results will not appear in assignments** 
+
+#### b. 
+(1 mark)
+Create a data frame called "Dsg2_mutant_phenotypes" that contains only the rows with mutant mice.
+```{r Assignment.W5.1.b}
+# YOUR CODE HERE
+```
+
+```{r}
+. = ottr::check("tests/Assignment.W5.1.b.R")
+```
+**IGNORE the above block: test results will not appear in assignments** 
+
+#### c. 
+(2 marks)
+Create a data frame called "Dsg2_female_CO" that contains only the rows with female mice and only the columns that start with "sample", and the column `cardiac_output`.
+```{r Assignment.W5.1.c}
+# YOUR CODE HERE
+```
+
+```{r}
+. = ottr::check("tests/Assignment.W5.1.c.R")
+```
+**IGNORE the above block: test results will not appear in assignments** 
+
+#### d. 
+(2 marks)
+Determine the Pearson correlation of the cardiac output and the heart rate using all the mice in the `Dsg2_phenotypes`. Save the correlation to a variable named "CO_vs_HR_cor".
+```{r Assignment.W5.1.d}
+# YOUR CODE HERE
+```
+
+```{r}
+. = ottr::check("tests/Assignment.W5.1.d.R")
+```
+**IGNORE the above block: test results will not appear in assignments** 
+
+---
+
+### Question 2
+
+#### a.
+(2 marks)
+Use a t-test to determine if the cardiac output is significantly different between control mice and mice with Dsg2 knocked out. Save the p-value of the t-test to a variable called "Dsg2_CO_t.test_p.value".
+```{r Assignment.W5.2.a}
+# YOUR CODE HERE
+```
+
+```{r}
+. = ottr::check("tests/Assignment.W5.2.a.R")
+```
+**IGNORE the above block: test results will not appear in assignments** 
+
+#### b.
+(2 marks)
+Use a t-test to determine if the left ventricle diameter is significantly different between control mice and mice with Dsg2 knocked out. Save the p-value of the t.test to a variable called "Dsg2_LVD_t.test_p.value".
+```{r Assignment.W5.2.b}
+# YOUR CODE HERE
+```
+
+```{r}
+. = ottr::check("tests/Assignment.W5.2.b.R")
+```
+**IGNORE the above block: test results will not appear in assignments** 
+
+#### c. 
+(2 marks)
+Use the `group_by()` and `summarise()` functions to get the mean value of the left ventricle diameter for mutant and control mice. Name the column that contains the mean "mean_LVD". Assign the output data frame to a variable named "LVD_means".
+```{r Assignment.W5.2.c}
+# YOUR CODE HERE
+```
+
+```{r}
+. = ottr::check("tests/Assignment.W5.2.c.R")
+```
+**IGNORE the above block: test results will not appear in assignments** 
+
+#### d. 
+(2 marks)
+Use the `group_by()` and `summarise()` functions to get the number of mutant and control mice with an abnormal and a normal coat appearance. Name the column that contains the number "count". Assign the output data frame to a variable named "coat_appearance_counts".
+```{r Assignment.W5.2.d}
+# YOUR CODE HERE
+```
+
+```{r}
+. = ottr::check("tests/Assignment.W5.2.d.R")
+```
+**IGNORE the above block: test results will not appear in assignments** 
+
+---
+
+### Question 3
+
+#### a. 
+(1 mark)
+Read in the phenotyping data for the Hmcn1 gene knock out mice and controls. The data is stored in the CSV: "Hmcn1_phenotypic_data.csv" which is located in the directory: "/home/jovyan/Week.5/Week.5.Assignment". Save the data to a variable called "Hmcn1_phenotypes".
+```{r Assignment.W5.3.a}
+# YOUR CODE HERE
+```
+
+```{r}
+. = ottr::check("tests/Assignment.W5.3.a.R")
+```
+**IGNORE the above block: test results will not appear in assignments** 
+
+#### b. 
+(1 mark)
+The `time_dark_side` phenotype is measured by placing the mice into a cage that is light on one side and dark on the other. The number of seconds spent on the dark side of the cage over a span of 1200 total seconds is recorded. 
+
+Add a new column called "dark_side_percent" to `Hmcn1_phenotypes` that contains the *percentage* of total time each mouse spent on the dark side of the cage. 
+```{r Assignment.W5.3.b}
+# YOUR CODE HERE
+```
+
+```{r}
+. = ottr::check("tests/Assignment.W5.3.b.R")
+```
+**IGNORE the above block: test results will not appear in assignments** 
+
+#### c. 
+(2 marks)
+Use any method to determine the mean `dark_side_percent` for female mutants, male mutants, female controls, and male controls. Which of the 4 groups spent the most time on the dark side of the cage? Answer by assigning one of the following values to a variable named "most_time_dark_side": "female_mutant", "female_control", "male_mutant", "male_control". 
+```{r Assignment.W5.3.c}
+# YOUR CODE HERE
+```
+
+```{r}
+. = ottr::check("tests/Assignment.W5.3.c.R")
+```
+**IGNORE the above block: test results will not appear in assignments** 
+
+#### d. 
+(4 marks)
+Based on the results from Question 3.b., sexual dimorphism is also present in at least one phenotype for Hmcn1. By calculating the percentage of mutant female and mutant male mice that have abnormal optic disk morphology and by calculating the percentage of mutant female and mutant male mice with a cataract ("present"), determine which phenotype is sexually dimorphic. 
+
+For the sexually dimorphic phenotype, create a data frame called "dimorphic_stats" that includes the following columns:
+`sample_type`, `sex`, (the column for the sexually dimorphic phenotype), a column called `mean_weight`, and a column called `min_dark_side_percent`.
+The data frame should have one row for each combination of `sample_type`, `sex`, and `cataract`.
+```{r Assignment.W5.3.d}
+# YOUR CODE HERE
+```
+
+```{r}
+. = ottr::check("tests/Assignment.W5.3.d.R")
+```
+**IGNORE the above block: test results will not appear in assignments** 
+---
