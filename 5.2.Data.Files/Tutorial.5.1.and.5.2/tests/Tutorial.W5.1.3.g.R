@@ -17,7 +17,7 @@ test = list(
                                1585580L,73017L,911577L,621248L,83869L),
                         sequencing_tech = c(rep("illumina", 4), rep("454", 4)),
                         other_reads = c(370638L, 252753L, 324002L, 98324L, 60783L, 
-                               32204L, 19575L, 42652L)))
+                               32204L, 19575L, 42652L)), check.attributes=F)
       }
     )
   )
