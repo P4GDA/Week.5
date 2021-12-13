@@ -38,7 +38,7 @@ The dplyr package has already been loaded for you.
 Read in the CSV "hot_spring_data.csv" and will be in the directory "/home/jovyan/Week.5/5.3.The.dply.Package/Tutorial.5.3". Save the data to a variable called "hot_springs".
 ```{r}
 # Write and execute your code here
-# YOUR CODE HERE
+
 ```
 
 ```{r}
@@ -61,7 +61,7 @@ Hint: prop_archea = archea_reads/total_reads
 Hint: remember that you must save the output of the mutate function back to `hot_springs` for it to add the columns.
 ```{r}
 # Write and execute your code here
-# YOUR CODE HERE
+
 ```
 
 ```{r}
@@ -72,7 +72,7 @@ Hint: remember that you must save the output of the mutate function back to `hot
 Use the `filter()` function to pick the rows for hot springs that are in Iceland. Save the output to a variable called "Iceland_hot_springs".
 ```{r}
 # Write and execute your code here
-# YOUR CODE HERE
+
 ```
 
 ```{r}
@@ -83,7 +83,7 @@ Use the `filter()` function to pick the rows for hot springs that are in Iceland
 Use the `select()` function to return the column `sample`, and all the columns that contain the word "bacteria". Save the output to a variable called "bacteria_reads".
 ```{r}
 # Write and execute your code here
-# YOUR CODE HERE
+
 ```
 
 ```{r}
@@ -100,7 +100,7 @@ Use the `select()` function to return the column `sample`, and all the columns t
 Get the proportion of non-Archea, non-Bacteria reads (i.e. "other") for hot springs in YNP, USA by piping the `filter()` and `select()` functions. Save the output to the variable "YNP_prop_other".
 ```{r}
 # Write and execute your code here
-# YOUR CODE HERE
+
 ```
 
 ```{r}
@@ -113,7 +113,7 @@ Create a data frame called "European_low_pH_bacteria" containing:
 - the columns `sample`, `country`, and `prop_bacteria`
 ```{r}
 # Write and execute your code here
-# YOUR CODE HERE
+
 ```
 
 ```{r}
@@ -130,7 +130,7 @@ Create a data frame called "European_low_pH_bacteria" containing:
 Use the `summarise()` function to get the minimum proportion of archea reads across all hot springs, the mean proportion of archea reads across all hot springs, and the maximum proportion of archea reads across all hot springs. Call the three columns in the resulting data frame "min_archea", "mean_archea", "max_archea". Save the output data frame to a variable called "archea_info".
 ```{r}
 # Write and execute your code here
-# YOUR CODE HERE
+
 ```
 
 ```{r}
@@ -141,7 +141,7 @@ Use the `summarise()` function to get the minimum proportion of archea reads acr
 Using the `group_by()` function, group rows by the type of sequencing technology used. Pipe the result to `summarise()` to get the mean number of mapped reads (`total_reads`) for each technology. Call the column "mean_reads". Save the output data frame as "sequencing_tech_mean_reads".
 ```{r}
 # Write and execute your code here
-# YOUR CODE HERE
+
 ```
 
 ```{r}
@@ -154,7 +154,7 @@ For the rest of the questions, the functions to use will not be specified.
 Get the mean proportion of Archea for hot springs with a pH below 5. Save the returned data frame of 1 row and 1 column (named "mean_prop_archea") to a variable called "low_pH_archea_prop".
 ```{r}
 # Write and execute your code here
-# YOUR CODE HERE
+
 ```
 
 ```{r}
@@ -165,7 +165,7 @@ Get the mean proportion of Archea for hot springs with a pH below 5. Save the re
 Return the maximum hot spring temperature for each unique country. The column containing the maximum value should be called "max_temp". The resulting data frame should be assigned to a variable called "max_hot_spring_temp".
 ```{r}
 # Write and execute your code here
-# YOUR CODE HERE
+
 ```
 
 ```{r}
