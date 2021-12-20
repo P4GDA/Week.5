@@ -35,7 +35,7 @@ Refer to the previous tutorial (5.1 and 5.2) for more information.
 
 The dplyr package has already been loaded for you.
 
-Read in the CSV "hot_spring_data.csv" and will be in the directory "/home/jovyan/Week.5/5.3.The.dply.Package/Tutorial.5.3". Save the data to a variable called "hot_springs".
+Read in the CSV "hot_spring_data.csv" and will be in the directory "/home/jovyan/Week.5/5.3.The.dplyr.Package/Tutorial.5.3". Save the data to a variable called "hot_springs".
 ```{r}
 # Write and execute your code here
 
