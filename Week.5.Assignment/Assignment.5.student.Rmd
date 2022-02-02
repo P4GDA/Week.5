@@ -64,6 +64,7 @@ The Hmcn1 data set also contains phenotypic data columns:
 (1 mark)
 Read in the phenotyping data for the Dsg2 gene knockout mice and controls. The data is stored in the CSV: "Dsg2_phenotypic_data.csv" which is located in the directory: "/home/jovyan/Week.5/Week.5.Assignment". Save the data to a variable called "Dsg2_phenotypes".
 ```{r Assignment.W5.1.a}
+# Write and execute your code here
 
 ```
 
@@ -76,6 +77,7 @@ Read in the phenotyping data for the Dsg2 gene knockout mice and controls. The d
 (1 mark)
 Create a data frame called "Dsg2_mutant_phenotypes" that contains only the rows with mutant mice.
 ```{r Assignment.W5.1.b}
+# Write and execute your code here
 
 ```
 
@@ -88,6 +90,7 @@ Create a data frame called "Dsg2_mutant_phenotypes" that contains only the rows 
 (2 marks)
 Create a data frame called "Dsg2_female_CO" that contains only the rows with female mice and only the columns that start with "sample", and the column `cardiac_output`.
 ```{r Assignment.W5.1.c}
+# Write and execute your code here
 
 ```
 
@@ -100,6 +103,7 @@ Create a data frame called "Dsg2_female_CO" that contains only the rows with fem
 (2 marks)
 Determine the Pearson correlation of the cardiac output and the heart rate using all the mice in the `Dsg2_phenotypes`. Save the correlation to a variable named "CO_vs_HR_cor".
 ```{r Assignment.W5.1.d}
+# Write and execute your code here
 
 ```
 
@@ -116,6 +120,7 @@ Determine the Pearson correlation of the cardiac output and the heart rate using
 (2 marks)
 Use a t-test to determine if the cardiac output is significantly different between control mice and mice with Dsg2 knocked out. Save the p-value of the t-test to a variable called "Dsg2_CO_t.test_p.value".
 ```{r Assignment.W5.2.a}
+# Write and execute your code here
 
 ```
 
@@ -128,6 +133,7 @@ Use a t-test to determine if the cardiac output is significantly different betwe
 (2 marks)
 Use a t-test to determine if the left ventricle diameter is significantly different between control mice and mice with Dsg2 knocked out. Save the p-value of the t.test to a variable called "Dsg2_LVD_t.test_p.value".
 ```{r Assignment.W5.2.b}
+# Write and execute your code here
 
 ```
 
@@ -140,6 +146,7 @@ Use a t-test to determine if the left ventricle diameter is significantly differ
 (2 marks)
 Use the `group_by()` and `summarise()` functions to get the mean value of the left ventricle diameter for mutant and control mice. Name the column that contains the mean "mean_LVD". Assign the output data frame to a variable named "LVD_means".
 ```{r Assignment.W5.2.c}
+# Write and execute your code here
 
 ```
 
@@ -152,6 +159,7 @@ Use the `group_by()` and `summarise()` functions to get the mean value of the le
 (2 marks)
 Use the `group_by()` and `summarise()` functions to get the number of mutant and control mice with an abnormal and a normal coat appearance. Name the column that contains the number "count". Assign the output data frame to a variable named "coat_appearance_counts". Hint: There should be more than two rows in the output data frame.
 ```{r Assignment.W5.2.d}
+# Write and execute your code here
 
 ```
 
@@ -168,6 +176,7 @@ Use the `group_by()` and `summarise()` functions to get the number of mutant and
 (1 mark)
 Read in the phenotyping data for the Hmcn1 gene knockout mice and controls. The data is stored in the CSV: "Hmcn1_phenotypic_data.csv" which is located in the directory: "/home/jovyan/Week.5/Week.5.Assignment". Save the data to a variable called "Hmcn1_phenotypes".
 ```{r Assignment.W5.3.a}
+# Write and execute your code here
 
 ```
 
@@ -182,6 +191,7 @@ The `time_dark_side` phenotype is measured by placing the mice into a cage that 
 
 Add a new column called "dark_side_percent" to `Hmcn1_phenotypes` that contains the *percentage* of total time each mouse spent on the dark side of the cage. 
 ```{r Assignment.W5.3.b}
+# Write and execute your code here
 
 ```
 
@@ -194,6 +204,7 @@ Add a new column called "dark_side_percent" to `Hmcn1_phenotypes` that contains 
 (2 marks)
 Use any method to determine the mean `dark_side_percent` for female mutants, male mutants, female controls, and male controls. Which of the 4 groups spent the most time on the dark side of the cage? Answer by assigning one of the following values to a variable named "most_time_dark_side": "female_mutant", "female_control", "male_mutant", "male_control". 
 ```{r Assignment.W5.3.c}
+# Write and execute your code here
 
 ```
 
@@ -206,6 +217,7 @@ Use any method to determine the mean `dark_side_percent` for female mutants, mal
 (2 marks)
 Sexual dimorphism is when males and females of the same species have different characteristics of a particular phenotype (e.g., different sizes or color patterns). Sexual dimorphism is present in at least one phenotype for Hmcn1. Calculate the percentage of mutant female and mutant male mice that have abnormal optic disk morphology and calculate the percentage of mutant female and mutant male mice with a cataract ("present"). Using these data, determine which of these phenotypes is sexually dimorphic and assign the phenotype (`optic_disk_morphology` or `cataract`) to a variable named "sexually_dimorphic_phenotype".
 ```{r Assignment.W5.3.d}
+# Write and execute your code here
 
 ```
 
@@ -219,6 +231,7 @@ For the sexually dimorphic phenotype determined in the previous question, create
 `sample_type`, `sex`, (the column for the sexually dimorphic phenotype), a column called `mean_weight`, and a column called `min_dark_side_percent`.
 The data frame should have one row for each combination of `sample_type`, `sex`, and version of the sexually dimorphic phenotype.
 ```{r Assignment.W5.3.e}
+# Write and execute your code here
 
 ```
 
