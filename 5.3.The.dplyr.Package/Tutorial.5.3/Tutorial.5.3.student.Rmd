@@ -35,7 +35,7 @@ Refer to the previous tutorial (5.1 and 5.2) for more information.
 
 The dplyr package has already been loaded for you.
 
-Read in the CSV "hot_spring_data.csv" and will be in the directory "/home/jovyan/Week.5/5.3.The.dplyr.Package/Tutorial.5.3". Save the data to a variable called "hot_springs".
+Read in the CSV "hot_springs_data.csv" which will be in the directory "/home/jovyan/Week.5/5.3.The.dplyr.Package/Tutorial.5.3". Save the data to a variable called "hot_springs".
 ```{r}
 # Write and execute your code here
 
@@ -46,7 +46,7 @@ Read in the CSV "hot_spring_data.csv" and will be in the directory "/home/jovyan
 ```
 **Check your answer by running the above block** 
 
-Run this code block to output the data for your reference to help answer the next questions.
+Run this code block to output the data to use as a reference to help answer the next questions.
 
 ```{r}
 hot_springs
@@ -69,7 +69,7 @@ Hint: remember that you must save the output of the mutate function back to `hot
 ```
 **Check your answer by running the above block** 
 
-Use the `filter()` function to pick the rows for hot springs that are in Iceland. Save the output to a variable called "Iceland_hot_springs".
+Use the `filter()` function to pick the rows for hot springs that are located in the country of Iceland. Save the output to a variable called "Iceland_hot_springs".
 ```{r}
 # Write and execute your code here
 
@@ -80,7 +80,7 @@ Use the `filter()` function to pick the rows for hot springs that are in Iceland
 ```
 **Check your answer by running the above block** 
 
-Use the `select()` function to return the column `sample`, and all the columns that contain the word "bacteria". Save the output to a variable called "bacteria_reads".
+Use the `select()` function to return the column `sample`, and all the columns that contain the word "bacteria". Save the output to a variable called "bacteria_data".
 ```{r}
 # Write and execute your code here
 
@@ -111,6 +111,7 @@ Get the proportion of non-Archea, non-Bacteria reads (i.e. "other") for hot spri
 Create a data frame called "European_low_pH_bacteria" containing:
 - rows for hot springs in European countries (Russia, Italy & Iceland) that have a pH less than 4
 - the columns `sample`, `country`, and `prop_bacteria`
+Hint: You can use the "|" (or) operator.
 ```{r}
 # Write and execute your code here
 
@@ -127,7 +128,7 @@ Create a data frame called "European_low_pH_bacteria" containing:
 
 ---
 
-Use the `summarise()` function to get the minimum proportion of archea reads across all hot springs, the mean proportion of archea reads across all hot springs, and the maximum proportion of archea reads across all hot springs. Call the three columns in the resulting data frame "min_archea", "mean_archea", "max_archea". Save the output data frame to a variable called "archea_info".
+Use the `summarise()` function to get the minimum, mean, and maximum proportion of archea reads across all hot springs. Call the three columns in the resulting data frame "min_archea", "mean_archea", "max_archea". Save the output data frame to a variable called "archea_info".
 ```{r}
 # Write and execute your code here
 
@@ -149,7 +150,7 @@ Using the `group_by()` function, group rows by the type of sequencing technology
 ```
 **Check your answer by running the above block** 
 
-For the rest of the questions, the functions to use will not be specified. 
+The rest of the questions will not specify which function(s) to use. 
 
 Get the mean proportion of Archea for hot springs with a pH below 5. Save the returned data frame of 1 row and 1 column (named "mean_prop_archea") to a variable called "low_pH_archea_prop".
 ```{r}

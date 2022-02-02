@@ -6,7 +6,7 @@ test = list(
       name = NA,
       points = 1.0,
       code = {
-        expect_equal(YNP_prop_other, data.frame(prop_archea=c(0.001922591, 0.123821857)))
+        expect_equal(YNP_prop_other, data.frame(prop_other=c(0.03405672, 0.29537192)))
       }
     )
   )

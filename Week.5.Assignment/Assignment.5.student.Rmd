@@ -10,6 +10,7 @@ library(ottr)
 library(testthat)
 library(dplyr)
 ```
+**Run the above block to load required packages**
 
 ---
 
@@ -17,12 +18,12 @@ library(dplyr)
 
 ---
 
-This assignment covers the content in week 5 lectures and tutorials.
+This assignment covers the content in week 5 lectures and tutorials. Be sure to run the above code block to load the dplyr package.
 
 #### Mark breakdown
 - Question 1 (6 marks)
 - Question 2 (8 marks)
-- Question 3 (X marks)
+- Question 3 (8 marks)
 
 ---
 
@@ -34,18 +35,18 @@ The International Mouse Phenotyping Consortium (IMPC) is an effort to "identify 
 
 In this assignment we will look at data from two genes that were assessed:
 
-Dsg2: The DSG2 gene in humans is associated with dilated cardiomyopathy. We will examine some of the phenotypic data for Dsg2 knock out mice.
+Dsg2: The DSG2 gene in humans is associated with dilated cardiomyopathy. We will examine some of the phenotypic data for Dsg2 knockout mice.
 
-Hmcn1: The HMCN1 gene in humans is associated with age related macular degeneration. We will examine some of the phenotypic data for Hmcn1 knock out mice.
+Hmcn1: The HMCN1 gene in humans is associated with age related macular degeneration. We will examine some of the phenotypic data for Hmcn1 knockout mice.
 
 For both data sets, the following columns will be included:
 - `sampleID`: unique mouse identifier
 - `sex`: indicates if mouse is "female" or "male"
-- `sample_type`: indicates if mouse is "mutant" (knock out mouse) or "control"
+- `sample_type`: indicates if mouse is "mutant" (knockout mouse) or "control"
 - `weight`: mouse weight (g)
 
 The Dsg2 data set also contains phenotypic data columns:
-- `coat appearance`: indicates if the appearance of the mouse's coat (fur) is "normal" or "abnormal"
+- `coat_appearance`: indicates if the appearance of the mouse's coat (fur) is "normal" or "abnormal"
 - `left_ventricle_diameter`: diameter of the left ventricle (mm)
 - `heart_rate`: heart rate (bpm)
 - `cardiac_output`: amount of blood pumped by the mouse in one minute (mL/min)
@@ -61,7 +62,7 @@ The Hmcn1 data set also contains phenotypic data columns:
 
 #### a. 
 (1 mark)
-Read in the phenotyping data for the Dsg2 gene knock out mice and controls. The data is stored in the CSV: "Dsg2_phenotypic_data.csv" which is located in the directory: "/home/jovyan/Week.5/Week.5.Assignment". Save the data to a variable called "Dsg2_phenotypes".
+Read in the phenotyping data for the Dsg2 gene knockout mice and controls. The data is stored in the CSV: "Dsg2_phenotypic_data.csv" which is located in the directory: "/home/jovyan/Week.5/Week.5.Assignment". Save the data to a variable called "Dsg2_phenotypes".
 ```{r Assignment.W5.1.a}
 
 ```
@@ -149,7 +150,7 @@ Use the `group_by()` and `summarise()` functions to get the mean value of the le
 
 #### d. 
 (2 marks)
-Use the `group_by()` and `summarise()` functions to get the number of mutant and control mice with an abnormal and a normal coat appearance. Name the column that contains the number "count". Assign the output data frame to a variable named "coat_appearance_counts".
+Use the `group_by()` and `summarise()` functions to get the number of mutant and control mice with an abnormal and a normal coat appearance. Name the column that contains the number "count". Assign the output data frame to a variable named "coat_appearance_counts". Hint: There should be more than two rows in the output data frame.
 ```{r Assignment.W5.2.d}
 
 ```
@@ -165,7 +166,7 @@ Use the `group_by()` and `summarise()` functions to get the number of mutant and
 
 #### a. 
 (1 mark)
-Read in the phenotyping data for the Hmcn1 gene knock out mice and controls. The data is stored in the CSV: "Hmcn1_phenotypic_data.csv" which is located in the directory: "/home/jovyan/Week.5/Week.5.Assignment". Save the data to a variable called "Hmcn1_phenotypes".
+Read in the phenotyping data for the Hmcn1 gene knockout mice and controls. The data is stored in the CSV: "Hmcn1_phenotypic_data.csv" which is located in the directory: "/home/jovyan/Week.5/Week.5.Assignment". Save the data to a variable called "Hmcn1_phenotypes".
 ```{r Assignment.W5.3.a}
 
 ```
@@ -202,18 +203,27 @@ Use any method to determine the mean `dark_side_percent` for female mutants, mal
 **IGNORE the above block: test results will not appear in assignments** 
 
 #### d. 
-(4 marks)
-Based on the results from Question 3.b., sexual dimorphism is also present in at least one phenotype for Hmcn1. By calculating the percentage of mutant female and mutant male mice that have abnormal optic disk morphology and by calculating the percentage of mutant female and mutant male mice with a cataract ("present"), determine which phenotype is sexually dimorphic. 
-
-For the sexually dimorphic phenotype, create a data frame called "dimorphic_stats" that includes the following columns:
-`sample_type`, `sex`, (the column for the sexually dimorphic phenotype), a column called `mean_weight`, and a column called `min_dark_side_percent`.
-The data frame should have one row for each combination of `sample_type`, `sex`, and `cataract`.
+(2 marks)
+Sexual dimorphism is when males and females of the same species have different characteristics of a particular phenotype (e.g., different sizes or color patterns). Sexual dimorphism is present in at least one phenotype for Hmcn1. Calculate the percentage of mutant female and mutant male mice that have abnormal optic disk morphology and calculate the percentage of mutant female and mutant male mice with a cataract ("present"). Using these data, determine which of these phenotypes is sexually dimorphic and assign the phenotype (`optic_disk_morphology` or `cataract`) to a variable named "sexually_dimorphic_phenotype".
 ```{r Assignment.W5.3.d}
 
 ```
 
 ```{r}
 . = ottr::check("tests/Assignment.W5.3.d.R")
+```
+
+#### e. 
+(2 marks)
+For the sexually dimorphic phenotype determined in the previous question, create a data frame called "dimorphic_stats" that includes the following columns:
+`sample_type`, `sex`, (the column for the sexually dimorphic phenotype), a column called `mean_weight`, and a column called `min_dark_side_percent`.
+The data frame should have one row for each combination of `sample_type`, `sex`, and version of the sexually dimorphic phenotype.
+```{r Assignment.W5.3.e}
+
+```
+
+```{r}
+. = ottr::check("tests/Assignment.W5.3.e.R")
 ```
 **IGNORE the above block: test results will not appear in assignments** 
 ---
