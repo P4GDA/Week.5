@@ -1,0 +1,9 @@
+sex	mutant	HG	weight	grip
+female	TRUE	14.9	22	124.08
+female	TRUE	15.1	23.1	176.92
+male	TRUE	14.6	29.2	164.09
+male	TRUE	15.2	29.1	145.33
+female	FALSE	13.4	24.3	235.7
+female	FALSE	13.9	23.7	241.73
+male	FALSE	13.4	29.5	231.11
+male	FALSE	14.9	30.9	210.68

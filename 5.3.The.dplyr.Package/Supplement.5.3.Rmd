@@ -1,1 +1,457 @@
-placeholder
+---
+title: "5.3 The dplyr Package"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+---
+
+## 5.3.1: Basic dplyr Functions
+
+---
+
+### Ap4e1 Knock Out Data
+
+Often in biology we work with very large data sets, such as the data set the CSV `/home/jovyan/Week.5/5.3.The.dplyr.Package/Ap4e1_phenotypes_all_mice.csv`, which contains phenotypic data for 15 Ap4e1 knockout mutants and 1470 control mice. In humans, Ap4e1 deficiency is associated with a number of phenotypes including seizures, loss of muscle tone, and a number of morphological features.
+
+This data is from the International Mouse Phenotyping Consortium (IMPC), “an international effort by 21 research institutions to identify the function of every protein-coding gene in the mouse genome” (https://www.mousephenotype.org).
+
+First, let's read in the data: 
+
+```{r}
+Ap4e1_phenotypes <- read.csv("/home/jovyan/Week.5/5.3.The.dplyr.Package/Ap4e1_phenotypes_all_mice.csv", stringsAsFactors = FALSE)
+```
+
+We can check the dimensions of this data frame with the `dim()` function.
+
+```{r}
+dim(Ap4e1_phenotypes)
+```
+
+Our data frame has 1485 rows (one per mouse) and 9 columns. With such a large data frame, you cannot view it all at once. To get an idea of the data, it is always helpful to explore the first few rows.
+
+```{r}
+Ap4e1_phenotypes
+```
+
+Note that this data frame is different from the small data frame we were working with before. Instead of having a column called "mutant" with logical values, we now have a column called "sample_type" with character values indicating if it is a mutant or control mouse. 
+
+The hemoglobin content and grip strength columns have different column names. There are also more phenotypes included than previously, such as columns with information about the cornea and vertebrae morphology and a column with heart rate in beats per minute (BPM).
+
+---
+
+### The dplyr Package
+
+The dplyr package contains a number of functions for the manipulation and analysis of data frames (dplyr = "data frame pliers"). The functions in the package are very useful when working with large data frames with many rows and columns.
+
+This package is already installed. We can load it using the `library()` function:
+
+```{r}
+library("dplyr")
+```
+
+It contains functions for:
+- Easy row and column indexing
+- Altering data frames
+- Extracting stats from data frames
+
+While this may seem redundant with methods we have already learned for data frames, the dplyr package functions are more straightforward and can make your code easier to read and write.
+
+We will not learn  all of the many tasks dplyr can perform. If you are interested in learning more, you can check out this dplyr "cheat sheet": https://github.com/rstudio/cheatsheets/blob/main/data-transformation.pdf
+
+---
+
+### dplyr Data Frame Indexing Functions
+
+---
+
+#### filter()
+
+The `filter()` function returns rows based on their values. This is the same concept as logical indexing based on columns.
+
+For example, if we wanted to use logical indexing to output all the rows that contain female mutant mice using logical indexing, we could write:
+
+```{r}
+Ap4e1_phenotypes[Ap4e1_phenotypes$sex == "female" & Ap4e1_phenotypes$sample_type == "mutant",]
+```
+
+The `filter()` function is a more straightforward and human readable method of performing the same task.
+
+Usage: `filter(data_frame, logical_expression_on_column1, logical_expression_on_column2, ...)`
+Return Value: filtered data frame rows, all data frame columns
+
+We can perform the same task as above (outputting rows of female mutant mice) with the `filter()` function by writing:
+
+```{r}
+filter(Ap4e1_phenotypes, sex == "female", sample_type == "mutant")
+```
+
+You can see that this code is much easier to read. One of the reasons for this is that we can write the column names on their own without needing to use positional or named indexing. Functions in the dplyr package have a method of recognizing column names within the function.
+
+The comma between each logical expression acts as an AND. If you wanted mice that were female OR mutant, you would need use a single logical expression containing `|`:
+
+```{r}
+filter(Ap4e1_phenotypes, sex == "female" | sample_type == "mutant")
+```
+
+---
+
+#### select()
+
+The `select()` function returns columns based on their names. It can be used as a replacement for named indexing of columns. 
+
+For example, if we wanted to use named indexing to output only the columns for weight and hemoglobin for each mouse, we could write:
+
+```{r}
+Ap4e1_phenotypes[, c("weight", "hemoglobin")]
+```
+
+`select()` can be used in a similar way.
+
+Usage: `select(data_frame, column_name1, column_name2, ...)`
+Return Value: all data frame rows, selected data frame columns
+
+We can perform the same task as above (outputting the weight and hemoglobin columns) with the `select()` function by writing:
+
+```{r}
+select(Ap4e1_phenotypes, weight, hemoglobin)
+```
+
+This again improves human readability and requires less formatting than `data_frame[, c(column_name, column_name)]`.
+
+The `select()` function can also be used with *helper functions* (functions that extend the functionality of another function) including:
+
+- `starts_with()`: Starts with a prefix.
+- `ends_with()`: Ends with a suffix.
+- `contains()`: Contains a specific character value.
+
+For example, to get all columns with a name that starts with the word "sample", we can use the `select()` function with the `starts_with()` helper function:
+
+```{r}
+select(Ap4e1_phenotypes, starts_with("sample"))
+```
+
+Or we can get all the columns that have a name containing the word "morphology":
+
+```{r}
+select(Ap4e1_phenotypes, contains("morphology"))
+```
+
+This is much more straightforward than the equivalent code that does not use dyplr:
+
+```{r}
+Ap4e1_phenotypes[,grepl("morphology", colnames(Ap4e1_phenotypes))]
+```
+
+---
+
+### dplyr Data Frame Modifying Functions
+
+---
+
+#### arrange()
+
+The `arrange()` function changes the ordering of the rows based on values in one or more columns. 
+
+Usage: `arrange(data_frame, column_name1, column_name2, ...)`
+Return Value: Re-ordered data frame
+
+`arrange()` will sort in ascending (increasing) order unless a column name is nested within the helper function `desc()` for descending (decreasing) order.
+
+For example, if we want to sort by weight (ascending) and hemoglobin content (descending):
+
+```{r}
+arrange(Ap4e1_phenotypes, weight, desc(hemoglobin))
+```
+
+You can see that the weights are in ascending order, 16.90 < 17.20 < 18.60, etc. 
+
+And if you look at the the 5 mice with a weight of 18.90 grams, the hemoglobin content measurements are in descending order: 14.2 > 14.1 > 14.0 > 13.8 > 13.6.
+
+Note that the order of column names in the `arrange()` function determines the order in which the data frame is arranged: rows are first arranged in ascending order by weight, and then in descending order by hemoglobin. Swapping the column order changes the results:
+
+```{r}
+arrange(Ap4e1_phenotypes, desc(hemoglobin), weight)
+```
+
+---
+
+#### rename() 
+
+The `rename()` function changes the names of data frame columns.
+
+Usage: `rename(data_frame, new_column_name1 = old_column_name1, new_column_name2 = old_column_name2, ...)`
+Return Value: data frame with renamed columns
+
+For example, if we want to change "sampleID" to "ID" and "sample_type" to "type", we would write:
+
+```{r}
+rename(Ap4e1_phenotypes, type=sample_type, ID=sampleID)
+```
+
+This is easier than the equivalent code without dyplr: 
+
+    colnames(Ap4e1_phenotypes)[c(1,3)] <- c("ID", "type") 
+
+With the dplyr `rename()` function, we do not have to worry about the order or indices of the column names.
+
+---
+
+#### mutate()
+
+The `mutate()` function adds new columns that are functions of existing columns, or it can modify existing columns.
+
+Usage: `mutate(data_frame, new_column1 = function(existing_column1), existing_column2 = function(existing_column2), ...)`
+Return Value: data frame with new and/or modified column(s).
+
+For example, we can add a column for weight normalized grip strength. To permanently add this to the `Ap4e1_phenotypes` data frame, we will of course have to assign the `mutate()` function output to `Ap4e1_phenotypes`.
+
+```{r}
+Ap4e1_phenotypes <- mutate(Ap4e1_phenotypes, norm_grip_strength=grip_strength/weight)
+Ap4e1_phenotypes
+```
+
+If you scroll all the way to the last column you will see that a new column `norm_grip_strength` has been added.
+
+If we wanted to modify the sampleID column to use underscores instead of dashes, we could write:
+
+```{r}
+Ap4e1_phenotypes <- mutate(Ap4e1_phenotypes, sampleID=gsub("-", "_", sampleID))
+Ap4e1_phenotypes
+```
+
+---
+
+## 5.3.2: Piping dyplr Functions
+
+---
+
+### Applying Multiple Functions
+
+If we want to return only the weights and the hemoglobin content of the mutant female mice, we could first filter for the mutant female mice and save the output to a new variable, and then select the weight and hemoglobin columns:
+
+```{r}
+Ap4e1_phenotypes_female_mutants <- filter(Ap4e1_phenotypes, sex == "female", sample_type == "mutant")
+select(Ap4e1_phenotypes_female_mutants, weight, hemoglobin)
+```
+
+This method is inconvenient because we have to create a new data frame, `Ap4e1_phenotypes_female_mutants`, with the `filter()` function first so that we can then use `select()` to reduce it to the columns we want. This new data frame takes up space in the R environment.
+
+Alternatively, we could nest the `filter()` function within the `select()` function.
+
+```{r}
+select(filter(Ap4e1_phenotypes, sex == "female", sample_type == "mutant"), weight, hemoglobin)
+```
+
+However, this defeats one of the main purposes of using dplyr, since nesting functions makes the code more difficult to understand. 
+
+---
+
+### Piping Functions 
+
+One of the most useful aspects of the dyplr package is the ability to *pipe* function calls together. Piping directs the output of one function to the input of the next function, without needing to save an intermediate object.
+
+A pipe is implemented using two percentage symbols with a greater than sign between them: `%>%`
+
+Usage: `data_frame %>% dyplr_function(arguments_without_dataframe) %>% dyplr_function(arguments_without_dataframe) %>% ...` 
+
+With piping, the calls made to dplyr functions do not take data frame arguments (i.e., you don't need to declare the name of the data frame in each dplyr function). Each function takes the data frame output from the previous code. The first function uses the full data frame, the second function uses the data frame output resulting from the first function, the third function uses the data frame output from the second function, etc.
+
+For example, if we want to display only the weights and the hemoglobin content of the mutant female mice (as we did above), we can pipe together a call to `filter()` and `select()`:
+
+```{r}
+Ap4e1_phenotypes %>% filter(sex == "female", sample_type == "mutant") %>% select(weight, hemoglobin)
+```
+
+Note that we must run the `filter()` function first in this case. If we ran the `select()` function first, the `filter()` function would not have the sex or sample type columns to use for the logical expressions. Test it out below:
+
+```{r}
+Ap4e1_phenotypes %>% select(weight, hemoglobin) %>% filter(sex == "female", sample_type == "mutant")
+```
+
+Make sure that each function will have the rows and columns required to be executed.
+
+Let's use piping to examine the difference in mouse weight between female and male mice. 
+
+First we can create two variables, one to hold the weights of female mice and one for the male mice.
+
+```{r}
+female_wts <- Ap4e1_phenotypes %>% filter(sex == "female") %>% select(weight)
+male_wts <- Ap4e1_phenotypes %>% filter(sex == "male") %>% select(weight)
+```
+
+We want to compare two collections of measurements (numeric) to see if they have the same mean value (same average weight). We can use a t-test to do this, but it will be an unpaired t-test as these two sets of data are not paired.
+
+We will assign the output of the t-test to a variable.
+
+```{r}
+weight_t.test <- t.test(female_wts, male_wts)
+```
+
+The t-test function actually outputs a list with a variety of different information about the t-test. Let's look at the names of the list elements.
+
+```{r}
+names(weight_t.test)
+```
+
+Now we can extract just the p-value of the t-test.
+
+```{r}
+weight_t.test$p.value
+```
+
+Based on this p-value we can confidently say that there is a difference between the weights of male and female mice. We can view the mean weight for each group by accessing the `estimate` element.
+
+```{r}
+weight_t.test$estimate
+```
+
+Mouse weight is *sexually dimorphic*, meaning the weight characteristic differs between sexes in the species with male mice weighing significantly more than female mice. 
+
+---
+
+## 5.3.3: Analysis with dplyr
+
+---
+
+### dplyr Data Frame Analysis Functions
+
+---
+
+#### summarise()
+
+The `summarise()` function (can also be used with alternate spelling: `summarize()`) reduces multiple values down to a single summary.
+
+Usage: `summarise(data_frame, name = summary_function(column_name), ...)`
+Return Value: data frame with one column per summary function
+
+It is used in conjunction with helper functions that summarize a vector:
+- `mean()`
+- `median()`
+- `sd()`
+- `var()`
+- `min()`
+- `max()`
+- `n()` (number of values)
+
+We can use `summarise()` to get the mean hemoglobin content across all 1485 mice:
+
+```{r}
+summarise(Ap4e1_phenotypes, mean_HG=mean(hemoglobin))
+```
+
+The function can also be used to return different summary information for multiple columns at once. Here, we are retrieving the minimum weight, the average hemoglobin, and the total number of samples:
+
+```{r}
+summarise(Ap4e1_phenotypes, min_wt=min(weight), mean_HG=mean(hemoglobin), n_samples=n())
+```
+
+If we wanted to summarize data for a specific set of rows, we can pipe the output of `filter()` to the `summarise()` function. For example, to get information about normalized grip strength only for control mice, we can run:
+
+```{r}
+Ap4e1_phenotypes %>% 
+  filter(sample_type == "control") %>%   
+  summarise(mean_grip=mean(norm_grip_strength), 
+            sd_grip=sd(norm_grip_strength))
+```
+
+---
+
+#### count()
+
+The `count()` function can be used to count how many rows in a data frame contain each possible value in specific columns.
+
+Usage: `count(data_frame, column_name1, column_name2, ...)`
+Return Value: data frame containing one row for each unique combination of column values and a count of the number of rows that have that combination of attributes
+
+For example, we can count how many rows have female mice, and how many have male mice:
+
+```{r}
+count(Ap4e1_phenotypes, sex)
+```
+
+We can also count the number of rows across multiple column values. For example, we can get a breakdown of the number of mice that have abnormal vertebrae morphology by sex and sample type:
+
+```{r}
+count(Ap4e1_phenotypes, sex, sample_type, vertebrae_morphology)
+```
+
+Looking at the output we can see that all female mutant mice have normal vertebrae morphology, but 4/7 male mutant mice have abnormal vertebrae morphology. This indicates the phenotype may be sexually dimorphic, although a larger sample size would be needed to confirm.
+
+---
+
+### Grouping Data
+
+Above we retrieved information about the normalized grip strength for control mice. We could do the same `filter() %>% summarize()` approach again for mutant mice to see the difference between the two groups:
+
+```{r}
+Ap4e1_phenotypes %>% 
+  filter(sample_type == "mutant") %>%   
+  summarise(mean_grip=mean(norm_grip_strength), 
+            sd_grip=sd(norm_grip_strength))
+```
+
+An easier way to do this comparison is with the `group_by()` function. The `group_by()` function is used to group rows in a data frame that share values in one or more columns. 
+
+Usage: `group_by(data_frame, column_name1, column_name2, ...)`
+Return Value: data frame grouped by column values
+
+If we look at the output of the `group_by()` function, it looks a lot like the original data frame piped into the function:
+
+```{r}
+Ap4e1_group_sex_sample <- Ap4e1_phenotypes %>% group_by(sex)
+Ap4e1_group_sex_sample
+```
+
+Internally, however, the data frame is grouped. The function `groups()` returns a list of the columns on which a data frame is grouped:
+
+```{r}
+Ap4e1_group_sex_sample %>% groups()
+```
+
+The `group_by()` function is used along with subsequent dplyr functions to do a summary analysis. Once a data frame is grouped, we can apply functions like `summarise()` to collect information about all of the individual groups at the same time.
+
+For example, let's get summary statistics about normalized grip strength for control and mutant mice. Instead of writing two separate lines of code in which `filter()` is piped to `summarise()` for each sample type (mutant or control), we can write one line of code that first groups by sample type and then uses the `summarise()` function:
+
+```{r}
+Ap4e1_phenotypes %>% 
+  group_by(sample_type) %>%   
+  summarise(mean_grip=mean(norm_grip_strength),    
+            sd_grip=sd(norm_grip_strength))
+```
+
+We can see that there are two rows, one for each group (mutant and control), and the mean and standard deviation has been calculated for each. Interestingly, the mean grip strength of the mutant mice is much lower than that of the control mice. Humans with mutations in AP4E1 show a loss of muscle tone, which is also seen in the mouse model.
+
+The `group_by()` function is best used with columns with a small number of unique values because a group will be made for each unique value. To understand why, let's use the function `n_distinct()` with `summarise()` to count the unique values in certain data frame columns:
+
+```{r}
+Ap4e1_phenotypes %>% 
+  summarise(unique_sample_types=n_distinct(sample_type), 
+            unique_cornea_morphologies=n_distinct(cornea_morphology),
+            unique_weights=n_distinct(weight))
+```
+
+Because there are only two possible values for sample type, using `group_by()` on sample type will result in two groups. Similarly, grouping on cornea morphology results in four groups. Grouping by weight, however, will result in in 178 groups.
+
+If we wanted to get the number of mice with each unique weight and the mean hemoglobin content for the mice with that weight we can run:
+
+```{r}
+Ap4e1_phenotypes %>% 
+  group_by(weight) %>% 
+  summarise(mean_HG=mean(hemoglobin), num_mice=n())
+```
+
+You can see in the "num_mice" column that there are very few mice with each unique weight, thus this type of grouping and analysis does not make much sense. This is because weight is a continuous value, not a categorical value. *Grouping should be done with categorical values.*
+
+We can also group by multiple columns. Let's group by sex and sample type and then look at the mean and standard deviation of grip strength for each group:
+
+```{r}
+Ap4e1_phenotypes %>% 
+  group_by(sex, sample_type) %>%
+  summarise(mean_grip=mean(norm_grip_strength), sd_grip=sd(norm_grip_strength)) 
+```
+
+---

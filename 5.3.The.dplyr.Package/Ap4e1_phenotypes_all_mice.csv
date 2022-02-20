@@ -1,0 +1,1486 @@
+﻿sampleID,sex,sample_type,weight,hemoglobin,cornea_morphology,grip_strength,vertebrae_morphology,heart_rate_bpm
+E64-02861,male,mutant,29.8,13.9,normal,146.09334,normal,741.0
+E64-02862,male,mutant,29.2,14.6,normal,164.09166,abnormal,781.0
+E64-02863,male,mutant,30.6,15.4,right eye abnormal,154.135,abnormal,790.0
+E64-02864,female,mutant,23.4,14.2,right eye abnormal,146.476,normal,761.0
+E64-02865,female,mutant,21.3,14.7,normal,156.24133,normal,755.0
+E64-02866,female,mutant,22.9,14.4,normal,151.263,normal,776.0
+E64-02887,male,mutant,28.4,14.1,normal,151.26266,abnormal,762.0
+E64-02889,male,mutant,29.1,15.2,right eye abnormal,145.327,abnormal,752.0
+E64-02890,male,mutant,26.4,14.6,normal,168.687,normal,812.0
+E64-02891,male,mutant,26.0,14.4,normal,172.70767,normal,755.0
+E64-02892,female,mutant,22.2,13.3,normal,106.07533,normal,768.0
+E64-02893,female,mutant,21.2,14.9,right eye abnormal,137.28566,normal,815.0
+E64-02894,female,mutant,23.1,15.1,normal,176.92033,normal,777.0
+E64-02900,female,mutant,22.0,14.9,right eye abnormal,124.07367,normal,800.0
+E64-02901,female,mutant,22.2,15.0,normal,131.92433,normal,802.0
+064-EPJ77,female,control,22.6,14.2,normal,193.36667,normal,826.0
+64S-79628,male,control,22.11,15.3,normal,259.445,normal,747.0
+64S-79629,male,control,24.4,15.2,normal,222.108,normal,742.0
+64S-79630,male,control,23.5,15.4,normal,229.767,normal,779.0
+64S-79631,female,control,19.44,15.5,normal,192.621,normal,758.0
+64S-79632,female,control,19.4,15.1,right eye abnormal,188.40834,normal,750.0
+64Z-61012,male,control,26.8,14.5,normal,211.16667,abnormal,704.0
+64Z-61014,male,control,27.5,14.9,normal,238.73334,normal,755.0
+64Z-61015,male,control,26.4,14.3,normal,297.73334,normal,717.0
+64Z-61016,male,control,26.7,14.3,normal,176.16667,normal,728.0
+64Z-61018,male,control,26.0,15.2,normal,238.03334,normal,805.0
+64Z-61019,male,control,24.8,15.1,normal,197.2,normal,625.0
+64Z-61023,female,control,21.6,14.2,normal,219.03334,normal,783.0
+64Z-61024,female,control,20.6,14.6,normal,187.63333,normal,716.0
+64Z-61025,female,control,21.9,13.8,normal,223.23334,normal,789.0
+64Z-61026,female,control,22.8,14.5,normal,173.3,normal,742.0
+64Z-61027,female,control,18.6,12.3,normal,214.43333,normal,654.0
+64Z-61028,female,control,24.6,14.0,normal,199.33333,abnormal,676.0
+64Z-61029,female,control,21.0,10.6,normal,178.26666,normal,736.0
+64Z-61339,male,control,25.6,15.7,normal,209.85367,normal,712.0
+64Z-61340,male,control,28.7,14.8,normal,264.998,normal,748.0
+64Z-61341,female,control,19.38,14.5,left eye abnormal,212.917,normal,725.0
+64Z-61343,female,control,20.55,15.6,normal,217.321,normal,773.0
+64Z-61345,male,control,25.03,14.7,normal,280.69833,normal,752.0
+64Z-61346,male,control,22.81,14.1,normal,220.959,normal,685.0
+64Z-61347,male,control,29.9,14.5,normal,311.7,normal,741.0
+64Z-61348,male,control,22.3,13.9,normal,276.5,normal,673.0
+64Z-61349,male,control,27.7,14.9,normal,199.7,normal,605.0
+64Z-61350,male,control,28.2,13.4,right eye abnormal,203.93333,normal,672.0
+64Z-61351,female,control,22.2,14.6,normal,187.26,normal,735.0
+64Z-61352,female,control,22.8,14.1,right eye abnormal,168.66667,normal,745.0
+64Z-61353,female,control,24.1,14.2,normal,212.56667,normal,759.0
+64Z-61354,male,control,29.8,15.2,normal,301.36667,normal,761.0
+64Z-61355,male,control,29.8,14.4,normal,226.5,normal,767.0
+64Z-61358,female,control,25.0,14.4,normal,150.3,normal,769.0
+64Z-61359,female,control,22.4,14.1,left eye abnormal,124.86667,normal,725.0
+64Z-61360,female,control,23.8,14.4,normal,129.26666,normal,744.0
+64Z-61361,male,control,27.8,13.3,right eye abnormal,211.73334,normal,738.0
+81S-01204,female,control,23.6,14.2,normal,202.57767,normal,788.0
+81Z-02441,female,control,27.8,13.6,normal,196.312,normal,732.0
+81Z-02488,female,control,24.0,13.9,normal,254.65967,normal,768.0
+81Z-02489,female,control,23.8,12.1,normal,229.079,normal,808.0
+81Z-63769,male,control,29.0,12.2,normal,194.72734,normal,818.0
+81Z-63770,male,control,27.0,13.3,normal,223.63966,normal,758.0
+81Z-63771,male,control,28.7,14.2,normal,260.01965,normal,801.0
+81Z-63772,male,control,27.4,13.7,normal,225.17134,normal,786.0
+81Z-63773,male,control,27.9,13.8,normal,204.87534,normal,736.0
+81Z-63784,female,control,20.6,13.8,normal,228.235,normal,797.0
+81Z-63785,female,control,23.0,14.0,right eye abnormal,179.02667,normal,682.0
+81Z-63786,female,control,21.3,13.7,normal,188.21733,normal,688.0
+81Z-63787,female,control,24.4,13.4,normal,248.914,normal,746.0
+81Z-63788,female,control,22.7,13.1,left eye abnormal,211.00267,normal,776.0
+81Z-64188,female,control,25.4,13.6,normal,228.618,normal,804.0
+81Z-64189,male,control,25.4,13.7,right eye abnormal,246.99933,normal,737.0
+81Z-64190,male,control,27.8,13.4,normal,264.615,normal,742.0
+81Z-64191,female,control,21.4,13.6,normal,217.12933,normal,787.0
+81Z-64192,male,control,29.5,14.5,left eye abnormal,193.76967,normal,682.0
+81Z-64193,male,control,30.7,13.5,normal,244.89333,normal,790.0
+81Z-64194,female,control,23.1,13.6,normal,196.64233,normal,780.0
+81Z-64195,female,control,22.7,13.1,normal,240.48933,normal,813.0
+81Z-64196,female,control,24.6,13.4,normal,225.74567,normal,749.0
+81Z-64230,male,control,27.5,15.4,normal,233.78767,normal,683.0
+81Z-64232,female,control,24.5,12.2,normal,210.045,normal,704.0
+81Z-64234,female,control,23.7,13.8,normal,230.724,normal,712.0
+81Z-64235,female,control,26.5,14.2,normal,245.85066,normal,753.0
+81Z-64267,male,control,23.8,13.4,normal,225.36267,normal,724.0
+81Z-64268,male,control,24.9,13.8,normal,197.79066,normal,671.0
+81Z-64269,male,control,30.6,13.2,normal,241.44667,normal,762.0
+81Z-64270,male,control,25.9,12.9,normal,189.55766,normal,709.0
+81Z-64278,male,control,31.3,13.7,normal,270.93332,normal,729.0
+81Z-64279,female,control,29.3,14.2,normal,219.81,normal,794.0
+81Z-64280,female,control,26.5,14.4,normal,206.02434,normal,727.0
+81Z-64281,female,control,25.6,14.2,normal,200.663,normal,696.0
+81Z-64282,male,control,26.3,14.7,normal,224.597,normal,681.0
+81Z-64285,male,control,25.3,13.0,right eye abnormal,264.04034,normal,699.0
+81Z-64286,male,control,28.5,13.7,right eye abnormal,266.721,normal,758.0
+81Z-64287,female,control,20.8,14.3,normal,234.17067,normal,763.0
+81Z-64288,female,control,24.0,13.8,normal,234.554,normal,719.0
+81Z-64289,female,control,23.9,14.1,normal,222.29933,normal,713.0
+81Z-64296,male,control,27.8,13.9,normal,247.38234,normal,679.0
+81Z-64319,male,control,23.0,13.6,right eye abnormal,237.617,normal,794.0
+81Z-64320,male,control,24.6,14.5,normal,219.61867,normal,787.0
+81Z-64321,male,control,23.6,14.8,normal,233.02167,normal,724.0
+81Z-64322,male,control,25.3,13.3,normal,263.466,normal,669.0
+81Z-64323,female,control,22.1,14.0,normal,203.535,normal,711.0
+81Z-64324,female,control,23.0,13.5,normal,219.23567,normal,731.0
+81Z-64325,female,control,21.5,13.9,normal,219.42734,normal,706.0
+81Z-64326,female,control,21.2,14.1,normal,209.47067,normal,700.0
+81Z-65621,male,control,27.9,14.3,normal,282.42166,normal,745.0
+81Z-65622,male,control,26.9,13.8,normal,262.12534,normal,760.0
+81Z-65623,male,control,25.6,13.3,normal,233.213,normal,699.0
+81Z-65701,male,control,33.2,14.0,normal,231.29866,normal,679.0
+81Z-65702,male,control,27.1,14.6,normal,247.95667,normal,735.0
+81Z-65703,male,control,27.8,14.2,normal,227.66066,normal,671.0
+81Z-65704,male,control,28.2,13.8,left eye abnormal,230.34134,normal,715.0
+81Z-65717,female,control,23.4,13.6,normal,211.57666,normal,785.0
+81Z-65718,female,control,22.1,13.2,normal,210.23666,normal,712.0
+81Z-65719,female,control,20.9,13.3,normal,208.13034,normal,779.0
+81Z-65720,female,control,22.0,13.6,normal,229.95833,normal,730.0
+81Z-65721,female,control,18.7,13.5,normal,194.344,normal,735.0
+81Z-65877,male,control,30.7,12.9,left eye abnormal,197.79066,normal,758.0
+81Z-65878,male,control,29.5,13.2,normal,242.787,normal,733.0
+81Z-65879,male,control,27.9,13.4,normal,226.703,normal,758.0
+81Z-65880,male,control,29.6,13.5,normal,216.17233,normal,687.0
+81Z-65881,male,control,29.5,13.9,normal,206.21533,normal,769.0
+81Z-66216,male,control,25.8,14.8,normal,206.216,abnormal,775.0
+81Z-66229,male,control,27.6,13.2,right eye abnormal,193.38667,normal,689.0
+81Z-66230,male,control,31.0,14.0,normal,256.76468,normal,728.0
+81Z-66231,female,control,21.7,12.8,right eye abnormal,189.74867,normal,801.0
+81Z-66232,female,control,23.5,13.3,normal,206.02434,normal,668.0
+81Z-66233,female,control,22.5,13.6,normal,191.08934,normal,625.0
+81Z-66382,male,control,27.7,13.3,normal,248.531,normal,718.0
+81Z-66383,male,control,27.7,13.1,normal,256.76468,normal,685.0
+81Z-66462,male,control,27.2,12.3,normal,199.70534,normal,781.0
+81Z-82478,male,control,28.7,14.4,normal,210.61934,normal,779.0
+81Z-82479,male,control,24.3,14.3,normal,175.58,normal,779.0
+81Z-82480,female,control,20.6,14.7,normal,187.06833,normal,787.0
+81Z-82482,female,control,20.7,14.4,normal,187.643,normal,793.0
+81Z-82484,female,control,22.3,14.6,normal,210.61934,normal,780.0
+81Z-82485,female,control,22.8,14.6,normal,154.135,normal,787.0
+81Z-82486,female,control,22.2,14.3,normal,193.19566,normal,780.0
+81Z-82531,male,control,26.9,14.4,normal,222.68233,normal,782.0
+81Z-82532,male,control,27.1,14.0,normal,274.18866,normal,746.0
+81Z-82533,male,control,25.2,13.2,normal,191.66367,normal,610.0
+81Z-82535,male,control,28.3,13.7,normal,211.577,normal,731.0
+81Z-82536,male,control,25.1,13.8,normal,199.131,normal,727.0
+81Z-82537,male,control,25.3,14.2,normal,193.77034,normal,727.0
+81Z-82538,male,control,25.0,14.0,normal,161.21933,normal,692.0
+81Z-82539,female,control,21.0,14.0,normal,174.04834,normal,775.0
+81Z-82540,female,control,22.2,14.2,normal,206.21533,normal,729.0
+81Z-82542,female,control,20.8,13.8,normal,167.92134,normal,722.0
+81Z-82632,female,control,24.2,14.3,normal,192.42934,normal,792.0
+81Z-82653,female,control,25.5,13.3,normal,203.34334,normal,780.0
+81Z-82701,male,control,25.8,14.2,normal,197.59933,normal,776.0
+81Z-82702,male,control,30.4,11.1,normal,164.85733,normal,784.0
+81Z-82703,female,control,22.7,14.4,normal,172.51633,normal,666.0
+81Z-82982,male,control,27.0,13.9,normal,168.49533,normal,806.0
+81Z-82983,male,control,29.0,14.3,normal,185.728,normal,791.0
+81Z-82984,male,control,28.3,13.9,left eye abnormal,280.12433,normal,724.0
+81Z-82987,male,control,26.2,14.2,normal,216.55533,normal,799.0
+81Z-82988,male,control,29.9,13.9,normal,179.984,normal,794.0
+81Z-82989,male,control,30.0,14.2,normal,195.11034,normal,802.0
+81Z-82990,male,control,29.0,13.8,left eye abnormal,215.02333,normal,711.0
+81Z-83132,female,control,27.0,13.3,normal,221.15033,normal,781.0
+81Z-83148,female,control,22.8,13.7,normal,201.429,normal,739.0
+81Z-83196,female,control,24.4,13.6,both eyes abnormal,228.618,normal,778.0
+81Z-83197,female,control,23.3,12.9,left eye abnormal,211.194,normal,694.0
+81Z-83198,female,control,25.0,13.6,normal,209.47067,normal,776.0
+81Z-83199,female,control,23.5,14.1,normal,229.57533,normal,794.0
+81Z-83200,female,control,23.3,13.2,normal,233.59633,normal,795.0
+81Z-83380,male,control,27.8,13.7,right eye abnormal,176.34567,abnormal,650.0
+81Z-83389,male,control,29.8,13.9,right eye abnormal,134.22166,normal,782.0
+81Z-83456,male,control,28.7,13.4,right eye abnormal,178.069,normal,801.0
+81Z-83457,male,control,29.7,12.3,normal,187.06833,normal,714.0
+81Z-83459,male,control,26.9,12.9,normal,156.81567,normal,785.0
+81Z-84102,male,control,26.2,14.5,normal,229.958,normal,773.0
+81Z-84145,male,control,28.3,13.4,normal,203.152,normal,742.0
+81Z-84149,male,control,29.5,13.3,normal,216.172,normal,751.0
+81Z-84150,male,control,30.5,13.7,normal,243.74434,normal,785.0
+81Z-84151,male,control,27.9,13.9,normal,202.386,normal,753.0
+81Z-84152,male,control,27.9,14.0,normal,250.063,normal,789.0
+81Z-84153,male,control,29.5,12.9,normal,206.407,normal,757.0
+81Z-84186,male,control,29.7,13.7,normal,235.894,normal,706.0
+81Z-84187,male,control,30.1,13.7,normal,179.601,normal,774.0
+81Z-84188,male,control,30.1,13.7,normal,180.74966,normal,758.0
+81Z-84252,male,control,27.1,13.8,right eye abnormal,231.68134,normal,750.0
+81Z-84253,male,control,27.4,14.5,normal,273.99667,normal,798.0
+81Z-84656,male,control,29.5,13.6,normal,192.42967,normal,753.0
+81Z-84657,male,control,30.5,12.2,normal,176.15466,normal,770.0
+81Z-84731,male,control,28.1,13.8,left eye abnormal,274.95435,normal,793.0
+81Z-84732,male,control,29.2,14.0,normal,193.004,normal,795.0
+81Z-85001,male,control,38.1,13.4,normal,172.89934,normal,795.0
+81Z-85004,male,control,28.3,14.3,normal,226.70334,normal,759.0
+81Z-85005,male,control,27.8,13.9,normal,240.872,normal,736.0
+81Z-85043,male,control,21.9,14.5,normal,195.11,abnormal,680.0
+81Z-85044,female,control,23.5,15.1,normal,155.667,normal,686.0
+81Z-85076,male,control,33.8,13.1,normal,218.27834,normal,720.0
+81Z-85077,male,control,28.3,14.5,normal,162.94267,normal,666.0
+81Z-85078,male,control,24.2,14.4,normal,143.604,normal,769.0
+81Z-85079,male,control,27.3,14.1,normal,203.34367,normal,748.0
+81Z-85080,male,control,31.9,14.6,right eye abnormal,145.13567,normal,741.0
+81Z-85082,female,control,27.2,14.6,normal,183.622,normal,771.0
+81Z-85083,female,control,23.0,14.7,normal,145.71033,normal,708.0
+81Z-85084,male,control,32.0,13.9,right eye abnormal,169.07,normal,727.0
+81Z-85085,male,control,30.1,13.5,normal,196.45033,normal,675.0
+81Z-85086,female,control,23.9,14.8,normal,152.029,normal,766.0
+81Z-85087,female,control,21.8,14.5,normal,162.56,normal,760.0
+81Z-85088,female,control,23.8,13.7,normal,133.26433,normal,713.0
+81Z-85089,female,control,16.9,14.1,normal,108.5645,normal,783.0
+81Z-85199,female,control,25.3,13.4,normal,255.04134,normal,733.0
+81Z-85208,female,control,23.3,13.0,normal,198.17366,normal,755.0
+81Z-85209,female,control,21.0,13.3,normal,185.15334,normal,727.0
+81Z-85210,female,control,22.8,14.3,normal,203.152,normal,759.0
+81Z-85211,female,control,22.5,14.0,normal,188.40866,normal,736.0
+81Z-85418,female,control,23.6,14.1,normal,224.214,normal,779.0
+81Z-85419,female,control,24.3,13.9,normal,250.63733,normal,771.0
+81Z-85420,male,control,27.8,14.0,normal,260.78534,normal,756.0
+81Z-85421,male,control,30.7,14.9,normal,205.44966,normal,742.0
+81Z-85422,female,control,23.5,14.0,normal,204.87534,normal,750.0
+81Z-85423,female,control,23.1,14.4,right eye abnormal,195.49333,normal,721.0
+81Z-85424,female,control,23.5,14.1,normal,216.36366,normal,725.0
+81Z-85450,female,control,24.4,14.1,normal,198.93967,normal,751.0
+81Z-85451,female,control,23.0,15.1,normal,186.68533,normal,782.0
+81Z-85494,male,control,25.7,13.5,normal,205.64133,normal,762.0
+81Z-85496,male,control,28.6,14.2,normal,204.109,normal,762.0
+81Z-85498,male,control,29.1,13.6,normal,188.79167,normal,725.0
+81Z-85499,female,control,22.7,13.5,normal,215.21466,normal,713.0
+81Z-85500,female,control,22.1,14.5,normal,188.40866,normal,762.0
+81Z-85501,female,control,20.9,14.5,normal,212.91733,normal,780.0
+81Z-85502,female,control,22.4,13.7,normal,190.70633,normal,842.0
+81Z-85503,female,control,21.5,14.0,normal,197.98267,normal,720.0
+81Z-85504,female,control,20.7,14.1,normal,158.539,normal,758.0
+81Z-85505,female,control,20.5,13.3,normal,143.221,normal,742.0
+81Z-85553,female,control,21.1,13.4,normal,133.073,normal,619.0
+81Z-85554,female,control,24.4,14.1,normal,152.986,normal,777.0
+81Z-85555,female,control,22.7,14.7,normal,143.79567,normal,551.0
+81Z-85561,female,control,23.5,14.3,normal,159.30467,normal,796.0
+81Z-85562,female,control,22.0,14.1,normal,148.774,normal,719.0
+81Z-85563,female,control,23.8,13.7,normal,168.687,normal,711.0
+81Z-85581,female,control,23.1,14.0,normal,131.541,normal,757.0
+81Z-85582,female,control,21.2,13.2,right eye abnormal,166.198,normal,734.0
+81Z-85583,female,control,24.6,14.1,normal,161.98567,normal,703.0
+81Z-85584,female,control,22.7,14.1,right eye abnormal,136.90233,normal,715.0
+81Z-85712,male,control,29.8,14.2,normal,178.26067,normal,768.0
+81Z-85713,male,control,26.3,13.8,normal,153.3,normal,764.0
+81Z-85714,male,control,25.1,13.8,normal,317.27,normal,777.0
+81Z-85715,female,control,25.3,13.4,normal,165.049,normal,763.0
+81Z-85720,female,control,23.5,13.6,normal,164.85767,normal,758.0
+81Z-85721,female,control,24.3,13.6,normal,163.51733,normal,775.0
+81Z-85751,male,control,25.9,13.9,normal,237.80867,normal,753.0
+81Z-85752,male,control,26.6,13.8,normal,229.384,normal,680.0
+81Z-85753,male,control,29.9,12.5,normal,248.53133,normal,736.0
+81Z-85755,female,control,22.5,15.0,normal,230.34134,normal,753.0
+81Z-85756,female,control,21.1,13.8,normal,203.918,normal,750.0
+81Z-85757,female,control,21.9,14.6,normal,210.428,normal,703.0
+81Z-85762,female,control,21.7,14.0,normal,180.36667,normal,728.0
+81Z-85763,female,control,23.4,14.5,normal,196.642,normal,714.0
+81Z-85795,male,control,26.9,14.1,normal,227.852,normal,830.0
+81Z-85796,male,control,28.2,13.9,normal,213.30034,normal,816.0
+81Z-85800,female,control,22.1,14.0,normal,204.68367,normal,699.0
+81Z-85801,female,control,22.8,13.7,normal,188.217,normal,717.0
+81Z-85909,male,control,29.1,13.6,left eye abnormal,129.052,normal,716.0
+81Z-85929,male,control,26.7,14.4,right eye abnormal,183.622,normal,752.0
+81Z-85930,female,control,24.8,14.5,normal,147.81667,normal,665.0
+81Z-85970,male,control,26.3,14.1,normal,197.21634,normal,723.0
+81Z-85971,male,control,26.2,14.5,normal,197.98233,normal,717.0
+81Z-85972,female,control,24.7,14.7,normal,213.87466,normal,790.0
+81Z-85973,female,control,24.1,14.0,normal,212.72566,normal,764.0
+81Z-85993,male,control,27.5,13.4,normal,202.96033,normal,800.0
+81Z-86010,male,control,28.9,13.0,normal,202.195,normal,697.0
+81Z-86014,female,control,21.4,13.5,normal,190.32367,normal,690.0
+81Z-86015,female,control,21.2,14.6,normal,200.08833,normal,752.0
+81Z-86016,female,control,21.7,13.7,normal,204.301,normal,755.0
+81Z-86017,female,control,22.4,12.7,normal,189.55766,normal,714.0
+81Z-86018,female,control,21.2,13.9,normal,180.94133,normal,768.0
+81Z-86101,male,control,30.2,13.8,normal,221.72467,normal,728.0
+81Z-86144,female,control,22.4,13.3,normal,151.837,normal,776.0
+81Z-86145,female,control,23.0,14.0,normal,186.87666,normal,774.0
+81Z-86147,female,control,24.6,13.5,normal,153.752,normal,735.0
+81Z-86205,male,control,26.4,13.4,normal,122.925,normal,788.0
+81Z-86207,male,control,24.6,13.1,normal,160.262,normal,768.0
+81Z-86208,female,control,22.4,12.2,normal,157.58167,normal,796.0
+81Z-86209,female,control,21.1,13.2,normal,136.711,normal,781.0
+81Z-86210,female,control,18.6,14.5,normal,129.24367,normal,797.0
+81Z-86211,female,control,21.7,13.6,normal,157.007,normal,649.0
+81Z-86212,female,control,22.3,13.5,normal,124.265335,normal,788.0
+81Z-86224,male,control,27.6,13.0,normal,148.96533,normal,824.0
+81Z-86304,male,control,27.8,13.7,normal,216.74667,normal,719.0
+81Z-86306,male,control,28.6,13.3,normal,215.21466,normal,780.0
+81Z-86391,male,control,26.0,13.6,normal,229.767,normal,760.0
+81Z-86395,female,control,24.3,13.1,normal,238.766,normal,751.0
+81Z-86396,male,control,28.4,11.6,normal,231.49,normal,767.0
+81Z-86397,male,control,25.5,13.3,normal,221.91634,normal,750.0
+81Z-86401,female,control,22.6,14.8,normal,193.19533,normal,760.0
+81Z-86402,female,control,22.9,15.2,normal,186.11067,normal,771.0
+81Z-86403,female,control,26.5,14.8,normal,233.02167,normal,799.0
+81Z-86435,male,control,29.1,13.3,normal,204.49266,normal,781.0
+81Z-86437,male,control,29.3,14.9,normal,211.00233,normal,771.0
+81Z-86438,male,control,28.6,14.7,normal,190.51466,normal,733.0
+81Z-86445,female,control,22.1,13.8,normal,223.44833,normal,697.0
+81Z-86447,female,control,22.2,14.0,normal,209.85367,normal,712.0
+81Z-86448,female,control,23.2,13.6,normal,205.64133,normal,780.0
+81Z-86893,male,control,27.0,13.9,normal,218.85266,normal,773.0
+81Z-86894,male,control,28.6,13.8,normal,225.746,normal,761.0
+81Z-86895,male,control,26.5,14.1,normal,190.89766,normal,790.0
+81Z-86896,male,control,27.1,13.6,normal,222.68266,normal,706.0
+81Z-86915,male,control,29.4,13.4,normal,242.021,normal,775.0
+81Z-86916,male,control,29.3,13.6,normal,189.55766,normal,719.0
+81Z-86917,male,control,30.6,12.2,normal,232.256,normal,747.0
+81Z-86969,male,control,28.4,14.1,normal,228.04367,normal,777.0
+81Z-86990,male,control,30.7,13.9,normal,178.835,normal,789.0
+81Z-86991,male,control,30.3,13.4,normal,218.66167,abnormal,765.0
+81Z-86993,female,control,23.3,13.6,normal,209.47067,normal,723.0
+81Z-87009,female,control,23.1,13.2,normal,170.79333,normal,678.0
+81Z-87010,female,control,21.5,13.9,left eye abnormal,247.95667,normal,609.0
+81Z-87011,female,control,22.5,14.0,normal,186.87666,normal,762.0
+81Z-87160,female,control,23.1,13.0,normal,184.96233,normal,724.0
+81Z-87249,male,control,29.6,13.9,normal,185.91966,normal,746.0
+81Z-87251,female,control,23.0,13.7,normal,181.32434,normal,791.0
+81Z-87282,male,control,26.4,13.7,normal,169.07,normal,663.0
+81Z-87284,female,control,22.8,15.0,normal,187.64267,normal,771.0
+81Z-87289,male,control,25.7,13.5,normal,214.25766,normal,782.0
+81Z-87343,male,control,23.0,14.1,normal,218.27834,normal,784.0
+81Z-87351,male,control,26.1,14.4,normal,184.96233,normal,763.0
+81Z-87374,female,control,21.1,13.3,normal,224.78867,normal,737.0
+81Z-87375,female,control,22.4,14.1,normal,193.19533,normal,654.0
+81Z-87376,female,control,21.6,14.2,normal,206.40733,normal,828.0
+81Z-87390,male,control,30.7,13.8,normal,205.45,normal,762.0
+81Z-87391,male,control,30.2,13.6,normal,263.466,normal,702.0
+81Z-87392,male,control,28.0,13.5,normal,211.194,normal,758.0
+81Z-87393,male,control,28.7,13.7,normal,221.53366,normal,763.0
+81Z-87397,female,control,20.6,14.3,normal,160.645,normal,745.0
+81Z-87398,female,control,21.2,12.1,normal,246.61633,normal,748.0
+81Z-87399,female,control,25.2,13.8,normal,205.067,normal,752.0
+81Z-87401,female,control,20.7,13.9,normal,192.43,normal,769.0
+81Z-87466,female,control,21.3,12.9,normal,143.22133,normal,790.0
+81Z-87467,male,control,25.5,13.6,normal,157.19867,normal,789.0
+81Z-87468,male,control,30.13,12.8,normal,195.68466,normal,779.0
+81Z-87470,male,control,26.5,14.5,normal,201.046,normal,800.0
+81Z-87471,male,control,27.5,14.6,normal,199.70534,normal,778.0
+81Z-87472,male,control,29.2,14.0,normal,291.61234,normal,784.0
+81Z-87473,male,control,24.8,11.3,right eye abnormal,206.40666,normal,554.0
+81Z-87474,female,control,24.5,14.4,normal,217.321,normal,721.0
+81Z-87475,female,control,23.8,14.5,normal,158.922,normal,752.0
+81Z-87476,female,control,21.2,13.1,normal,149.923,normal,700.0
+81Z-87477,female,control,22.8,14.4,normal,186.111,normal,682.0
+81Z-87478,female,control,23.6,14.9,normal,158.34734,normal,669.0
+81Z-87654,male,control,30.1,13.5,normal,199.514,normal,704.0
+81Z-87655,male,control,26.3,14.2,normal,213.49167,normal,789.0
+81Z-87656,male,control,25.0,13.2,left eye abnormal,178.26033,normal,731.0
+81Z-87657,female,control,23.5,13.9,normal,206.024,normal,785.0
+81Z-87658,female,control,23.3,13.5,normal,222.87367,normal,773.0
+81Z-87659,female,control,23.4,13.7,normal,182.28166,abnormal,797.0
+81Z-87660,female,control,23.6,13.9,normal,215.215,abnormal,817.0
+81Z-87661,male,control,22.5,13.0,normal,188.02567,normal,726.0
+81Z-87662,male,control,23.8,13.8,normal,185.53667,normal,789.0
+81Z-87665,female,control,19.3,13.8,normal,219.81033,abnormal,778.0
+81Z-87666,female,control,20.9,13.6,normal,212.15134,normal,811.0
+81Z-87667,female,control,20.5,14.4,normal,206.216,normal,789.0
+81Z-87780,male,control,27.8,13.3,normal,171.942,normal,736.0
+81Z-87783,male,control,28.5,13.5,normal,163.13434,normal,764.0
+81Z-87786,female,control,24.2,13.4,normal,167.538,normal,803.0
+81Z-87787,female,control,21.3,14.6,right eye abnormal,113.73434,normal,775.0
+81Z-87798,male,control,27.8,14.5,normal,233.59633,normal,787.0
+81Z-87799,male,control,27.1,13.7,normal,198.93933,abnormal,766.0
+81Z-87800,male,control,28.0,12.6,normal,228.42633,normal,742.0
+81Z-87801,male,control,26.3,12.6,normal,222.491,normal,698.0
+81Z-87802,male,control,28.5,13.4,normal,228.80966,normal,723.0
+81Z-87803,male,control,27.7,14.2,normal,213.683,abnormal,757.0
+81Z-87804,male,control,27.6,13.7,normal,237.42534,normal,794.0
+81Z-87805,female,control,22.5,14.6,normal,236.66,normal,747.0
+81Z-87806,female,control,24.4,14.4,normal,242.97833,normal,756.0
+81Z-87807,female,control,23.5,13.8,normal,236.65967,normal,770.0
+81Z-87823,female,control,24.2,12.6,right eye abnormal,216.172,normal,819.0
+81Z-87824,female,control,25.1,13.3,normal,247.76534,normal,756.0
+81Z-87825,female,control,24.3,13.5,normal,256.95566,normal,738.0
+81Z-87826,female,control,21.8,13.8,normal,226.89467,normal,711.0
+81Z-87902,male,control,30.1,13.1,normal,211.00233,normal,792.0
+81Z-87906,female,control,22.6,14.1,normal,211.76833,normal,765.0
+81Z-87907,female,control,22.1,14.3,normal,190.32333,normal,753.0
+81Z-87908,female,control,22.3,14.4,right eye abnormal,197.025,normal,752.0
+81Z-87909,female,control,22.9,14.1,normal,170.60167,normal,752.0
+81Z-87936,male,control,29.7,13.9,normal,164.66566,normal,713.0
+81Z-87940,male,control,27.8,13.6,normal,146.66766,normal,756.0
+81Z-87941,male,control,25.4,14.3,normal,170.985,normal,722.0
+81Z-87942,male,control,26.7,14.3,normal,240.87233,normal,653.0
+81Z-87943,male,control,29.5,13.0,normal,188.983,normal,644.0
+81Z-87944,male,control,30.9,12.4,normal,174.431,normal,790.0
+81Z-87945,male,control,27.5,11.3,right eye abnormal,187.64267,normal,695.0
+81Z-87946,female,control,23.6,14.3,normal,148.96533,normal,772.0
+81Z-87947,female,control,23.0,13.8,normal,165.24066,normal,744.0
+81Z-87948,female,control,24.0,13.0,normal,158.15567,normal,749.0
+81Z-88065,male,control,28.4,13.8,normal,246.23367,normal,769.0
+81Z-88066,female,control,23.5,13.7,normal,248.72234,normal,786.0
+81Z-88067,female,control,22.6,12.9,normal,237.234,normal,739.0
+81Z-88068,female,control,22.5,13.5,left eye abnormal,224.02266,normal,814.0
+81Z-88089,male,control,28.5,13.5,normal,279.74133,normal,787.0
+81Z-88095,female,control,22.0,13.3,normal,189.94034,normal,762.0
+81Z-88096,female,control,22.5,14.1,normal,226.70334,normal,775.0
+81Z-88141,male,control,29.0,13.4,normal,234.93666,normal,777.0
+81Z-88144,male,control,28.8,13.1,normal,216.172,normal,817.0
+81Z-88145,male,control,26.3,14.0,normal,264.80634,normal,764.0
+81Z-88146,female,control,22.1,14.1,normal,211.95967,normal,760.0
+81Z-88151,female,control,22.5,13.8,left eye abnormal,202.195,normal,796.0
+81Z-88165,female,control,24.3,14.1,normal,207.36467,normal,703.0
+81Z-88242,male,control,23.0,13.5,normal,123.69067,normal,749.0
+81Z-88243,female,control,22.2,14.3,normal,136.13667,normal,776.0
+81Z-88244,female,control,22.0,13.8,normal,132.69,normal,722.0
+81Z-88301,male,control,29.4,13.3,normal,262.89166,normal,749.0
+81Z-88303,female,control,25.8,14.0,normal,182.856,normal,735.0
+81Z-88330,female,control,22.0,13.9,normal,162.75133,normal,758.0
+81Z-88331,female,control,21.2,14.3,normal,158.34734,normal,806.0
+81Z-88332,female,control,22.6,13.9,normal,183.239,normal,738.0
+81Z-88333,female,control,21.1,14.0,normal,191.47234,normal,745.0
+81Z-88392,male,control,30.4,13.6,normal,240.489,normal,745.0
+81Z-88393,male,control,28.5,13.6,normal,189.366,normal,788.0
+81Z-88394,male,control,28.2,14.5,normal,206.79,normal,714.0
+81Z-88395,male,control,28.2,13.3,left eye abnormal,236.277,normal,752.0
+81Z-88396,male,control,24.9,13.3,normal,224.02266,normal,772.0
+81Z-88398,male,control,25.0,12.9,normal,224.02234,normal,767.0
+81Z-88399,male,control,27.3,14.0,normal,246.23334,normal,760.0
+81Z-88401,female,control,21.9,13.5,normal,197.982,normal,755.0
+81Z-88437,female,control,23.6,14.3,left eye abnormal,183.43066,normal,708.0
+81Z-88442,female,control,24.1,13.4,normal,185.72833,normal,743.0
+81Z-88443,female,control,24.0,14.4,normal,174.23933,normal,679.0
+81Z-88444,female,control,24.1,14.7,normal,179.218,normal,703.0
+81Z-88445,female,control,22.8,15.1,normal,206.79033,normal,777.0
+81Z-88491,male,control,28.5,14.5,normal,136.51933,normal,759.0
+81Z-88493,male,control,27.2,14.2,normal,188.79167,normal,824.0
+81Z-88495,male,control,29.5,13.8,normal,152.795,normal,778.0
+81Z-88496,male,control,25.7,15.1,right eye abnormal,161.794,normal,748.0
+81Z-88497,female,control,23.9,13.7,normal,154.70934,normal,823.0
+81Z-88498,female,control,23.9,13.6,normal,165.24066,normal,795.0
+81Z-88499,female,control,23.3,13.9,normal,163.51733,normal,753.0
+81Z-88500,female,control,21.7,13.9,normal,145.32733,abnormal,763.0
+81Z-88501,female,control,20.6,13.4,normal,135.17934,normal,734.0
+81Z-88502,female,control,23.9,13.1,normal,154.518,normal,788.0
+81Z-88503,female,control,23.1,14.9,normal,145.71033,normal,791.0
+81Z-88571,male,control,26.9,13.5,normal,180.36667,normal,774.0
+81Z-88589,male,control,28.3,12.2,normal,243.36133,normal,750.0
+81Z-88603,female,control,22.9,13.1,normal,215.406,normal,761.0
+81Z-88605,female,control,24.2,14.3,normal,197.59933,normal,778.0
+81Z-88606,female,control,21.2,14.0,left eye abnormal,189.366,normal,772.0
+81Z-88607,male,control,29.3,13.3,normal,232.256,normal,811.0
+81Z-88609,male,control,25.4,13.6,normal,220.00166,normal,775.0
+81Z-88611,female,control,23.5,12.6,normal,233.59633,normal,778.0
+81Z-88612,female,control,20.6,13.9,normal,201.62033,normal,769.0
+81Z-88613,female,control,20.2,13.5,normal,180.17534,normal,775.0
+81Z-88802,male,control,28.4,13.0,normal,185.91933,normal,770.0
+81Z-88804,female,control,21.6,14.2,normal,154.901,normal,696.0
+81Z-88913,male,control,27.3,12.6,normal,216.36366,normal,759.0
+81Z-88915,female,control,21.2,13.9,normal,191.47234,normal,747.0
+81Z-88916,female,control,22.5,12.9,normal,192.621,normal,716.0
+81Z-88923,female,control,24.6,12.6,left eye abnormal,175.00566,normal,757.0
+81Z-88959,male,control,28.2,13.4,normal,168.687,normal,763.0
+81Z-88960,male,control,27.8,14.4,normal,199.514,normal,781.0
+81Z-88961,male,control,29.7,14.5,normal,184.771,normal,786.0
+81Z-88962,female,control,23.8,13.9,normal,197.025,normal,692.0
+81Z-88963,male,control,30.0,13.4,both eyes abnormal,217.321,normal,722.0
+81Z-88964,male,control,26.8,14.2,normal,165.815,abnormal,768.0
+81Z-88965,male,control,26.8,14.2,normal,236.08533,normal,737.0
+81Z-88966,female,control,23.0,13.7,normal,188.02567,normal,648.0
+81Z-88967,female,control,23.8,13.8,normal,203.72667,normal,710.0
+81Z-88968,female,control,22.6,13.7,left eye abnormal,177.30333,normal,755.0
+81Z-88998,female,control,24.3,13.9,normal,209.08766,normal,772.0
+81Z-88999,female,control,22.6,14.1,normal,220.38467,normal,721.0
+81Z-89006,male,control,30.4,13.6,normal,270.742,normal,596.0
+81Z-89007,male,control,29.3,13.2,normal,320.525,normal,749.0
+81Z-89008,male,control,28.6,13.2,normal,200.85434,normal,669.0
+81Z-89009,male,control,29.4,13.1,normal,210.61934,normal,804.0
+81Z-89010,female,control,21.4,14.8,normal,208.51334,normal,785.0
+81Z-89011,female,control,23.0,14.0,normal,221.15033,normal,798.0
+81Z-89012,female,control,24.4,14.4,normal,242.59534,normal,722.0
+81Z-89140,male,control,28.3,13.2,normal,231.29834,normal,738.0
+81Z-89141,male,control,26.4,11.9,normal,210.61934,normal,703.0
+81Z-89294,female,control,22.4,13.4,normal,218.47,normal,804.0
+81Z-89295,female,control,24.1,13.5,normal,175.77133,normal,797.0
+81Z-89298,male,control,28.5,12.6,normal,242.404,normal,790.0
+81Z-89299,male,control,27.5,12.3,normal,208.513,normal,782.0
+81Z-89427,male,control,28.7,13.6,normal,291.804,normal,767.0
+81Z-89437,male,control,27.2,13.5,left eye abnormal,306.54733,normal,770.0
+81Z-89438,male,control,26.1,13.8,normal,199.897,normal,809.0
+81Z-89439,male,control,28.4,13.4,normal,212.15134,normal,803.0
+81Z-89440,male,control,26.4,13.3,normal,186.30234,normal,773.0
+81Z-89445,female,control,22.7,13.7,normal,187.06866,normal,774.0
+81Z-89446,female,control,24.2,14.4,normal,226.89467,normal,765.0
+81Z-89447,female,control,23.4,13.9,normal,225.17134,normal,777.0
+81Z-89452,male,control,25.8,13.8,right eye abnormal,207.93866,normal,764.0
+81Z-89454,male,control,29.5,13.3,normal,211.19366,normal,788.0
+81Z-89458,female,control,22.8,13.5,normal,197.21634,normal,756.0
+81Z-89459,female,control,21.5,13.4,normal,220.193,abnormal,791.0
+81Z-89460,female,control,22.8,13.0,normal,201.81166,normal,779.0
+81Z-89461,female,control,21.0,13.7,normal,206.59833,normal,738.0
+81Z-89752,male,control,28.7,13.6,normal,229.001,normal,800.0
+81Z-89753,male,control,29.1,13.8,normal,243.16966,normal,781.0
+81Z-89760,female,control,20.6,13.6,normal,183.43033,normal,787.0
+81Z-89761,female,control,23.5,13.6,left eye abnormal,191.281,normal,741.0
+81Z-89762,female,control,24.4,13.4,normal,250.06267,normal,788.0
+81Z-89838,male,control,25.4,12.9,both eyes abnormal,234.745,normal,772.0
+81Z-89839,male,control,26.1,13.1,left eye abnormal,213.49167,normal,761.0
+81Z-89840,female,control,25.5,13.3,normal,201.429,normal,734.0
+81Z-89972,male,control,29.3,14.0,normal,211.76833,normal,701.0
+81Z-89973,female,control,23.8,13.5,normal,190.32333,normal,759.0
+81Z-89974,female,control,25.6,14.3,normal,213.68333,normal,801.0
+81Z-90031,male,control,28.4,13.6,normal,250.829,normal,770.0
+81Z-90043,female,control,23.6,12.1,normal,200.47133,normal,733.0
+81Z-90049,female,control,23.7,13.7,normal,222.29933,normal,781.0
+81Z-90050,female,control,21.6,13.8,normal,206.21567,normal,802.0
+81Z-90057,female,control,23.4,14.1,normal,185.15367,normal,786.0
+81Z-90058,female,control,22.3,13.9,normal,191.281,normal,793.0
+81Z-90059,female,control,20.2,13.9,normal,197.791,normal,734.0
+81Z-90063,female,control,23.1,14.4,right eye abnormal,213.10867,normal,782.0
+81Z-90064,female,control,26.3,13.6,normal,223.83133,normal,779.0
+81Z-90118,male,control,30.4,11.8,normal,292.187,normal,814.0
+81Z-90124,female,control,24.0,13.0,normal,196.83366,normal,735.0
+81Z-90125,female,control,23.2,13.4,left eye abnormal,194.91867,normal,792.0
+81Z-90277,female,control,24.3,13.5,normal,183.81334,abnormal,744.0
+81Z-90482,male,control,29.5,13.6,normal,231.107,normal,740.0
+81Z-90483,male,control,27.95,13.2,normal,261.551,normal,787.0
+81Z-90484,male,control,29.5,14.2,normal,227.27766,normal,775.0
+81Z-90492,male,control,28.9,15.2,normal,194.72734,normal,810.0
+81Z-90493,male,control,29.9,13.6,normal,215.40633,normal,776.0
+81Z-90495,female,control,25.6,15.2,normal,213.49167,normal,769.0
+81Z-90496,female,control,27.8,13.2,normal,221.725,normal,804.0
+81Z-90506,female,control,21.86,14.2,normal,210.428,normal,754.0
+81Z-90507,female,control,22.5,13.9,normal,211.768,normal,755.0
+81Z-90631,female,control,21.6,13.2,normal,177.11166,normal,820.0
+81Z-90632,female,control,21.9,13.7,normal,180.55833,normal,777.0
+81Z-90633,female,control,21.32,13.3,normal,152.02867,normal,805.0
+81Z-90634,female,control,22.7,14.6,normal,196.259,normal,804.0
+81Z-90692,male,control,26.2,13.9,both eyes abnormal,200.66267,normal,688.0
+81Z-90693,male,control,29.4,13.2,normal,219.42734,normal,761.0
+81Z-90694,male,control,24.2,13.3,right eye abnormal,245.85066,normal,763.0
+81Z-90695,male,control,27.4,12.9,normal,200.85434,normal,752.0
+81Z-90696,female,control,23.8,13.6,normal,205.64133,normal,776.0
+81Z-90697,female,control,21.9,13.3,both eyes abnormal,238.00034,normal,800.0
+81Z-90698,female,control,21.6,13.6,normal,246.808,normal,794.0
+81Z-90699,female,control,23.2,13.6,right eye abnormal,224.214,normal,799.0
+81Z-90700,male,control,22.7,11.9,left eye abnormal,171.942,normal,734.0
+81Z-90701,male,control,25.8,13.1,normal,197.408,normal,767.0
+81Z-90702,male,control,24.0,12.7,normal,198.94,normal,773.0
+81Z-90703,male,control,23.1,13.6,normal,150.30566,normal,766.0
+81Z-90708,female,control,23.2,13.7,left eye abnormal,245.27634,normal,788.0
+81Z-90709,female,control,22.8,13.5,left eye abnormal,230.34134,normal,765.0
+81Z-90715,female,control,23.9,14.0,normal,234.93634,abnormal,799.0
+81Z-90716,female,control,23.2,13.8,normal,251.40334,normal,773.0
+81Z-90764,male,control,27.4,13.7,normal,230.15,normal,773.0
+81Z-90765,male,control,28.3,12.9,normal,203.34334,normal,772.0
+81Z-90766,female,control,21.3,13.9,normal,218.27834,normal,808.0
+81Z-90767,female,control,24.4,15.0,normal,196.64233,normal,783.0
+81Z-90810,female,control,19.3,14.7,both eyes abnormal,128.47766,normal,765.0
+81Z-90823,male,control,28.7,12.8,normal,258.679,normal,745.0
+81Z-90824,male,control,26.3,13.2,normal,189.94034,normal,721.0
+81Z-90826,male,control,25.4,13.6,normal,212.91733,normal,758.0
+81Z-90827,female,control,23.7,13.5,normal,235.31967,normal,800.0
+81Z-90828,female,control,23.1,12.5,normal,228.04367,normal,751.0
+81Z-90829,female,control,24.1,12.8,normal,189.94034,normal,764.0
+81Z-90830,female,control,18.9,13.6,normal,166.581,normal,776.0
+81Z-90835,male,control,27.3,13.1,normal,249.10533,normal,769.0
+81Z-90836,male,control,29.6,13.9,normal,224.40567,normal,771.0
+81Z-90837,male,control,25.5,13.6,normal,190.32333,normal,756.0
+81Z-90838,female,control,24.2,13.2,normal,190.898,normal,753.0
+81Z-90839,female,control,23.1,13.4,normal,221.15067,normal,711.0
+81Z-90905,male,control,29.3,12.5,left eye abnormal,303.86667,normal,768.0
+81Z-90906,male,control,26.6,13.1,both eyes abnormal,229.57533,normal,751.0
+81Z-90907,male,control,26.6,13.1,normal,235.511,normal,694.0
+81Z-90908,male,control,28.3,13.2,normal,265.47067,normal,759.0
+81Z-90909,female,control,21.1,13.3,normal,196.74333,normal,776.0
+81Z-90910,female,control,24.9,13.5,normal,253.36633,normal,728.0
+81Z-90911,female,control,25.6,13.4,normal,252.073,normal,744.0
+81Z-90926,female,control,23.5,13.7,normal,229.07866,abnormal,763.0
+81Z-A1167,male,control,25.7,13.4,normal,251.212,normal,737.0
+81Z-A1311,female,control,24.5,13.9,normal,178.069,normal,784.0
+81Z-A1328,male,control,30.7,13.1,normal,180.17534,normal,660.0
+81Z-A1329,male,control,28.6,13.7,normal,168.687,normal,785.0
+81Z-A1331,female,control,20.6,13.2,normal,140.15733,normal,775.0
+81Z-A1332,female,control,23.5,14.2,normal,137.86,normal,776.0
+81Z-A1357,female,control,22.4,15.0,normal,193.96133,normal,777.0
+81Z-A1358,female,control,21.8,14.5,normal,215.78934,normal,791.0
+81Z-A1359,female,control,22.8,14.5,normal,192.81267,normal,765.0
+81Z-A1415,male,control,27.5,13.8,normal,186.494,normal,694.0
+81Z-A1416,male,control,29.0,14.2,normal,199.70567,normal,694.0
+81Z-A1417,male,control,27.5,13.5,normal,144.753,normal,707.0
+81Z-A1418,female,control,22.5,14.2,normal,152.60333,normal,773.0
+81Z-A1419,female,control,23.4,13.6,normal,168.304,normal,774.0
+81Z-A1420,female,control,24.5,13.7,normal,177.49466,normal,802.0
+81Z-A1421,female,control,22.2,13.6,left eye abnormal,140.349,normal,801.0
+81Z-A1443,female,control,24.9,14.0,normal,160.07033,normal,706.0
+81Z-A1444,female,control,25.1,14.1,normal,166.96367,normal,766.0
+81Z-A1445,male,control,24.8,13.6,right eye abnormal,162.75133,normal,665.0
+81Z-A1446,male,control,26.2,14.3,normal,157.77266,normal,786.0
+81Z-A1447,male,control,27.2,13.2,normal,133.64734,normal,711.0
+81Z-A1473,female,control,23.4,13.9,normal,216.74667,normal,743.0
+81Z-A1478,female,control,21.9,14.5,normal,246.808,normal,748.0
+81Z-A1479,female,control,23.0,14.4,normal,202.19467,normal,836.0
+81Z-A1493,male,control,25.8,13.9,normal,223.448,normal,728.0
+81Z-A1494,female,control,22.0,13.2,normal,210.42833,normal,739.0
+81Z-A1495,male,control,30.9,13.0,normal,226.129,normal,835.0
+81Z-A1497,female,control,21.4,13.3,normal,225.746,normal,731.0
+81Z-A1498,female,control,20.4,14.7,normal,239.149,normal,794.0
+81Z-A1499,female,control,21.4,13.3,left eye abnormal,245.276,normal,753.0
+81Z-A1500,female,control,22.4,13.6,normal,202.96066,normal,749.0
+81Z-A1501,female,control,22.3,14.3,normal,264.80634,normal,693.0
+81Z-A1556,female,control,23.6,13.2,normal,136.51967,normal,758.0
+81Z-CB229,male,control,27.4,13.6,normal,161.21967,normal,735.0
+81Z-CB268,male,control,27.9,13.8,normal,280.31567,normal,795.0
+81Z-CB321,male,control,32.6,13.2,normal,205.83267,normal,746.0
+81Z-CB338,male,control,30.3,12.5,normal,194.91867,normal,752.0
+81Z-CB339,male,control,29.6,13.2,normal,197.02467,normal,727.0
+81Z-CB340,female,control,22.2,14.4,normal,198.365,normal,771.0
+81Z-CB341,female,control,22.3,13.8,normal,182.09,normal,766.0
+81Z-CB342,female,control,21.9,14.6,normal,198.93967,normal,765.0
+81Z-CB524,male,control,28.4,13.8,normal,181.89867,normal,794.0
+81Z-CB532,male,control,28.6,13.4,normal,256.573,normal,743.0
+81Z-CB533,male,control,30.1,12.6,normal,218.66133,normal,780.0
+81Z-CB534,male,control,30.4,13.0,normal,247.38234,normal,791.0
+81Z-CB535,male,control,25.6,13.0,normal,175.00566,normal,731.0
+81Z-CB688,male,control,25.2,12.9,left eye abnormal,172.89967,normal,756.0
+81Z-CB690,male,control,26.3,13.0,normal,223.25667,normal,756.0
+81Z-CB691,male,control,29.1,12.8,normal,193.57834,normal,743.0
+81Z-CB692,male,control,25.6,13.3,left eye abnormal,244.51,normal,730.0
+81Z-CB693,male,control,28.7,13.4,normal,217.12967,normal,780.0
+81Z-CB777,male,control,26.9,13.6,normal,238.0,normal,780.0
+81Z-CB778,male,control,29.4,13.8,normal,215.40633,normal,742.0
+81Z-CB779,male,control,26.9,13.6,normal,226.89467,normal,773.0
+81Z-CB780,female,control,24.6,13.9,right eye abnormal,208.51334,normal,774.0
+81Z-CB912,female,control,22.9,14.1,normal,201.429,normal,800.0
+81Z-CB913,male,control,26.7,13.2,normal,195.30167,normal,710.0
+81Z-CB914,female,control,23.7,13.7,left eye abnormal,173.857,normal,727.0
+81Z-CB915,female,control,22.8,14.4,left eye abnormal,226.89467,normal,757.0
+82Z-00001,male,control,30.3,14.9,normal,271.33066,normal,749.0
+82Z-00002,female,control,23.4,14.5,left eye abnormal,204.935,normal,825.0
+82Z-00003,female,control,23.6,14.2,normal,239.28267,normal,740.0
+82Z-00004,female,control,23.3,15.0,normal,220.31233,normal,768.0
+82Z-00005,female,control,24.3,14.7,normal,192.14467,normal,728.0
+82Z-00013,male,control,27.6,13.6,left eye abnormal,238.70767,normal,763.0
+82Z-00014,male,control,27.7,12.7,normal,186.68333,normal,767.0
+82Z-00015,male,control,28.0,14.4,normal,227.211,normal,776.0
+82Z-00030,female,control,22.4,13.3,normal,209.10266,normal,764.0
+82Z-00039,male,control,29.2,13.2,normal,251.06734,normal,730.0
+82Z-00040,male,control,28.4,12.8,normal,279.37866,normal,751.0
+82Z-00041,male,control,28.3,14.7,normal,283.83368,normal,750.0
+82Z-00042,male,control,30.8,13.5,normal,288.864,normal,723.0
+82Z-00043,male,control,27.7,14.0,normal,265.43832,normal,684.0
+82Z-00044,male,control,29.0,15.3,normal,239.71367,normal,767.0
+82Z-00050,male,control,29.7,15.4,normal,313.29468,normal,783.0
+82Z-00051,female,control,22.2,14.0,normal,255.80966,normal,767.0
+82Z-00052,female,control,24.2,14.5,normal,216.576,normal,711.0
+82Z-00053,female,control,18.9,14.0,normal,137.53334,normal,754.0
+82Z-00054,female,control,19.5,14.6,right eye abnormal,184.52766,normal,778.0
+82Z-00113,male,control,22.2,14.4,normal,188.12067,abnormal,790.0
+82Z-00114,female,control,20.9,13.7,normal,177.19833,normal,801.0
+82Z-00144,male,control,27.8,14.0,normal,248.19267,normal,725.0
+82Z-00145,female,control,23.5,14.1,normal,246.03734,normal,748.0
+82Z-00146,female,control,23.4,14.3,normal,196.02467,normal,763.0
+82Z-00147,female,control,22.9,14.0,normal,246.46834,normal,771.0
+82Z-00154,male,control,29.5,14.0,normal,241.151,normal,751.0
+82Z-00155,male,control,25.8,14.7,normal,221.462,abnormal,787.0
+82Z-00158,male,control,22.6,14.3,normal,205.07866,normal,765.0
+82Z-00159,female,control,18.9,13.8,normal,145.43767,normal,749.0
+82Z-00160,female,control,20.9,14.1,normal,153.91667,normal,794.0
+82Z-00161,female,control,21.8,13.9,normal,137.677,normal,796.0
+82Z-00162,female,control,18.9,14.1,normal,126.03633,normal,691.0
+82Z-00171,male,control,31.5,12.7,normal,114.97,normal,744.0
+82Z-00172,male,control,29.5,13.0,normal,139.11433,normal,751.0
+82Z-00173,male,control,27.1,13.8,normal,147.44966,normal,747.0
+82Z-00174,male,control,30.9,13.3,normal,150.18,normal,796.0
+82Z-00179,male,control,28.9,13.4,normal,235.40266,normal,794.0
+82Z-00180,male,control,29.4,12.2,normal,287.85767,normal,762.0
+82Z-00212,male,control,27.8,14.6,normal,185.39,normal,764.0
+82Z-00233,male,control,27.4,13.7,normal,192.43167,normal,713.0
+82Z-00234,male,control,26.4,13.9,normal,187.11467,normal,787.0
+82Z-00259,male,control,31.1,15.1,normal,187.54567,normal,784.0
+82Z-00260,male,control,29.0,13.7,normal,151.47366,normal,765.0
+82Z-00261,male,control,25.7,14.2,normal,136.38367,normal,772.0
+82Z-00262,male,control,29.5,15.4,normal,210.53967,normal,768.0
+82Z-00263,female,control,22.5,13.0,normal,201.34233,normal,784.0
+82Z-00273,female,control,23.0,13.3,normal,200.19267,normal,806.0
+82Z-00332,male,control,25.5,13.0,normal,222.32434,normal,764.0
+82Z-00333,male,control,27.0,14.5,normal,187.402,normal,789.0
+82Z-00371,female,control,22.5,13.1,normal,202.92334,normal,770.0
+82Z-00495,male,control,25.1,14.4,normal,177.62933,normal,784.0
+82Z-00568,male,control,29.9,13.3,normal,235.977,normal,779.0
+82Z-00569,male,control,23.7,14.2,normal,221.60567,normal,806.0
+82Z-00570,male,control,25.5,14.0,normal,238.99533,normal,799.0
+82Z-00576,female,control,23.4,14.2,normal,202.77933,normal,798.0
+82Z-00578,female,control,24.6,13.9,normal,243.594,normal,758.0
+82Z-00657,male,control,26.7,14.5,normal,205.07866,normal,775.0
+82Z-00658,male,control,25.3,12.2,normal,196.16867,normal,826.0
+82Z-00659,male,control,27.9,14.4,normal,183.95267,normal,770.0
+82Z-00661,female,control,21.6,14.0,normal,246.612,normal,787.0
+82Z-00662,female,control,23.1,13.5,normal,218.15666,normal,785.0
+82Z-00663,female,control,22.3,13.7,normal,193.29433,normal,791.0
+82Z-00664,female,control,21.0,14.6,normal,206.08467,normal,767.0
+82Z-00665,female,control,22.6,13.3,normal,175.18634,normal,799.0
+82Z-00667,male,control,29.3,13.2,left eye abnormal,261.702,normal,786.0
+82Z-00668,male,control,30.6,13.8,normal,241.72566,normal,776.0
+82Z-00669,male,control,28.9,14.1,normal,173.60567,normal,719.0
+82Z-00670,female,control,24.3,14.3,normal,189.70134,normal,775.0
+82Z-00674,female,control,24.6,13.4,normal,170.30034,normal,761.0
+82Z-00724,male,control,30.8,13.8,normal,242.732,normal,806.0
+82Z-00726,male,control,29.9,13.4,normal,244.31233,normal,739.0
+82Z-00727,female,control,22.3,10.5,normal,228.073,normal,725.0
+82Z-00729,female,control,23.7,13.5,normal,228.36034,normal,766.0
+82Z-00730,female,control,24.6,14.3,normal,208.959,normal,761.0
+82Z-00841,female,control,20.8,11.8,normal,218.013,normal,620.0
+82Z-00842,female,control,22.09,13.2,right eye abnormal,200.19267,normal,669.0
+82Z-00854,male,control,30.1,13.3,normal,241.15067,normal,759.0
+82Z-00855,female,control,23.8,13.9,normal,196.16833,normal,763.0
+82Z-00856,female,control,27.3,13.3,normal,244.45633,normal,741.0
+82Z-00947,female,control,23.1,13.8,normal,254.516,normal,716.0
+82Z-00948,female,control,21.5,12.6,normal,188.839,normal,767.0
+82Z-00949,female,control,23.7,13.9,normal,215.857,normal,759.0
+82Z-00997,male,control,29.2,13.6,normal,210.54,normal,720.0
+82Z-00998,male,control,31.2,14.4,normal,249.63,normal,775.0
+82Z-01095,female,control,25.2,11.2,both eyes abnormal,212.83934,normal,613.0
+82Z-01096,female,control,22.8,12.3,normal,206.65933,normal,603.0
+82Z-01162,male,control,29.3,13.0,normal,240.57634,normal,762.0
+82Z-01163,male,control,29.5,11.7,normal,223.33034,normal,741.0
+82Z-01164,male,control,30.9,12.5,normal,192.57567,normal,747.0
+82Z-01165,female,control,24.6,12.6,normal,233.534,normal,758.0
+82Z-01182,female,control,25.0,12.8,normal,229.079,normal,779.0
+82Z-01183,female,control,24.1,12.9,normal,200.62334,normal,717.0
+82Z-01219,male,control,28.3,14.2,normal,272.624,normal,751.0
+82Z-01227,female,control,23.4,13.9,normal,261.558,normal,779.0
+82Z-01228,female,control,22.4,13.4,normal,234.54,normal,776.0
+82Z-01296,male,control,26.4,13.0,normal,243.88167,normal,781.0
+82Z-01297,male,control,27.9,13.2,normal,244.16867,normal,796.0
+82Z-01298,male,control,26.5,12.7,normal,227.642,normal,732.0
+82Z-01299,male,control,25.7,13.7,normal,243.45,normal,757.0
+82Z-01303,female,control,22.5,14.4,normal,207.66566,normal,782.0
+82Z-01306,female,control,20.5,13.3,normal,185.53366,normal,767.0
+82Z-01307,female,control,19.2,11.9,normal,178.34767,normal,667.0
+82Z-01309,male,control,27.1,14.1,normal,241.29466,normal,742.0
+82Z-01324,male,control,23.9,13.2,normal,170.3,normal,737.0
+82Z-01325,female,control,17.2,13.4,normal,165.98866,normal,794.0
+82Z-01336,female,control,22.2,14.1,normal,198.46767,normal,796.0
+82Z-01337,female,control,21.4,13.4,normal,216.28833,normal,767.0
+82Z-01338,female,control,21.1,13.3,right eye abnormal,183.23433,normal,751.0
+82Z-01339,female,control,19.7,13.8,normal,137.96466,normal,800.0
+82Z-01350,male,control,27.2,13.4,normal,246.612,normal,768.0
+82Z-01351,male,control,27.0,13.0,normal,226.77966,normal,747.0
+82Z-01352,male,control,25.9,12.9,normal,206.803,normal,756.0
+82Z-01353,male,control,26.2,12.8,normal,245.89333,normal,728.0
+82Z-01354,female,control,23.6,13.2,normal,210.53967,normal,801.0
+82Z-01498,male,control,29.1,15.9,normal,196.31233,normal,781.0
+82Z-01499,male,control,29.3,13.8,normal,263.42667,normal,794.0
+82Z-01500,female,control,22.2,14.0,normal,221.31833,normal,788.0
+82Z-01501,female,control,23.2,14.5,normal,224.049,normal,769.0
+82Z-01502,female,control,23.3,13.7,normal,209.24634,normal,672.0
+82Z-01577,male,control,29.5,14.8,left eye abnormal,191.71333,normal,777.0
+82Z-01578,male,control,28.5,14.6,normal,191.13834,normal,774.0
+82Z-01644,male,control,30.1,14.8,normal,187.83333,normal,815.0
+82Z-01646,female,control,19.8,13.4,normal,217.15067,normal,769.0
+82Z-01647,female,control,23.8,13.5,normal,229.941,normal,757.0
+82Z-01648,female,control,24.3,13.5,normal,229.941,normal,781.0
+82Z-01797,male,control,26.5,13.8,normal,241.726,normal,772.0
+82Z-01799,male,control,27.6,13.2,normal,196.31233,normal,756.0
+82Z-01800,female,control,22.8,14.4,normal,237.70166,normal,791.0
+82Z-01801,female,control,22.7,13.7,normal,238.564,normal,776.0
+82Z-01802,female,control,26.3,14.1,normal,229.079,normal,751.0
+82Z-01827,male,control,29.9,13.6,normal,259.25833,normal,764.0
+82Z-01828,male,control,26.4,14.7,normal,301.36667,normal,733.0
+82Z-01829,male,control,28.1,14.6,normal,272.48035,normal,705.0
+82Z-01875,female,control,21.3,13.4,normal,186.10867,normal,741.0
+82Z-01881,female,control,25.8,13.5,normal,241.72566,normal,704.0
+82Z-01919,male,control,29.4,14.1,normal,231.522,normal,690.0
+82Z-01920,male,control,26.8,14.6,normal,199.04266,normal,781.0
+82Z-01921,male,control,29.0,13.8,normal,209.534,normal,777.0
+82Z-01922,female,control,22.6,14.7,normal,235.546,normal,787.0
+82Z-01964,female,control,22.1,14.7,normal,223.76134,normal,836.0
+82Z-02020,male,control,25.7,13.4,normal,226.92334,normal,806.0
+82Z-02042,male,control,23.6,14.1,right eye abnormal,178.348,normal,777.0
+82Z-02043,male,control,27.7,14.4,normal,236.983,normal,778.0
+82Z-02044,male,control,27.0,14.0,normal,218.30034,normal,773.0
+82Z-02045,female,control,20.7,13.3,left eye abnormal,207.66566,normal,788.0
+82Z-02046,female,control,22.1,13.3,normal,249.77333,normal,779.0
+82Z-02055,female,control,20.4,13.6,left eye abnormal,225.91733,normal,807.0
+82Z-02056,female,control,22.1,13.6,both eyes abnormal,188.12033,normal,779.0
+82Z-02057,female,control,20.4,13.3,right eye abnormal,193.58167,normal,816.0
+82Z-02075,male,control,29.7,14.0,normal,241.582,normal,771.0
+82Z-02135,female,control,23.7,13.7,normal,203.49767,normal,766.0
+82Z-02154,male,control,29.5,14.0,left eye abnormal,223.043,normal,795.0
+82Z-02155,male,control,29.7,13.3,normal,270.46832,normal,751.0
+82Z-02156,male,control,25.3,14.0,normal,147.737,normal,684.0
+82Z-02157,female,control,22.3,13.5,normal,200.336,normal,720.0
+82Z-02158,female,control,21.8,13.6,normal,229.65367,normal,824.0
+82Z-02247,female,control,22.7,12.8,normal,226.061,normal,778.0
+82Z-02263,female,control,21.1,13.0,normal,220.74333,normal,820.0
+82Z-02264,female,control,20.8,13.1,normal,220.74367,normal,729.0
+82Z-02265,female,control,22.5,15.1,normal,211.25833,normal,792.0
+82Z-02274,male,control,24.9,11.1,left eye abnormal,214.13266,normal,764.0
+82Z-02275,male,control,25.2,13.2,normal,276.50467,normal,729.0
+82Z-02276,male,control,25.5,13.0,normal,241.726,normal,734.0
+82Z-02277,male,control,24.4,13.1,normal,220.74333,normal,762.0
+82Z-02278,male,control,23.9,12.8,normal,247.187,normal,744.0
+82Z-02279,female,control,20.8,12.8,left eye abnormal,246.32466,normal,758.0
+82Z-02345,male,control,27.8,14.7,normal,233.67767,normal,789.0
+82Z-02346,female,control,24.7,14.1,normal,223.18666,normal,736.0
+82Z-02347,female,control,22.7,13.6,normal,239.139,normal,791.0
+82Z-02348,female,control,22.3,12.8,normal,268.6,normal,735.0
+82Z-02349,female,control,23.2,12.6,normal,284.55234,normal,743.0
+82Z-02523,female,control,23.1,13.2,right eye abnormal,216.86333,normal,768.0
+82Z-02524,female,control,24.0,13.2,normal,246.32466,normal,774.0
+82Z-02551,male,control,27.2,13.7,normal,194.73134,normal,772.0
+82Z-02552,female,control,21.4,14.1,right eye abnormal,196.456,normal,695.0
+82Z-02553,female,control,23.2,13.7,normal,200.48,normal,713.0
+82Z-02554,female,control,23.0,14.2,normal,166.276,normal,773.0
+82Z-02571,male,control,30.5,13.2,normal,213.55766,normal,769.0
+82Z-02572,male,control,26.6,13.3,normal,171.44966,normal,789.0
+82Z-02574,male,control,24.6,14.2,normal,194.875,normal,726.0
+82Z-02575,female,control,23.6,14.0,normal,176.47966,normal,731.0
+82Z-02576,female,control,22.6,14.7,normal,138.39566,normal,737.0
+82Z-02577,male,control,26.5,13.0,normal,211.68967,normal,758.0
+82Z-02579,male,control,26.8,12.9,both eyes abnormal,180.791,normal,715.0
+82Z-02601,female,control,23.2,13.3,normal,207.80933,normal,768.0
+82Z-02602,female,control,25.1,13.4,right eye abnormal,228.36034,normal,772.0
+82Z-02603,female,control,25.8,14.3,normal,257.82166,normal,767.0
+82Z-02604,female,control,24.8,12.8,right eye abnormal,249.48633,normal,749.0
+82Z-02654,male,control,26.9,13.8,normal,269.031,normal,747.0
+82Z-02655,male,control,27.1,12.9,normal,225.055,normal,733.0
+82Z-02656,female,control,22.3,13.8,normal,239.71367,normal,798.0
+82Z-02657,female,control,22.5,13.4,normal,222.468,normal,765.0
+82Z-02663,female,control,23.6,13.8,normal,218.87534,normal,722.0
+82Z-02664,female,control,24.0,14.1,normal,245.606,normal,762.0
+82Z-02672,female,control,24.0,14.5,normal,170.01266,normal,736.0
+82Z-02677,female,control,22.7,12.8,normal,187.402,normal,782.0
+82Z-02678,female,control,23.6,13.7,normal,188.69533,normal,792.0
+82Z-02683,female,control,24.3,13.5,normal,164.98267,normal,694.0
+82Z-02684,female,control,21.3,13.5,both eyes abnormal,178.92267,normal,735.0
+82Z-02892,male,control,28.5,13.1,normal,230.372,normal,776.0
+82Z-02896,female,control,23.4,12.9,normal,202.92334,normal,788.0
+82Z-02897,female,control,23.7,13.5,normal,228.21634,normal,769.0
+82Z-03023,male,control,30.7,13.6,normal,258.82767,normal,745.0
+82Z-03024,male,control,30.0,13.6,normal,190.42,normal,765.0
+82Z-03025,female,control,23.9,14.0,normal,197.17467,normal,803.0
+82Z-03026,female,control,24.5,13.5,normal,164.69533,normal,765.0
+82Z-03090,male,control,27.7,13.7,normal,214.42033,normal,709.0
+82Z-03091,male,control,29.4,13.7,normal,217.15067,normal,788.0
+82Z-03092,male,control,31.6,14.3,normal,256.24066,normal,737.0
+82Z-03093,female,control,24.8,13.3,normal,183.378,normal,775.0
+82Z-03094,female,control,25.0,12.5,normal,232.38434,normal,758.0
+82Z-03112,male,control,27.9,13.0,normal,209.67734,normal,756.0
+82Z-03115,male,control,28.3,14.2,normal,272.33667,abnormal,748.0
+82Z-03116,male,control,24.9,14.0,normal,270.46832,normal,759.0
+82Z-03117,female,control,22.7,13.0,left eye abnormal,222.03667,normal,766.0
+82Z-03118,female,control,21.4,14.0,normal,227.21066,normal,768.0
+82Z-03119,female,control,21.7,13.7,normal,239.57,normal,761.0
+82Z-03120,female,control,21.2,13.1,normal,217.58167,normal,770.0
+82Z-03121,female,control,22.9,14.4,normal,222.89934,normal,768.0
+82Z-03122,male,control,29.4,13.4,normal,258.54,normal,793.0
+82Z-03123,male,control,30.3,14.3,normal,257.96533,normal,810.0
+82Z-03135,male,control,28.4,13.3,normal,263.28265,normal,825.0
+82Z-03136,male,control,27.1,13.2,normal,228.217,normal,804.0
+82Z-03137,male,control,26.4,13.3,normal,173.318,normal,766.0
+82Z-03138,female,control,21.0,13.8,normal,217.15067,normal,753.0
+82Z-03139,female,control,22.1,12.8,left eye abnormal,177.19833,normal,756.0
+82Z-03140,female,control,20.8,14.3,normal,233.82167,normal,758.0
+82Z-03142,female,control,22.3,13.6,normal,230.08467,normal,773.0
+82Z-03199,male,control,31.8,11.7,normal,316.888,normal,699.0
+82Z-03259,male,control,31.6,13.3,normal,260.696,normal,780.0
+82Z-03260,male,control,29.8,14.1,normal,252.648,normal,758.0
+82Z-03261,male,control,32.4,14.1,normal,231.953,normal,783.0
+82Z-03344,female,control,21.4,14.2,normal,207.953,normal,808.0
+82Z-03345,female,control,21.6,14.0,normal,192.71933,normal,678.0
+82Z-03346,female,control,21.2,12.9,normal,180.504,normal,801.0
+82Z-03351,male,control,29.5,14.0,left eye abnormal,246.181,normal,768.0
+82Z-03352,female,control,23.6,13.3,left eye abnormal,184.52766,normal,727.0
+82Z-03353,female,control,23.9,12.9,normal,187.546,normal,701.0
+82Z-03354,female,control,24.6,13.1,normal,198.324,normal,780.0
+82Z-03355,female,control,20.7,13.6,normal,167.282,normal,718.0
+82Z-03356,male,control,29.3,14.2,normal,218.30034,normal,732.0
+82Z-03357,male,control,30.9,14.9,normal,210.68333,normal,758.0
+82Z-03439,male,control,24.9,13.9,normal,243.16267,abnormal,802.0
+82Z-03440,male,control,24.7,16.2,normal,165.845,abnormal,729.0
+82Z-03441,female,control,21.2,11.4,normal,210.68367,normal,753.0
+82Z-03442,female,control,22.5,10.5,normal,212.26433,normal,794.0
+82Z-03444,female,control,20.5,12.3,normal,188.408,normal,792.0
+82Z-03445,male,control,27.3,16.5,normal,263.13867,normal,727.0
+82Z-03446,male,control,29.6,14.4,normal,275.78568,normal,707.0
+82Z-03447,male,control,27.9,12.5,normal,227.78534,normal,757.0
+82Z-03448,male,control,29.3,14.5,normal,185.38966,normal,781.0
+82Z-03449,male,control,28.6,12.6,normal,266.87567,normal,764.0
+82Z-03450,female,control,22.8,14.8,normal,229.22267,normal,783.0
+82Z-03451,female,control,23.1,14.0,normal,202.63533,normal,758.0
+82Z-03452,female,control,23.7,14.5,normal,209.965,normal,786.0
+82Z-03496,male,control,27.9,14.5,normal,233.965,normal,640.0
+82Z-03497,male,control,28.7,14.4,normal,225.34233,normal,728.0
+82Z-03498,male,control,30.5,13.6,normal,230.37233,normal,777.0
+82Z-03499,female,control,23.6,14.1,normal,221.462,normal,773.0
+82Z-03501,female,control,24.3,14.5,normal,190.851,normal,808.0
+82Z-03539,male,control,26.5,12.5,normal,246.61166,normal,674.0
+82Z-03540,male,control,28.8,13.7,normal,301.798,normal,749.0
+82Z-03541,female,control,24.5,13.5,normal,231.522,normal,800.0
+82Z-03542,female,control,23.6,13.8,normal,250.77966,normal,744.0
+82Z-03564,female,control,20.5,13.8,normal,182.08467,normal,762.0
+82Z-03660,male,control,29.4,12.9,normal,281.10333,normal,776.0
+82Z-03661,male,control,30.0,14.3,normal,255.37833,normal,760.0
+82Z-03662,male,control,24.1,10.9,normal,244.16867,normal,752.0
+82Z-03678,male,control,25.7,12.1,normal,208.959,normal,776.0
+82Z-03679,male,control,31.3,13.7,normal,337.295,normal,785.0
+82Z-03680,female,control,24.7,12.0,normal,267.738,normal,758.0
+82Z-03681,female,control,25.2,14.4,normal,222.89934,normal,777.0
+82Z-03682,female,control,25.9,12.7,normal,267.88135,normal,715.0
+82Z-03707,male,control,26.2,13.2,normal,187.11467,normal,754.0
+82Z-03708,male,control,25.8,13.1,normal,187.11433,normal,767.0
+82Z-03709,male,control,26.7,14.6,normal,165.70134,normal,744.0
+82Z-03710,male,control,27.2,13.4,normal,230.94733,normal,737.0
+82Z-03715,female,control,22.9,13.7,normal,237.414,normal,692.0
+82Z-03716,female,control,22.9,14.4,normal,213.27034,normal,826.0
+82Z-03717,female,control,22.5,13.7,normal,196.31233,normal,751.0
+82Z-03718,female,control,23.0,13.8,normal,191.71333,normal,767.0
+82Z-03719,female,control,22.0,14.3,normal,228.64766,normal,756.0
+82Z-03894,male,control,21.6,12.9,normal,271.90567,normal,821.0
+82Z-03896,male,control,26.7,15.3,normal,223.33034,normal,786.0
+82Z-03897,female,control,22.8,13.9,normal,230.516,normal,771.0
+82Z-03902,male,control,25.2,14.6,normal,262.85165,normal,741.0
+82Z-03907,female,control,25.7,14.8,normal,202.92267,normal,720.0
+82Z-03940,female,control,23.0,14.1,normal,226.492,normal,696.0
+82Z-03941,female,control,21.8,14.1,normal,214.99466,normal,780.0
+82Z-03949,male,control,31.2,13.0,normal,247.618,normal,776.0
+82Z-03950,male,control,29.4,13.5,normal,279.52234,normal,689.0
+82Z-03951,male,control,30.0,13.8,normal,247.18666,normal,639.0
+82Z-03952,male,control,31.1,13.5,normal,218.30034,normal,702.0
+82Z-04143,male,control,28.7,13.4,normal,232.09666,normal,752.0
+82Z-04144,male,control,30.8,12.9,normal,205.079,normal,816.0
+82Z-04145,male,control,30.5,12.9,normal,185.53366,normal,761.0
+82Z-04146,male,control,31.4,13.1,normal,215.42633,normal,745.0
+82Z-04147,female,control,25.5,12.0,normal,282.39667,normal,770.0
+82Z-04148,female,control,25.5,14.7,normal,254.947,normal,793.0
+82Z-04201,male,control,26.35,14.2,normal,269.46234,normal,764.0
+82Z-04202,male,control,26.74,13.5,normal,252.79167,normal,681.0
+82Z-04203,male,control,27.9,14.7,normal,271.04333,normal,724.0
+82Z-04204,male,control,26.3,13.2,normal,326.22934,normal,735.0
+82Z-04205,female,control,24.2,13.5,normal,213.70166,normal,683.0
+82Z-04206,female,control,22.6,14.5,normal,196.59967,normal,715.0
+82Z-04207,female,control,22.1,13.6,right eye abnormal,228.21634,normal,685.0
+82Z-04404,male,control,26.1,13.4,normal,220.02467,normal,759.0
+82Z-04449,male,control,27.5,13.0,normal,301.51035,normal,802.0
+82Z-04450,male,control,25.0,14.0,normal,281.10333,normal,772.0
+82Z-04518,male,control,26.6,13.5,normal,208.67166,normal,788.0
+82Z-04520,female,control,23.7,14.4,normal,231.953,normal,819.0
+82Z-04521,female,control,24.3,14.6,normal,257.82166,normal,805.0
+82Z-04600,male,control,25.9,14.5,normal,216.71933,normal,779.0
+82Z-04601,male,control,27.1,19.2,normal,214.70767,normal,734.0
+82Z-04603,male,control,26.3,13.1,normal,250.20467,normal,721.0
+82Z-04605,female,control,24.4,12.8,normal,163.833,normal,809.0
+82Z-04606,female,control,24.2,13.6,normal,210.10867,normal,810.0
+82Z-04608,female,control,24.4,12.6,right eye abnormal,231.23466,normal,819.0
+82Z-04688,female,control,21.0,13.9,normal,197.74933,normal,775.0
+82Z-04696,male,control,28.2,13.5,right eye abnormal,201.34233,normal,792.0
+82Z-04697,male,control,27.4,14.6,normal,235.97734,normal,787.0
+82Z-04698,male,control,26.2,13.7,normal,263.714,normal,777.0
+82Z-04702,female,control,23.5,11.5,normal,235.40233,normal,802.0
+82Z-04703,female,control,26.5,13.7,normal,230.37233,normal,802.0
+82Z-04721,male,control,28.7,13.3,normal,235.25867,normal,794.0
+82Z-04722,male,control,26.8,13.8,normal,189.41367,normal,747.0
+82Z-04725,male,control,24.0,13.9,normal,238.995,normal,743.0
+82Z-04738,male,control,29.4,13.5,normal,230.22867,normal,767.0
+82Z-04739,male,control,29.1,13.6,normal,232.959,normal,732.0
+82Z-04740,male,control,27.4,13.9,normal,224.76767,normal,721.0
+82Z-04741,male,control,27.3,13.5,normal,217.15067,normal,785.0
+82Z-04764,female,control,23.0,13.6,normal,230.37233,normal,801.0
+82Z-04765,female,control,21.5,13.4,normal,209.24634,normal,747.0
+82Z-04766,female,control,23.3,13.8,normal,229.79733,normal,770.0
+82Z-04767,female,control,22.6,13.5,normal,185.39034,normal,756.0
+82Z-04907,female,control,24.2,14.2,normal,227.498,normal,838.0
+82Z-04908,female,control,23.0,13.0,normal,232.38434,normal,780.0
+82Z-04910,female,control,20.7,12.6,normal,210.25267,normal,818.0
+82Z-04911,female,control,22.8,13.5,normal,167.56934,normal,765.0
+82Z-04979,female,control,24.0,13.2,normal,202.34833,normal,777.0
+82Z-05035,male,control,27.5,13.0,normal,187.402,normal,781.0
+82Z-05036,male,control,27.9,14.0,normal,252.36034,normal,782.0
+82Z-05037,male,control,27.0,13.8,normal,245.606,normal,793.0
+82Z-05039,female,control,22.3,13.0,normal,190.99466,normal,775.0
+82Z-05040,female,control,21.3,13.7,normal,217.582,normal,753.0
+82Z-05041,female,control,21.8,14.1,normal,192.57567,normal,795.0
+82Z-05042,female,control,23.1,14.0,normal,200.04866,normal,769.0
+82Z-CC519,male,control,26.0,13.1,normal,207.953,normal,747.0
+82Z-CC525,female,control,21.9,13.4,normal,242.73167,normal,776.0
+82Z-CC526,male,control,31.0,12.6,normal,240.28833,normal,750.0
+82Z-CC527,male,control,28.7,13.5,normal,266.58835,normal,710.0
+82Z-CC528,female,control,19.8,15.1,normal,225.486,normal,732.0
+82Z-CC529,female,control,22.4,13.6,normal,222.61166,normal,720.0
+82Z-CC559,male,control,28.67,13.6,normal,226.06067,normal,701.0
+82Z-CC560,male,control,28.52,12.8,normal,206.516,normal,586.0
+82Z-CC561,female,control,23.96,14.2,normal,240.71967,normal,705.0
+82Z-CC562,female,control,23.76,15.3,normal,207.23433,normal,673.0
+82Z-CC563,female,control,21.95,13.9,normal,233.96533,normal,764.0
+82Z-CC564,female,control,23.36,13.1,normal,196.887,normal,716.0
+82Z-CC565,female,control,25.45,11.2,normal,236.83934,normal,751.0
+82Z-CC583,male,control,31.61,13.3,normal,208.959,abnormal,730.0
+82Z-CC584,male,control,33.2,15.1,normal,253.36633,normal,818.0
+82Z-CC585,female,control,22.53,14.2,normal,194.44366,normal,622.0
+82Z-CC611,male,control,28.93,12.7,normal,202.20433,normal,770.0
+82Z-CC612,male,control,24.32,14.1,normal,195.019,normal,733.0
+82Z-CC613,female,control,24.43,12.4,normal,216.86333,abnormal,768.0
+82Z-CC642,female,control,23.1,12.5,normal,236.40834,normal,773.0
+82Z-CC643,female,control,22.0,14.1,normal,202.77933,normal,748.0
+82Z-CC644,male,control,24.9,14.7,normal,156.64734,normal,797.0
+82Z-CC645,male,control,26.4,12.7,normal,222.61166,normal,760.0
+82Z-CC646,female,control,22.5,13.7,normal,230.229,normal,761.0
+82Z-CC647,female,control,22.4,13.1,normal,216.432,normal,746.0
+82Z-CC651,female,control,22.1,13.3,normal,214.85133,normal,767.0
+82Z-CC652,male,control,23.2,14.2,normal,168.288,normal,789.0
+82Z-CC653,male,control,24.2,14.1,normal,186.53967,normal,747.0
+82Z-CC664,female,control,21.7,14.2,normal,225.77367,normal,795.0
+82Z-CC665,female,control,21.6,13.0,normal,189.414,normal,694.0
+82Z-CC671,male,control,29.1,12.4,normal,231.953,normal,764.0
+82Z-CC676,male,control,26.0,12.6,normal,218.30034,normal,778.0
+82Z-CC732,male,control,26.0,13.8,normal,248.624,normal,787.0
+82Z-CC733,male,control,27.0,13.5,normal,218.73167,normal,759.0
+82Z-CC735,male,control,26.8,13.0,normal,216.001,normal,694.0
+82Z-CC736,male,control,26.6,13.5,normal,194.875,normal,822.0
+82Z-CC737,male,control,27.5,12.9,normal,196.887,normal,628.0
+82Z-CC738,male,control,28.0,13.2,normal,172.59933,normal,768.0
+82Z-CC739,female,control,21.2,13.2,normal,150.611,normal,710.0
+82Z-CC740,female,control,21.5,13.9,normal,169.00667,normal,747.0
+82Z-CC741,female,control,21.6,13.4,normal,151.04266,normal,799.0
+82Z-CC742,female,control,22.3,13.2,normal,146.29967,normal,765.0
+82Z-CC743,female,control,20.0,14.0,normal,139.83267,normal,745.0
+82Z-CC744,female,control,22.0,14.9,normal,144.57533,normal,662.0
+82Z-CC745,female,control,20.5,13.7,normal,154.49167,normal,795.0
+82Z-CC761,male,control,26.4,14.0,normal,236.83934,normal,764.0
+82Z-CC762,male,control,27.5,11.9,normal,223.33034,normal,796.0
+82Z-CC763,male,control,29.0,12.5,normal,239.28267,normal,820.0
+82Z-CC764,female,control,21.1,13.9,both eyes abnormal,193.582,normal,810.0
+82Z-CC765,female,control,21.1,13.7,right eye abnormal,198.468,normal,716.0
+82Z-CC766,female,control,22.5,13.2,left eye abnormal,223.474,normal,633.0
+82Z-CC767,female,control,23.0,13.4,normal,202.923,normal,671.0
+82Z-CC816,male,control,28.3,12.3,normal,189.98866,normal,808.0
+82Z-CC817,male,control,29.3,11.1,normal,230.80367,normal,745.0
+82Z-CC818,male,control,29.6,13.5,normal,198.61166,normal,742.0
+82Z-CC819,female,control,22.1,13.5,normal,202.63567,normal,780.0
+82Z-CC820,female,control,23.1,12.4,normal,232.528,normal,740.0
+82Z-CC821,female,control,23.2,12.6,normal,180.64734,normal,791.0
+82Z-CC822,female,control,22.1,13.9,normal,234.109,normal,701.0
+82Z-CC823,female,control,19.5,13.4,normal,178.779,normal,749.0
+82Z-CC844,male,control,28.6,11.9,normal,278.94766,normal,584.0
+82Z-CC845,male,control,31.6,12.8,normal,230.37233,normal,771.0
+82Z-CC846,male,control,31.4,12.8,normal,192.00067,normal,694.0
+82Z-CC847,female,control,23.1,14.1,normal,210.396,normal,727.0
+82Z-CC848,female,control,22.8,14.8,normal,252.073,normal,785.0
+82Z-CC850,female,control,22.9,14.0,normal,205.654,normal,732.0
+82Z-CC861,female,control,22.8,15.3,normal,220.887,normal,646.0
+82Z-CC862,female,control,22.3,15.1,normal,186.25233,normal,627.0
+82Z-CC937,male,control,29.4,14.9,normal,280.09732,normal,761.0
+82Z-CC938,female,control,26.4,11.8,normal,248.624,normal,658.0
+82Z-CC939,female,control,25.5,13.9,normal,236.983,normal,755.0
+82Z-CD055,male,control,26.8,13.8,normal,261.41467,normal,685.0
+82Z-CD056,male,control,28.2,14.3,normal,278.08533,normal,764.0
+82Z-CD058,male,control,25.5,13.7,normal,232.67166,normal,661.0
+82Z-CD059,female,control,25.0,13.2,normal,260.983,normal,710.0
+82Z-CD060,female,control,20.6,13.3,normal,225.486,normal,762.0
+82Z-CD061,male,control,27.9,12.8,normal,202.20433,normal,742.0
+82Z-CD062,male,control,30.2,12.7,normal,197.17467,normal,749.0
+82Z-CD063,male,control,29.9,12.6,normal,230.947,normal,734.0
+82Z-CD064,female,control,25.2,13.4,normal,219.16267,normal,776.0
+82Z-CD065,female,control,22.8,12.9,normal,147.306,normal,803.0
+82Z-CD066,female,control,23.3,13.8,normal,212.55167,normal,733.0
+82Z-CD067,male,control,28.2,13.9,normal,229.36633,normal,808.0
+82Z-CD068,female,control,22.2,13.9,normal,233.965,normal,746.0
+82Z-CD069,female,control,24.0,13.7,normal,255.80933,normal,707.0
+82Z-CD070,female,control,25.7,13.5,normal,242.444,normal,729.0
+82Z-CD071,female,control,26.6,12.6,right eye abnormal,254.94733,normal,741.0
+82Z-CD079,male,control,24.4,14.3,normal,198.037,normal,808.0
+82Z-CD080,male,control,29.0,12.5,normal,184.67134,normal,765.0
+82Z-CD081,male,control,26.9,12.8,normal,284.55234,normal,871.0
+82Z-CD082,male,control,25.1,13.3,normal,212.408,normal,746.0
+82Z-CD083,male,control,25.2,13.2,normal,210.39633,normal,772.0
+82Z-CD084,male,control,27.3,13.7,normal,220.59967,abnormal,803.0
+82Z-CD085,female,control,21.7,13.1,normal,194.444,normal,789.0
+82Z-CD086,female,control,23.9,13.5,normal,201.34233,normal,682.0
+82Z-CD087,female,control,21.1,14.1,normal,203.354,normal,799.0
+82Z-CD088,male,control,28.3,14.4,normal,244.16867,normal,761.0
+82Z-CD094,female,control,22.1,13.7,normal,156.935,normal,751.0
+82Z-CD095,female,control,25.6,13.9,normal,221.89333,normal,669.0
+82Z-CD096,female,control,24.9,13.7,normal,194.73134,normal,685.0
+82Z-CD160,female,control,23.5,15.1,normal,242.15666,normal,699.0
+82Z-CD169,male,control,28.5,13.4,normal,220.456,normal,696.0
+82Z-CD170,female,control,23.5,13.5,normal,220.31233,normal,697.0
+82Z-CD249,female,control,24.4,13.3,normal,280.38467,normal,784.0
+82Z-CD250,female,control,21.7,14.3,normal,166.42,normal,833.0
+82Z-CD251,female,control,22.7,13.4,normal,228.36034,normal,694.0
+82Z-CD252,female,control,23.7,12.9,normal,237.989,normal,692.0
+82Z-CD254,male,control,26.4,13.3,normal,268.025,normal,775.0
+82Z-CD255,male,control,26.0,13.5,normal,245.89333,normal,765.0
+82Z-CD256,male,control,27.8,11.8,normal,274.92368,normal,649.0
+82Z-CD257,male,control,24.4,13.0,normal,259.83368,normal,677.0
+82Z-CD258,female,control,23.7,13.1,normal,243.88133,normal,740.0
+82Z-CD259,female,control,23.2,13.5,normal,202.49167,normal,788.0
+82Z-CD260,female,control,21.5,12.9,normal,233.534,normal,635.0
+82Z-CD261,male,control,25.3,13.9,normal,245.17467,normal,742.0
+82Z-CD262,male,control,27.5,14.0,normal,214.564,normal,754.0
+82Z-CD317,male,control,31.5,15.1,normal,257.39032,normal,750.0
+82Z-CD318,male,control,30.3,13.9,normal,202.63567,normal,745.0
+82Z-CD319,male,control,29.4,14.1,normal,260.40833,normal,754.0
+82Z-CD334,male,control,25.0,14.1,normal,227.21066,normal,748.0
+82Z-CD335,male,control,27.4,12.4,normal,218.15666,normal,785.0
+82Z-CD336,female,control,23.0,13.4,normal,229.36633,normal,722.0
+82Z-CD338,female,control,23.2,12.7,normal,220.45633,normal,709.0
+82Z-CD339,female,control,22.6,12.7,right eye abnormal,218.87534,normal,736.0
+82Z-CD340,female,control,22.2,13.2,normal,201.486,normal,776.0
+82Z-CD380,male,control,26.0,13.7,normal,236.69566,normal,745.0
+82Z-CD383,male,control,27.4,12.4,normal,202.20433,normal,749.0
+82Z-CD384,female,control,24.0,13.6,normal,208.24033,normal,754.0
+82Z-CD385,female,control,24.6,14.7,normal,202.92334,normal,803.0
+82Z-CD491,female,control,22.0,13.5,normal,221.60567,normal,763.0
+82Z-CD492,female,control,21.7,13.6,normal,182.228,normal,779.0
+82Z-CD493,female,control,22.5,13.8,normal,234.82733,normal,713.0
+82Z-CD494,female,control,22.0,13.9,normal,254.80333,normal,762.0
+82Z-CD495,female,control,23.3,13.8,normal,189.55766,normal,753.0
+82Z-CD496,female,control,22.6,14.3,normal,216.28833,normal,765.0
+82Z-CD563,male,control,31.0,13.4,normal,236.121,normal,777.0
+82Z-CD564,male,control,30.6,14.5,normal,267.30667,normal,758.0
+82Z-CD565,male,control,29.9,13.6,normal,236.83966,normal,720.0
+82Z-CD569,male,control,27.2,13.0,normal,212.55167,normal,796.0
+82Z-CD570,male,control,27.9,12.4,normal,214.564,normal,722.0
+82Z-CD571,male,control,28.6,14.1,normal,203.498,normal,702.0
+82Z-CD572,male,control,27.2,12.3,normal,213.989,normal,831.0
+82Z-CD573,female,control,23.1,13.0,normal,186.39566,normal,770.0
+82Z-CD574,female,control,22.4,13.9,normal,163.68933,normal,781.0
+82Z-CD642,male,control,26.5,12.7,normal,252.07333,normal,765.0
+82Z-CD643,male,control,29.7,13.9,normal,247.33034,normal,791.0
+82Z-CD644,male,control,27.5,12.8,normal,258.97134,normal,771.0
+82Z-CD646,female,control,24.7,13.9,normal,232.81567,normal,784.0
+82Z-CD647,female,control,23.3,12.1,normal,207.378,normal,774.0
+83S-I5033,male,control,30.7,13.5,normal,236.26433,abnormal,775.0
+83S-I5034,male,control,29.1,13.4,normal,253.94133,normal,737.0
+83S-I5035,male,control,26.9,12.7,normal,253.65367,normal,730.0
+83S-I5036,male,control,27.19,13.1,normal,268.88733,normal,729.0
+83S-I5037,male,control,31.1,14.0,normal,200.19234,abnormal,743.0
+83S-I5039,female,control,22.3,13.6,normal,227.067,normal,799.0
+83S-I5040,female,control,23.0,13.1,normal,216.14467,abnormal,726.0
+83S-I5041,female,control,22.2,17.2,normal,223.90533,normal,742.0
+83Z-00001,male,control,26.7,14.6,normal,196.46666,normal,664.0
+83Z-00002,male,control,28.3,14.7,normal,204.7,normal,652.0
+83Z-00003,male,control,26.3,14.2,normal,221.93333,normal,738.0
+83Z-00004,male,control,29.7,11.6,normal,236.66667,normal,650.0
+83Z-00006,male,control,28.6,14.3,normal,219.23334,normal,596.0
+83Z-00007,male,control,28.5,14.1,normal,247.96666,normal,681.0
+83Z-00008,female,control,24.6,15.0,normal,197.03334,normal,734.0
+83Z-00009,female,control,24.3,14.0,normal,204.46666,normal,690.0
+83Z-00010,female,control,23.0,14.1,normal,154.5,normal,735.0
+83Z-00011,female,control,23.5,14.3,normal,185.16667,normal,794.0
+83Z-00012,female,control,23.3,14.7,normal,172.16667,normal,677.0
+83Z-00013,female,control,23.4,14.6,normal,178.63333,normal,743.0
+83Z-00014,female,control,22.9,14.0,normal,191.66667,normal,781.0
+83Z-00372,female,control,23.7,13.9,normal,241.72566,normal,766.0
+83Z-00373,female,control,24.6,13.2,normal,244.45633,normal,721.0
+83Z-01067,male,control,31.7,14.2,both eyes abnormal,282.54034,normal,744.0
+83Z-01068,male,control,29.7,13.6,normal,250.63567,normal,737.0
+83Z-01069,male,control,30.5,13.6,normal,210.53967,normal,729.0
+83Z-01070,female,control,26.2,13.2,normal,200.911,normal,769.0
+83Z-01084,male,control,30.2,13.0,right eye abnormal,239.85733,normal,748.0
+83Z-01085,male,control,27.6,14.3,normal,237.989,normal,755.0
+83Z-01086,male,control,30.1,13.8,normal,228.648,normal,766.0
+83Z-01087,male,control,27.1,13.5,normal,227.49767,normal,766.0
+83Z-01088,female,control,22.7,13.2,normal,220.456,normal,790.0
+83Z-01090,female,control,25.0,14.3,normal,254.22867,normal,769.0
+83Z-01091,female,control,23.7,14.0,normal,227.21033,normal,765.0
+83Z-01092,female,control,23.2,13.8,normal,251.642,normal,716.0
+83Z-02046,male,control,32.6,12.2,right eye abnormal,268.44434,normal,817.0
+83Z-02047,female,control,23.5,14.1,normal,240.68066,normal,764.0
+83Z-02059,male,control,24.8,13.9,left eye abnormal,222.29933,normal,741.0
+83Z-02060,male,control,25.9,13.7,left eye abnormal,230.72433,normal,802.0
+83Z-02061,male,control,25.0,12.9,normal,268.06168,normal,776.0
+83Z-02062,male,control,25.7,13.5,normal,217.51266,normal,750.0
+83Z-02063,male,control,26.5,13.1,normal,223.63966,normal,829.0
+83Z-02065,female,control,23.1,12.8,normal,191.66367,normal,769.0
+83Z-02519,male,control,29.1,13.9,normal,253.36633,normal,796.0
+83Z-02753,male,control,28.7,13.1,normal,258.54034,abnormal,746.0
+83Z-02754,male,control,26.9,13.3,left eye abnormal,203.78534,abnormal,753.0
+83Z-02755,female,control,25.3,11.8,left eye abnormal,226.77933,normal,759.0
+83Z-02756,female,control,25.0,13.8,normal,206.372,normal,748.0
+83Z-02869,female,control,22.7,14.2,normal,202.06067,normal,724.0
+83Z-02870,female,control,23.1,13.7,normal,200.76733,normal,761.0
+83Z-02974,male,control,29.4,12.8,normal,255.37833,normal,782.0
+83Z-02975,female,control,22.16,14.6,normal,215.57,normal,741.0
+83Z-02976,female,control,23.83,12.2,normal,248.33667,normal,729.0
+83Z-02977,female,control,23.9,13.4,normal,180.791,normal,766.0
+83Z-02978,female,control,22.7,13.3,normal,248.624,normal,724.0
+83Z-02979,female,control,23.5,13.1,normal,242.30034,normal,717.0
+83Z-02980,female,control,22.7,13.9,normal,221.893,normal,792.0
+83Z-02981,female,control,23.9,15.4,normal,231.09067,normal,737.0
+83Z-03262,female,control,26.7,13.4,normal,248.48033,normal,770.0
+83Z-03263,female,control,23.1,13.5,normal,191.71333,normal,776.0
+83Z-03264,female,control,24.9,13.2,normal,212.26433,normal,791.0
+83Z-30371,female,control,22.8,12.6,normal,218.66133,normal,765.0
+83Z-30372,female,control,22.7,13.3,normal,213.87466,normal,695.0
+83Z-40760,male,control,29.4,14.7,normal,194.13333,normal,683.0
+83Z-40761,male,control,27.6,14.6,normal,205.83333,abnormal,753.0
+83Z-40762,male,control,28.6,14.1,normal,205.43333,normal,783.0
+83Z-40763,male,control,27.3,14.6,left eye abnormal,251.03334,normal,729.0
+83Z-40764,male,control,28.0,13.4,normal,166.6,normal,552.0
+83Z-40765,male,control,27.9,14.4,normal,223.26666,normal,744.0
+83Z-40767,female,control,23.2,14.7,normal,190.73334,normal,730.0
+83Z-40768,female,control,23.9,14.3,normal,275.3,normal,690.0
+83Z-40769,female,control,23.64,14.9,normal,196.83333,normal,744.0
+83Z-40770,female,control,22.9,14.2,normal,278.23334,normal,759.0
+83Z-40771,female,control,21.7,14.2,normal,177.1,normal,716.0
+83Z-40772,female,control,20.4,14.5,normal,188.43333,normal,764.0
+83Z-40773,female,control,20.6,14.9,left eye abnormal,196.63333,normal,724.0
+83Z-40774,male,control,27.7,14.9,normal,201.63333,normal,759.0
+83Z-40775,male,control,29.3,14.6,normal,224.8,normal,682.0
+83Z-40776,male,control,28.0,14.3,left eye abnormal,226.33333,normal,719.0
+83Z-40777,male,control,30.9,13.7,normal,193.4,normal,717.0
+83Z-40778,male,control,28.6,14.5,normal,229.6,normal,715.0
+83Z-40779,male,control,30.6,12.6,normal,213.66667,normal,686.0
+83Z-40780,male,control,29.3,14.5,normal,214.26666,normal,708.0
+83Z-40781,female,control,24.63,13.8,normal,177.33333,normal,732.0
+83Z-40782,female,control,26.27,13.6,normal,221.16667,normal,604.0
+83Z-40783,female,control,23.94,14.6,normal,185.53334,normal,707.0
+83Z-40784,female,control,23.8,13.1,normal,239.5,normal,576.0
+83Z-40785,female,control,24.16,13.7,normal,206.6,normal,677.0
+83Z-40786,female,control,23.69,14.2,normal,210.63333,abnormal,752.0
+83Z-40787,female,control,23.94,14.6,normal,186.13333,normal,718.0
+83Z-65868,female,control,23.8,13.6,normal,206.599,normal,720.0
+83Z-65869,female,control,22.0,13.6,normal,201.62033,normal,781.0
+83Z-65870,female,control,20.6,13.7,right eye abnormal,188.983,normal,722.0
+83Z-65898,female,control,20.6,13.0,normal,169.07,normal,769.0
+83Z-65899,female,control,21.1,12.6,normal,205.44966,normal,758.0
+83Z-65900,female,control,19.9,13.9,normal,154.90067,normal,656.0
+83Z-65901,female,control,20.8,13.3,normal,175.57967,normal,801.0
+83Z-65936,male,control,27.0,13.1,normal,214.83234,normal,778.0
+83Z-65937,male,control,28.3,13.3,normal,216.938,normal,751.0
+83Z-66350,male,control,26.7,13.7,right eye abnormal,205.64133,normal,741.0
+83Z-66351,male,control,28.5,13.4,normal,275.33768,normal,798.0
+83Z-66352,male,control,26.1,13.2,normal,258.679,normal,815.0
+83Z-85262,female,control,21.3,14.4,normal,192.42967,normal,750.0
+83Z-85263,female,control,24.6,14.9,normal,207.747,normal,738.0
+83Z-85264,female,control,23.1,15.0,normal,164.09166,normal,719.0
+83Z-87372,male,control,27.2,14.0,normal,178.835,normal,780.0
+83Z-87373,male,control,23.4,13.7,normal,227.469,normal,764.0
+83Z-88789,male,control,32.9,13.3,normal,212.34267,normal,785.0
+83Z-88790,male,control,29.6,13.6,normal,248.33966,normal,883.0
+83Z-88791,male,control,30.8,13.4,normal,207.36433,normal,754.0
+83Z-88802,female,control,22.6,13.7,left eye abnormal,174.24,normal,769.0
+83Z-89015,male,control,30.2,13.2,normal,225.937,normal,679.0
+83Z-89016,male,control,29.4,12.5,both eyes abnormal,220.19333,normal,720.0
+83Z-89017,male,control,31.9,13.0,left eye abnormal,197.408,normal,759.0
+83Z-89021,male,control,27.9,14.4,normal,235.31934,normal,786.0
+83Z-90228,male,control,26.8,13.8,normal,185.15367,abnormal,779.0
+83Z-90229,male,control,27.6,13.3,normal,195.68466,abnormal,762.0
+83Z-90230,female,control,25.2,14.3,normal,197.59933,abnormal,778.0
+83Z-90231,female,control,26.7,13.9,normal,196.259,abnormal,769.0
+83Z-90299,male,control,28.5,14.0,left eye abnormal,196.259,normal,763.0
+83Z-90300,male,control,26.3,13.4,normal,167.347,normal,731.0
+83Z-90301,male,control,26.1,13.9,normal,178.452,normal,740.0
+83Z-90302,male,control,26.1,13.5,normal,173.66533,normal,714.0
+83Z-90303,male,control,26.3,14.1,left eye abnormal,202.386,normal,744.0
+83Z-90304,female,control,23.6,13.4,normal,207.55566,normal,794.0
+83Z-90305,female,control,22.4,13.7,normal,215.023,normal,735.0
+83Z-90319,female,control,24.2,13.6,normal,203.918,abnormal,694.0
+83Z-EPJ70,female,control,22.6,14.1,both eyes abnormal,228.06667,normal,759.0
+E64-00043,male,control,28.9,14.9,normal,216.74667,normal,784.0
+E64-00044,male,control,24.6,13.6,normal,236.08533,normal,764.0
+E64-00045,female,control,21.8,14.2,normal,222.29967,normal,742.0
+E64-00046,female,control,22.2,14.3,normal,184.579,normal,720.0
+E64-00047,female,control,24.0,14.1,normal,274.95435,normal,733.0
+E64-00048,female,control,23.0,14.9,normal,258.296,normal,775.0
+E64-00049,female,control,21.9,14.7,normal,213.10867,normal,774.0
+E64-00050,female,control,22.3,14.0,normal,230.91566,normal,691.0
+E64-00051,male,control,26.5,13.4,normal,287.4,normal,729.0
+E64-00052,male,control,27.9,14.3,normal,268.827,normal,797.0
+E64-00053,male,control,24.9,13.5,normal,221.342,normal,760.0
+E64-00054,male,control,24.5,14.6,normal,260.40234,normal,652.0
+E64-00055,male,control,25.5,13.3,normal,264.99768,normal,765.0
+E64-00056,female,control,23.2,14.1,normal,169.63333,normal,720.0
+E64-00072,male,control,25.3,14.4,normal,194.727,normal,713.0
+E64-00074,male,control,22.4,15.7,normal,190.515,normal,709.0
+E64-00075,male,control,27.4,15.2,normal,239.72333,normal,662.0
+E64-00076,male,control,28.01,15.3,normal,234.17067,normal,710.0
+E64-00077,female,control,24.5,14.8,normal,205.44966,normal,782.0
+E64-00078,female,control,22.1,14.2,normal,156.43266,normal,774.0
+E64-00079,female,control,22.5,15.0,normal,191.47234,normal,762.0
+E64-00080,male,control,26.82,15.2,normal,181.51567,normal,723.0
+E64-00081,male,control,24.2,14.1,normal,213.683,normal,728.0
+E64-00082,female,control,23.63,15.0,right eye abnormal,199.89734,normal,708.0
+E64-00083,female,control,23.76,14.7,normal,168.304,normal,797.0
+E64-00085,female,control,23.6,14.1,right eye abnormal,191.47234,normal,682.0
+E64-00170,male,control,28.5,14.1,normal,233.788,normal,780.0
+E64-00171,male,control,26.0,14.7,normal,246.99933,normal,775.0
+E64-00172,male,control,28.3,14.6,normal,240.10667,normal,727.0
+E64-00173,male,control,26.6,14.9,right eye abnormal,235.894,normal,758.0
+E64-00174,female,control,23.28,15.0,normal,170.60167,normal,780.0
+E64-00175,female,control,22.9,13.8,normal,222.29967,normal,776.0
+E64-00176,female,control,22.1,14.0,normal,251.59467,normal,806.0
+E64-00177,male,control,25.6,14.0,normal,212.53433,normal,772.0
+E64-00178,male,control,24.2,13.9,normal,221.53334,normal,723.0
+E64-00179,male,control,25.6,14.2,both eyes abnormal,226.70334,normal,792.0
+E64-00180,female,control,24.9,14.1,normal,163.709,normal,785.0
+E64-00181,female,control,22.8,13.9,normal,211.577,normal,779.0
+E64-00182,female,control,22.3,14.2,normal,227.086,normal,787.0
+E64-00183,female,control,21.8,13.8,normal,219.42734,normal,745.0
+E64-00184,female,control,21.2,14.3,normal,188.79134,normal,773.0
+E64-00200,male,control,25.7,13.8,normal,212.15134,normal,742.0
+E64-00201,male,control,23.8,13.8,normal,231.29866,normal,789.0
+E64-00202,male,control,25.9,14.6,right eye abnormal,210.23666,normal,854.0
+E64-00204,male,control,24.0,14.8,normal,202.76933,normal,753.0
+E64-00205,male,control,22.5,14.0,normal,188.60033,normal,787.0
+E64-00207,female,control,24.5,14.5,normal,243.553,normal,781.0
+E64-00208,female,control,23.5,15.4,normal,197.40767,normal,800.0
+E64-00209,female,control,20.3,14.1,normal,174.814,normal,774.0
+E64-00210,female,control,20.8,14.1,normal,183.047,normal,818.0
+E64-00215,female,control,24.1,14.5,normal,210.811,normal,750.0
+E64-00216,female,control,24.7,14.2,normal,191.47234,normal,734.0
+E64-00230,female,control,23.7,12.9,normal,188.98334,normal,783.0
+E64-00232,female,control,27.1,14.0,normal,210.61966,normal,786.0
+E64-00233,female,control,23.6,13.6,normal,242.787,normal,772.0
+E64-00234,female,control,22.7,13.9,normal,259.254,normal,783.0
+E64-00235,female,control,24.8,13.7,normal,262.7,normal,791.0
+E64-00236,female,control,22.5,13.5,normal,213.10867,normal,804.0
+E64-00268,male,control,26.2,12.8,right eye abnormal,236.468,normal,804.0
+E64-00269,male,control,27.7,14.2,normal,297.73965,normal,772.0
+E64-00270,male,control,24.5,14.3,normal,224.597,normal,730.0
+E64-00271,male,control,25.9,14.8,normal,229.38367,normal,727.0
+E64-00272,male,control,23.0,14.2,normal,237.04266,normal,744.0
+E64-00340,male,control,26.6,13.2,normal,240.87233,normal,775.0
+E64-00341,male,control,25.9,13.6,normal,206.98167,normal,772.0
+E64-00342,male,control,27.7,14.0,normal,229.38367,normal,772.0
+E64-00343,male,control,25.9,13.7,normal,201.62033,normal,788.0
+E64-00344,male,control,25.0,13.5,normal,224.98,abnormal,784.0
+E64-00345,male,control,27.9,13.8,normal,230.341,normal,766.0
+E64-00347,female,control,26.5,12.4,normal,290.46365,normal,823.0
+E64-00348,female,control,22.2,14.3,normal,224.21434,abnormal,781.0
+E64-00365,female,control,23.1,14.2,normal,230.15,normal,792.0
+E64-00366,female,control,29.0,13.7,normal,234.36234,normal,789.0
+E64-00367,female,control,21.1,14.0,normal,219.427,normal,791.0
+E64-00368,female,control,22.2,14.5,normal,216.938,normal,779.0
+E64-00369,female,control,22.5,14.0,normal,238.383,normal,766.0
+E64-00484,male,control,26.4,15.0,right eye abnormal,266.52933,normal,806.0
+E64-00485,male,control,26.3,13.0,normal,267.87,normal,788.0
+E64-00486,male,control,25.1,14.0,left eye abnormal,213.30034,normal,720.0
+E64-00487,male,control,23.8,14.8,right eye abnormal,198.74834,normal,777.5
+E64-00488,male,control,24.3,15.0,normal,209.088,normal,777.0
+E64-00489,female,control,23.3,14.2,normal,215.98067,normal,807.0
+E64-00503,male,control,25.9,14.1,left eye abnormal,229.575,normal,763.0
+E64-00504,male,control,24.6,14.5,normal,213.87466,normal,774.0
+E64-00508,female,control,23.2,14.6,right eye abnormal,237.80867,normal,824.0
+E64-00509,female,control,24.2,14.4,normal,243.55267,normal,813.0
+E64-00510,female,control,21.9,14.4,right eye abnormal,222.108,normal,802.0
+E64-00514,female,control,22.6,14.3,normal,229.57533,normal,772.0
+E64-00515,female,control,24.0,14.0,normal,221.53334,normal,814.0
+E64-00559,male,control,25.0,14.4,left eye abnormal,190.132,normal,763.0
+E64-00560,male,control,24.4,13.7,left eye abnormal,234.17067,normal,677.0
+E64-00562,male,control,26.1,14.5,normal,209.08766,normal,752.0
+E64-00565,female,control,23.5,13.8,normal,235.128,normal,750.0
+E64-00566,female,control,23.0,13.8,normal,167.538,normal,769.0
+E64-00567,male,control,27.7,14.4,normal,231.29866,normal,732.0
+E64-00568,male,control,26.5,13.6,normal,234.93666,normal,739.0
+E64-00569,male,control,31.0,13.8,right eye abnormal,259.828,normal,793.0
+E64-00570,female,control,21.2,14.0,normal,195.493,normal,799.0
+E64-00571,female,control,21.1,14.2,normal,196.83333,normal,792.0
+E64-00572,female,control,20.5,12.9,normal,202.96066,normal,757.0
+E64-00573,female,control,22.0,13.4,normal,196.642,normal,804.0
+E64-00576,male,control,30.3,12.9,normal,290.272,normal,773.0
+E64-00577,male,control,31.9,13.6,normal,307.12167,normal,761.0
+E64-00578,female,control,28.0,13.6,normal,237.80867,normal,729.0
+E64-00579,female,control,25.5,13.7,normal,203.152,normal,722.0
+E64-00907,male,control,25.6,13.5,normal,251.40334,normal,761.0
+E64-00908,male,control,36.9,13.6,normal,220.95934,normal,777.0
+E64-00909,male,control,26.8,14.0,normal,276.67767,normal,707.0
+E64-00918,male,control,28.2,14.0,normal,256.76468,normal,759.0
+E64-00919,male,control,25.1,14.4,normal,237.80867,normal,793.0
+E64-00926,female,control,22.1,13.1,normal,213.683,normal,818.0
+E64-00927,male,control,28.7,13.8,normal,236.08533,normal,798.0
+E64-00928,male,control,27.0,9.9,both eyes abnormal,263.466,normal,709.0
+E64-00929,female,control,23.2,13.8,normal,201.81166,normal,729.0
+E64-00930,female,control,23.1,11.7,normal,200.663,normal,750.0
+E64-00931,female,control,23.9,14.4,normal,275.33734,normal,796.0
+E64-00932,female,control,21.6,13.9,normal,205.258,normal,795.0
+E64-00933,female,control,22.9,13.7,normal,223.831,normal,786.0
+E64-00934,female,control,23.5,13.6,normal,243.16966,normal,761.0
+E64-01167,male,control,23.2,14.0,normal,200.85434,normal,746.0
+E64-01168,male,control,24.7,14.7,normal,222.49066,normal,676.0
+E64-01169,male,control,28.7,14.0,normal,293.71866,normal,735.0
+E64-01170,male,control,23.5,13.6,normal,255.99834,abnormal,629.0
+E64-01217,male,control,26.7,14.4,normal,257.91333,normal,802.0
+E64-01218,male,control,22.8,14.3,normal,177.112,normal,739.0
+E64-01220,male,control,20.0,14.2,normal,162.751,normal,629.0
+E64-01221,female,control,22.5,13.0,normal,223.06534,normal,786.0
+E64-01222,female,control,23.6,13.9,normal,185.91933,normal,803.0
+E64-01223,female,control,23.5,14.1,normal,182.09,normal,743.0
+E64-01224,female,control,23.2,14.4,normal,230.724,normal,781.0
+E64-01225,female,control,23.5,14.0,normal,226.129,normal,758.0
+E64-01226,female,control,23.7,13.9,normal,233.40466,normal,780.0
+E64-01298,male,control,29.1,13.0,normal,280.50732,normal,767.0
+E64-01299,male,control,27.4,13.8,normal,231.29866,normal,743.0
+E64-01300,male,control,25.5,13.6,normal,241.638,normal,674.0
+E64-01301,male,control,29.4,13.8,left eye abnormal,229.57567,normal,707.0
+E64-01302,female,control,21.9,13.6,normal,192.04634,normal,770.0
+E64-01303,female,control,25.2,13.2,normal,211.194,normal,792.0
+E64-01304,female,control,23.9,13.3,normal,223.63966,normal,803.0
+E64-01305,female,control,24.2,13.9,normal,219.81033,normal,800.0
+E64-01314,male,control,27.3,14.2,normal,249.10533,normal,809.0
+E64-01315,male,control,23.2,14.8,normal,188.02567,normal,769.0
+E64-01316,male,control,30.3,14.3,normal,229.76666,normal,746.0
+E64-01317,male,control,29.2,13.3,normal,226.51167,normal,768.0
+E64-01318,female,control,21.6,14.1,normal,237.04266,normal,786.0
+E64-01319,female,control,21.3,14.2,normal,195.685,normal,799.0
+E64-01320,female,control,23.5,12.3,normal,206.407,normal,573.0
+E64-01321,male,control,28.1,13.8,normal,219.04433,normal,770.0
+E64-01322,male,control,29.0,13.4,normal,239.915,normal,769.0
+E64-01325,female,control,22.5,13.6,normal,234.93634,normal,757.0
+E64-01383,male,control,24.2,13.8,normal,212.72566,normal,703.0
+E64-01385,male,control,25.6,13.9,normal,182.47333,normal,789.0
+E64-01386,male,control,29.0,13.2,right eye abnormal,219.04466,normal,814.0
+E64-01387,male,control,31.2,13.5,normal,234.55367,normal,780.0
+E64-01415,male,control,29.7,14.1,normal,256.573,normal,760.0
+E64-01416,male,control,28.5,14.9,normal,225.93733,normal,729.0
+E64-01417,female,control,24.8,14.4,normal,187.834,normal,800.0
+E64-01418,female,control,24.1,15.0,normal,211.577,normal,785.0
+E64-01424,female,control,22.6,14.1,normal,222.49066,normal,713.0
+E64-01425,female,control,22.9,14.2,normal,206.79,normal,770.0
+E64-01426,female,control,21.5,14.9,normal,167.72934,normal,803.0
+E64-01427,female,control,23.4,14.4,right eye abnormal,223.25667,normal,791.0
+E64-01428,female,control,21.6,14.9,normal,178.64366,normal,721.0
+E64-01506,male,control,24.7,14.3,normal,220.95934,normal,787.0
+E64-01507,male,control,24.3,14.1,normal,193.76967,normal,705.0
+E64-01508,female,control,23.2,14.1,normal,200.85434,normal,698.0
+E64-01509,female,control,24.3,14.0,normal,203.72667,normal,783.0
+E64-01510,female,control,23.3,13.6,normal,199.13133,normal,787.0
+E64-01511,female,control,21.0,14.0,normal,206.21567,normal,704.0
+E64-01512,female,control,21.9,14.0,normal,201.04567,normal,792.0
+E64-01513,female,control,23.2,14.0,normal,183.239,normal,732.0
+E64-01514,female,control,22.6,13.9,normal,162.56,normal,773.0
+E64-01700,female,control,23.0,13.4,normal,229.38367,normal,816.0
+E64-01701,female,control,22.5,13.8,normal,200.08867,normal,782.0
+E64-01702,female,control,25.5,14.1,normal,281.84732,normal,797.0
+E64-01703,female,control,21.8,13.8,normal,221.15033,normal,748.0
+E64-01704,female,control,22.5,14.6,normal,243.36133,normal,621.0
+E64-01705,female,control,23.9,13.9,normal,202.386,normal,815.0
+E64-01706,male,control,25.6,13.7,normal,271.31635,normal,678.0
+E64-01708,female,control,22.0,13.7,normal,217.704,normal,708.0
+E64-01754,male,control,27.9,13.5,normal,244.31866,normal,776.0
+E64-01755,male,control,26.3,13.7,normal,223.25667,normal,751.0
+E64-01756,male,control,25.2,13.0,normal,252.36067,normal,681.0
+E64-01757,male,control,26.7,13.6,normal,227.85167,normal,629.0
+E64-01758,male,control,28.1,14.0,normal,318.80167,normal,791.0
+E64-01795,male,control,25.7,14.0,normal,193.004,normal,723.0
+E64-01797,male,control,23.3,13.8,normal,258.87067,normal,799.0
+E64-01798,female,control,22.9,13.1,normal,211.38533,normal,794.0
+E64-01799,female,control,22.8,13.7,normal,198.74834,normal,759.0
+E64-01800,female,control,23.8,13.7,normal,199.13133,normal,753.0
+E64-01801,female,control,22.8,14.2,normal,178.26067,normal,756.0
+E64-01955,female,control,18.7,13.0,normal,148.00766,normal,782.0
+E64-01956,female,control,19.6,14.3,normal,191.28067,normal,798.0
+E64-01957,female,control,23.3,13.9,normal,170.98466,normal,791.0
+E64-01958,female,control,22.5,13.0,normal,166.198,normal,788.0
+E64-01959,female,control,24.7,13.0,normal,206.78967,normal,682.0
+E64-01960,male,control,26.7,13.9,normal,186.68533,normal,762.0
+E64-01961,male,control,28.6,13.6,normal,193.387,normal,758.0
+E64-01962,male,control,28.9,13.8,normal,196.83333,normal,789.0
+E64-01963,female,control,22.8,13.5,normal,196.45067,normal,722.0
+E64-02005,male,control,21.3,11.5,normal,182.09,normal,785.0
+E64-02006,male,control,26.7,13.8,normal,220.193,normal,803.0
+E64-02007,male,control,26.5,13.6,normal,239.532,normal,772.0
+E64-02008,male,control,21.4,13.2,normal,148.008,normal,630.0
+E64-02009,male,control,24.3,13.4,normal,235.70233,normal,736.0
+E64-02010,male,control,26.6,14.0,normal,259.63666,normal,779.0
+E64-02012,female,control,20.7,14.3,normal,225.55434,normal,652.0
+E64-02013,female,control,19.5,13.4,normal,198.94,normal,772.0
+E64-02014,female,control,21.7,14.0,normal,197.025,normal,726.0
+E64-02116,male,control,28.0,14.3,normal,190.32333,normal,811.0
+E64-02117,male,control,25.5,14.0,normal,180.74966,normal,695.0
+E64-02118,male,control,28.6,13.8,normal,185.91966,normal,789.0
+E64-02119,female,control,21.7,14.3,normal,160.64534,normal,811.0
+E64-02120,female,control,18.9,14.2,normal,176.53767,normal,808.0
+E64-02122,male,control,26.2,13.7,normal,168.49567,normal,793.0
+E64-02125,female,control,22.2,13.2,normal,188.60033,normal,750.0
+E64-02126,female,control,23.5,13.1,normal,174.23967,normal,791.0
+E64-02127,female,control,22.4,14.2,normal,193.77,normal,706.0
+E64-02128,female,control,22.3,13.7,normal,172.13333,normal,749.0
+E64-02158,male,control,21.7,12.7,normal,189.749,normal,725.0
+E64-02159,male,control,27.3,13.7,normal,166.198,normal,811.0
+E64-02160,male,control,23.5,13.7,normal,193.19533,normal,730.0
+E64-02630,male,control,28.3,13.8,left eye abnormal,190.32333,normal,749.0
+E64-02631,male,control,25.7,14.9,both eyes abnormal,238.383,normal,818.0
+E64-02632,male,control,23.4,14.4,normal,193.38733,normal,705.0
+E64-02634,male,control,23.5,14.5,normal,240.10634,normal,743.0
+E64-02635,female,control,19.6,14.0,normal,244.127,normal,748.0
+E64-02636,female,control,19.8,13.8,normal,205.067,normal,738.0
+E64-02637,female,control,19.9,13.9,normal,296.208,normal,685.0
+E64-02638,female,control,24.0,14.8,normal,261.74268,normal,710.0
+E64-02639,female,control,24.3,14.0,both eyes abnormal,251.78633,normal,788.0
+E64-02647,male,control,26.7,14.1,right eye abnormal,243.16966,normal,747.0
+E64-02648,male,control,24.5,13.3,normal,192.238,normal,637.0
+E64-02652,female,control,23.0,13.6,normal,259.63666,normal,745.0
+E64-02653,female,control,24.2,13.9,normal,339.86368,normal,752.0
