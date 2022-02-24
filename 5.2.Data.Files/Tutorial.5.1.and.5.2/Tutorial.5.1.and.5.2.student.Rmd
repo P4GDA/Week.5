@@ -172,7 +172,7 @@ Use any type of indexing to return a data frame containing the sample, city, and
 
 ---
 
-## 5.1.3: Data Frame Modification
+## 5.1.4: Data Frame Modification
 
 ---
 
