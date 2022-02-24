@@ -298,7 +298,7 @@ To write a CSV file, set `sep` to ",". To write a TSV file, set `sep` to "\t".
 
 Generally you only need to provide the arguments `data_frame`, `file`, and `sep`. However, if you plan to open the file with spreadsheet software, it is recommended to set `row.names` to `FALSE`.
 
-Let's write our updated data frame to a file in the PWD called "Ap4e1_phenotypes_v2.csv":
+Let's write our updated data frame to a file in the PWD called "Ap4e1_phenotypes_v2.csv" (remember that the PWD is `/home/jovyan/Week.5/5.2.Data.Files`):
 
 ```{r}
 write.table(Ap4e1_data, "Ap4e1_phenotypes_v2.csv", sep=",")
