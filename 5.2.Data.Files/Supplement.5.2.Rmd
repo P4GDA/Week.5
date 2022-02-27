@@ -9,13 +9,13 @@ knitr::opts_chunk$set(echo = TRUE, error = TRUE, warning = TRUE)
 
 ---
 
-## 5.2.1: Directory Structure
+## 5.2.1 Directory Structure
 
 ---
 
 ### Directories
 
-On your computer, your files are organized into folders. This system of folders is called the *directory structure*. A *directory* is the term used in computer science for "folder". In general, directory structures are organized in a hierarchical tree structure as is depicted below.
+On your computer, your files are organized into folders. This system of folders is called the *directory structure*. A *directory* is the term used in computer science for "folder". In general, directory structures are organized in a hierarchical tree structure as is depicted below:
 
                                   
                                   root directory
@@ -30,13 +30,13 @@ On your computer, your files are organized into folders. This system of folders 
           file1.txt     file2.txt          file3.txt        file
                            
                            
-This tree structure has 4 levels, starting at the top level which has one directory. This is called the *root directory* and it is the directory that contains all other files and directories. All hierarchical directory structures have a root directory, and the root directory does not have a name.
+This tree structure has 4 levels, starting at the top level which has one directory. This top level is called the *root directory* and it is the directory that contains all other files and directories. All hierarchical directory structures have a root directory, and the root directory does not have a name.
  
 In this example, the root directory contains two other directories, `dir_A` and `dir_B`, and one file. `dir_A` and `dir_B` are *child directories* of the `root directory`. A child directory is a directory contained within another directory. 
 
-Conversely, the root directory is the *parent directory* of `dir_A` and `dir_B`. A parent directory is the directory in which a file or another directory is contained. Files cannot have child directories (because they can't contain a directory), but they do have parent directories.
+Conversely, the root directory is the *parent directory* of `dir_A` and `dir_B`. A parent directory is the directory in which a file or another directory is contained. Files cannot have child directories (because they can't contain a directory), but all files have parent directories.
 
-All directories (except the root directory) have **one** parent directory. However, a directory can have many child directories.
+All directories (except the root directory) have *one* parent directory. However, a directory can have many child directories.
 
 Here are a few more examples of parent and child directories within the directory structure depicted above:
 - `dir_A` is the parent directory of `dir_C`
@@ -48,7 +48,7 @@ Here are a few more examples of parent and child directories within the director
 
 ### Paths
 
-When we need to access a specific file on our computer, we can click through folders to find the file. However, when we are working in R, and later when we work in the shell, we will not be able to use this interactive file selection method. Instead we identify the file we want access using its *path* - the location of the file or directory within the directory structure. 
+When we need to access a specific file on our computer, we can click through folders to find the file. However, when we are working in R, and later when we work in the shell, we will not be able to use this interactive file selection method. Instead we identify the file we want access using its *path*, which is the location of the file or directory within the directory structure. 
 
 There are two ways to define a path: the absolute path and the relative path.
 
@@ -56,15 +56,15 @@ There are two ways to define a path: the absolute path and the relative path.
 
 The *absolute path* of a file or directory is the path starting from the `root directory`.
 
-The path to file or directory X must go through each tree level in order, starting from the root and progressing with the name of each subsequent directory that leads to X.
+The path to file or directory X must go through each tree level in order, starting from the root and progressing with the name of each subsequent directory that leads to X:
 
     /dir1/dir2/dir3/dir_or_file_X
 
-In the above example, `dir1` must be a child directory of the `root directory`, `dir2` must be a child directory of `dir1`, `dir3` must be a child directory of `dir2`, and the final directory or file X must be a child directory of `dir3`.
+In the above example, `dir1` must be a child directory of the `root directory`, `dir2` must be a child directory of `dir1`, `dir3` must be a child directory of `dir2`, and the final directory or file X must be a child of `dir3`.
 
-Because the `root directory` has no name, the first slash can be seen as following the nameless `root directory`.
+Because the `root directory` has no name, the first slash in the above path can be seen as following the nameless `root directory`.
 
-Let's define some paths for the files in this tree structure.
+Let's define some absolute paths for the files in this tree structure:
 
 
                                   root directory
@@ -153,7 +153,7 @@ getwd()
 
 ---
 
-## 5.2.2: File Types
+## 5.2.2 File Types
 
 ---
 
@@ -169,9 +169,9 @@ However, the raw data (numbers and letters, without any extra formatting) can al
 
 ### CSV Format
 
-One of the most common formats for storing spreadsheet data in a plain text file is the CSV (comma separated value) format. A CSV file stores data with each line containing a set of values separated (delimited) by commas. CSVs have the file extension `.csv`.
+One of the most common formats for storing spreadsheet data in a plain text file is the *CSV (comma separated value)* format. A CSV file stores data with each line containing a set of values separated (delimited) by commas. CSVs have the file extension `.csv`.
 
-Here is an example of the CSV file format, holding the Ap4e1 phenotypic data for four mutant and four control mice from https://www.mousephenotype.org. This is the same data used in the 5.1 supplement.
+Here is an example of the CSV file format, holding the Ap4e1 phenotypic data for four mutant and four control mice from https://www.mousephenotype.org. This is the same data used in Supplement 5.1:
 
     sex,mutant,HG,weight,grip
     female,TRUE,14.9,22.0,124.08
@@ -193,11 +193,11 @@ When using the CSV file format you must be cautious with using commas within a v
 
 ### TSV Format
 
-Another format for storing spreadsheet data in a plain text file is the TSV (tab separated value) format. A TSV file stores data with each line containing a set of values separated (delimited) by tabs. TSVs have the following file extensions: `.tsv`, `.txt`, and `.tab`.
+Another format for storing spreadsheet data in a plain text file is the *TSV (tab separated value)* format. A TSV file stores data with each line containing a set of values separated (delimited) by tabs. TSVs have the following file extensions: `.tsv`, `.txt`, and `.tab`.
 
 It is recommended to use the extension `.txt` with TSV files as some spreadsheet software can only open TSV files with the `.txt` extension.
 
-Here is the Ap4e1 phenotypic data again, this time in the TSV format.
+Here is the Ap4e1 phenotypic data again, this time in the TSV format:
 
     sex       mutant    HG      weight    grip
     female    TRUE      14.9    22.0      124.08
@@ -209,7 +209,7 @@ Here is the Ap4e1 phenotypic data again, this time in the TSV format.
     male      FALSE     13.4    29.5      231.11
     male      FALSE     14.9    30.9      210.68
 
-The first row is the header row which contains the names of each column (this is less commonly present in a TSV file). It is easier to see the five columns (sex, mutant, HG, weight, and grip) in this format compared to the CSV format.
+The first row is the header row which contains the names of each column (this is less commonly present in a TSV file). It is visually easier for us to see the five columns (sex, mutant, HG, weight, and grip) in this format compared to the CSV format.
 
 Like with the CSV formatted version of the data, each subsequent row following the header row contains the values for one of the mice, with tabs separating the values that are in different columns. Each row again contains 5 values.
 
@@ -217,7 +217,7 @@ If you are working with data that contains commas, is it better to use the TSV f
 
 ---
 
-## 5.2.3: Reading & Writing Files in R
+## 5.2.3 Reading & Writing Files in R
 
 ---
 
@@ -238,7 +238,8 @@ Importantly, in this course the `stringsAsFactors` argument should ALWAYS be set
 Let's read in the CSV file `/home/jovyan/Week.5/5.2.Data.Files/Ap4e1_phenotypes.csv`, which has a header row:
 
 ```{r}
-Ap4e1_data <- read.csv("/home/jovyan/Week.5/5.2.Data.Files/Ap4e1_phenotypes.csv", header=TRUE, stringsAsFactors=FALSE)
+Ap4e1_data <- read.csv("/home/jovyan/Week.5/5.2.Data.Files/Ap4e1_phenotypes.csv", 
+                       header = TRUE, stringsAsFactors = FALSE)
 Ap4e1_data
 ```
 
@@ -251,7 +252,7 @@ Files with any type of separator can be read in with the `read.table()` function
 Usage: `read.table(file, header = FALSE, sep = "", stringsAsFactors = TRUE)`
 Arguments:  `file` - path to file in directory structure
             `header` - logical indicating if the first line in the CSV contains column names (default = `FALSE`)
-            `sep` - delimiter character (default="")
+            `sep` - delimiter character (default = "")
             `stringsAsFactors` - logical indicating character values should be read as factors (default = `TRUE`)
 
 The main differences between this function and `read.csv()` are that:
@@ -264,8 +265,8 @@ Let's read in the TSV file `/home/jovyan/Week.5/5.2.Data.Files/Ap4e1_phenotypes.
 
 ```{r}
 setwd("/home/jovyan/Week.5/5.2.Data.Files")
-Ap4e1_data <- read.table("Ap4e1_phenotypes.txt", header=TRUE,  
-           sep="\t", stringsAsFactors=FALSE)
+Ap4e1_data <- read.table("Ap4e1_phenotypes.txt", header = TRUE,  
+                         sep = "\t", stringsAsFactors = FALSE)
 Ap4e1_data
 ```
 
@@ -282,7 +283,7 @@ Ap4e1_data$grip_norm <- Ap4e1_data$grip/Ap4e1_data$weight
 Ap4e1_data
 ```
 
-If we want to work with this updated data again without having to recreate this column every time we read the original file into R, we can write this data frame to a new file.
+If we want to work with this updated data again without having to recreate this column every time we read the original file into R, we can write this data frame to save it as a new file.
 
 To do this we can use the `write.table()` function. 
 
@@ -290,26 +291,27 @@ Usage: `write.table(data_frame, file, quote = TRUE, sep = "", row.names = TRUE, 
 Arguments:  `data.frame` - data frame that will be written to file
             `file` - path to where the file will be saved (absolute or relative)
             `quote` - surround all character values with quotes (default = `TRUE`)
-            `sep` - delimiter character (default="")
+            `sep` - delimiter character (default = "")
             `row.names` - write row names to file (default = `TRUE`)
             `col.names` - write column names to file (default = `TRUE`)
 
 To write a CSV file, set `sep` to ",". To write a TSV file, set `sep` to "\t".
 
-Generally you only need to provide the arguments `data_frame`, `file`, and `sep`. However, if you plan to open the file with spreadsheet software, it is recommended to set `row.names` to `FALSE`.
+Generally you only need to provide the arguments `data_frame`, `file`, and `sep`. However, if you plan to open the file with spreadsheet software or in the shell, it is recommended to set both `row.names` and `quote` to `FALSE`.
 
 Let's write our updated data frame to a file in the PWD called "Ap4e1_phenotypes_v2.csv" (remember that the PWD is `/home/jovyan/Week.5/5.2.Data.Files`):
 
 ```{r}
-write.table(Ap4e1_data, "Ap4e1_phenotypes_v2.csv", sep=",")
+write.table(Ap4e1_data, "Ap4e1_phenotypes_v2.csv", sep = ",")
 ```
 
 Open the file in Rstudio by clicking File > Open File, navigating to `Week.5/5.2.Data.Files`, and opening `Ap4e1_phenotypes_v2.csv`. You will see the CSV file has row and column names included and all character values are in quotation marks.
 
-Let's write another file using more of the arguments to see the difference:
+Let's write another file using more of the arguments:
 
 ```{r}
-write.table(Ap4e1_data, "Ap4e1_phenotypes_v3.csv", sep=",", row.names = FALSE, quote=FALSE)
+write.table(Ap4e1_data, "Ap4e1_phenotypes_v3.csv", sep = ",", 
+            row.names = FALSE, quote = FALSE)
 ```
 
 Open `Ap4e1_phenotypes_v3.csv` and see the differences from `Ap4e1_phenotypes_v2.csv`.

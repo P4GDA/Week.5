@@ -9,7 +9,7 @@ knitr::opts_chunk$set(echo = TRUE, error = TRUE, warning = TRUE)
 
 ---
 
-## 5.1.1: Introduction to Data Frames
+## 5.1.1 Introduction to Data Frames
 
 ---
 
@@ -17,9 +17,9 @@ knitr::opts_chunk$set(echo = TRUE, error = TRUE, warning = TRUE)
 
 Previously we learned how to store 2D data in a matrix. However, in biology we often have 2D data with multiple data types. Let's look at a real example.
 
-“The IMPC is an international effort by 21 research institutions to identify the function of every protein-coding gene in the mouse genome.” (https://www.mousephenotype.org) To achieve this the IMPC knocks out each mouse gene individually and uses a panel of hundreds of standardized tests to assess mouse phenotypes. This includes (but is not limited to): assessment of behavioural tendencies, x-rays to examine the skeletal system, blood tests, and observations of morphological differences. These can be compared to controls to determine which phenotypes are affected by the knocked out gene.
+“The IMPC is an international effort by 21 research institutions to identify the function of every protein-coding gene in the mouse genome.” (https://www.mousephenotype.org). To achieve this the IMPC knocks out each mouse gene individually and uses a panel of hundreds of standardized tests to assess mouse phenotypes. This includes (but is not limited to): assessment of behavioural tendencies, x-rays to examine the skeletal system, blood tests, and observations of morphological differences. These can be compared to controls to determine which phenotypes are affected by the knocked out gene.
 
-For example, here are data for 4 mice with the Ap4e1 gene knocked out (mutant mice), and data for 4 control mice. This table shows the results of a test to assess the hemoglobin content (in g/dL) along with mouse sex and mutant status. (Data from: https://www.mousephenotype.org)
+For example, here are data for 4 mice with the Ap4e1 gene knocked out (mutant mice), and data for 4 control mice. This table shows the results of a test to assess the hemoglobin content (in g/dL) along with mouse sex and mutant status (data from: https://www.mousephenotype.org).
 
 | Sex    | Mutant | Hemoglobin (g/dL) |
 | ------ | ------ | ----------------- |
@@ -36,17 +36,17 @@ For example, here are data for 4 mice with the Ap4e1 gene knocked out (mutant mi
 
 ### Data Frames
 
-We cannot store this data in a matrix as sex should be stored as character type, mutant status as logical type, and hemoglobin content as numeric type. However, we can store the data in a *data frame*.
+We cannot store these data in a matrix as sex should be stored as character type, mutant status as logical type, and hemoglobin content as numeric type. However, we can store the data in a *data frame*.
 
 A data frame is an R data structure that stores a collection of vectors. Each vector can be a different data type, but all vectors must be the same length. A data frame arranges these vectors into columns.
 
 Data frames are like spreadsheets. In a data frame, generally, each row represents a sample (individual patients, mice, genes, tissues, proteins, tubes, etc.) and each column represents a feature or attribute of the samples. These are measurements, categories, and/or information about each sample.
 
-For our Ap4e1 data, we have 8 individual samples, two categorical values (sex and mutant status) and one measurement (hemoglobin content).
+For our Ap4e1 data, we have 8 individual samples, two categorical values (sex and mutant status), and one measurement (hemoglobin content).
 
 ---
 
-## 5.1.2: Data Frame Creation
+## 5.1.2 Data Frame Creation
 
 ---
 
@@ -54,9 +54,9 @@ For our Ap4e1 data, we have 8 individual samples, two categorical values (sex an
 
 To create a data frame, we can use the `data.frame()` function. The general syntax is:
 
-    data.frame(column_name1=vector1, column_name2=vector2, column_name3=vector3)
+    data.frame(column_name1 = vector1, column_name2 = vector2, column_name3 = vector3)
     
-As mentioned earlier, a data frame is a collection of vectors of different types, arranged into columns. We therefore need to provide each vector along with a column name to the function. All of the vectors should be of the same length! If the vectors are not of the same length, R will repeat the shorter vectors until they are the same length as the longest vector.
+As mentioned earlier, a data frame is a collection of vectors of different types, arranged into columns. We therefore need to provide each vector along with a column name to the function. All of the vectors should be of the same length! If the vectors are not of the same length, R will repeat content from the shorter vectors until they are the same length as the longest vector.
 
 Let's create a data frame for our Ap4e1 mutant mice:
 
@@ -70,28 +70,27 @@ Let's create a data frame for our Ap4e1 mutant mice:
 It will have three vectors - "sex", "mutant", and "HG" - all of length 4. Note that in order to interpret rows as individual samples, we must include the data in the vectors such that the values at each index correspond to the same sample. For example here, if we look at the value at the third index in each vector, they all correspond to the same mouse:
 
 ```{r}
-Ap4e1_HG_mutant <- data.frame(sex=c("female", "female", "male", "male"), 
-                              mutant=c(TRUE, TRUE, TRUE, TRUE), 
-                              HG=c(14.9, 15.1, 14.6, 15.2))
+Ap4e1_HG_mutant <- data.frame(sex = c("female", "female", "male", "male"), 
+                              mutant = c(TRUE, TRUE, TRUE, TRUE), 
+                              HG = c(14.9, 15.1, 14.6, 15.2))
 Ap4e1_HG_mutant
 ```
 
-Looking at the output of a data frame we can see that it looks quite different from a matrix. In R markdown, data frames are displayed in a table format to make them easier to read. The data type of each column is displayed below the column name: "chr" for character, "lgl" for logical, and "dbl" for double. 
+Looking at the output of the data frame we can see that it looks quite different from a matrix. In R markdown, data frames are displayed in a table format to make them easier to read. The data type of each column is displayed below the column name: `chr` for character, `lgl` for logical, and `dbl` for double (numeric). 
 
 ### Row & Column Names
 
-The data frame output also shows us how many rows there are at the bottom, but note that row indices or names are not shown. Unlike matrices, data frames must have row names. R automatically assigns row names to data frames on creation. The default row names will always be the positional index of the row, but as a character value (because it is a name):
+The data frame output also shows us how many rows there are at the bottom, but note that row indices or names are not shown in the R markdown format. Unlike matrices, data frames must have row names. R automatically assigns row names to data frames on creation. The default row names will always be the positional index of the row, but as a character value (because it is a name). We can check this with the `rownames()` function:
 
 ```{r}
 rownames(Ap4e1_HG_mutant)
 ```
 
 You can see that in `Ap4e1_HG_mutant` the row names are simply the row indices. You can assign row names to a data frame with two methods:
+- During data frame creation: `data.frame(..., row.names = c(...))`
+- After data frame creation: `rownames(data_frame) <- c(...)`
 
-- During data frame creation: `data.frame(..., row.names=c(...))`
-- After data frame creation: `rownames(dataframe) <- c(...)`
-
-Row names will be displayed in data frame output if you assign the row names to something other than the default:
+Row names will be displayed in the data frame output if you assign the row names to something other than the default:
 
 ```{r}
 rownames(Ap4e1_HG_mutant) <- c("m1", "m2", "m3", "m4")
@@ -100,7 +99,7 @@ Ap4e1_HG_mutant
 
 Row names can be reverted to the original automatic row names by setting them to `NULL`:
 
-    rownames(data.frame) <- NULL
+    rownames(data_frame) <- NULL
 
 ```{r}
 rownames(Ap4e1_HG_mutant) <- NULL
@@ -109,7 +108,7 @@ rownames(Ap4e1_HG_mutant)
 
 Similarly, data frames must have column names. If you create a data frame without assigning column names, R will automatically name your columns. These names are long and difficult to work with as they are representations of the entire column. 
 
-Let's see what happens if we create a data frame for the control mice, without providing column names to the `data.frame()` function:
+Let's see what happens if we create a data frame for the control mice, without providing column names to the `data.frame()` function.
 
 | Sex    | Mutant | Hemoglobin (g/dL) |
 | ------ | ------ | ----------------- |
@@ -126,9 +125,9 @@ data.frame(c("female", "female", "male", "male"),
 Ap4e1_HG_control
 ```
 
-As you can see it named the columns as character representations of the column vector values. These names would be very difficult to work with, especially if our data frame had even more rows, leading to even longer column names.
+As you can see it named the columns as character representations of the column vector values. These names would be very difficult to work with, especially if our data frame had even more rows and thus even longer column names.
 
-Depending on the size of your screen, you may not be able to see the third column in this data frame. Because these column names are so long, R markdown may not be able to fit all three columns into the display. When this happens, there will be an arrow to the right of the column names, which you can click to view the next column. You will also notice that at the bottom of the data frame, where it states the number of rows, you can see how many columns there are and which columns you are currently viewing.
+Depending on the size of your screen, you may not be able to see the third column in this data frame. Since these column names are so long, R markdown may not be able to fit all three columns into the display. When this happens, there will be an arrow to the right of the column names, which you can click to view the next column. You will also notice that at the bottom of the data frame, where it states the number of rows, you can see how many columns there are and which columns you are currently viewing (if one or more column is missing from the display). If all columns are visible in your screen, this extra bit of information is not needed and thus isn't present.
 
 Column names can be modified with the `colnames()` function, in the same way we modify matrix column names:
 
@@ -145,7 +144,7 @@ Ap4e1_HG_control
 
 ### Other Data Frame Creation Methods
 
-Data frames can also be created by combining two or more existing data frames. Two data frames with the **same columns** in the **same order** can be combined with the `rbind()` function.
+Data frames can also be created by combining two or more existing data frames. Two data frames with the *same columns* in the *same order* can be combined with the `rbind()` function.
 
 Let's combine our data frames with the mutant and control mice into one:
 
@@ -159,7 +158,9 @@ Matrices can also be converted to data frames, which is helpful if you want to a
 For example, let's say we have a matrix with numeric data about a set of cancer patients (stage of cancer and months of treatment):
 
 ```{r}
-cancer_pts <- matrix(c(2,4,3,8,3,11), nrow=3, dimnames=list(c("pt_A", "pt_B", "pt_C"), c("stage", "months_of_treatment")))
+cancer_pts <- matrix(c(2, 4, 3, 8, 3, 11), nrow = 3, 
+                     dimnames = list(c("pt_A", "pt_B", "pt_C"), 
+                                   c("stage", "months_of_treatment")))
 cancer_pts
 ```
 
@@ -179,7 +180,7 @@ cancer_pts_df
 
 ---
 
-## 5.1.3: Data Frame Indexing
+## 5.1.3 Data Frame Indexing
 
 ---
 
@@ -189,7 +190,7 @@ Positional indexing of data frames is the same as it is for matrices:
 
     data_frame[row_number(s), column_number(s)]
 
-For example, if we want to retrieve the values in the 3rd column for rows one through four:
+For example, if we want to retrieve the values in the third column for rows 1 through 4:
 
 ```{r}
 Ap4e1_HG[1:4, 3]
@@ -198,23 +199,23 @@ Ap4e1_HG[1:4, 3]
 Or if we want to get the first, second, fifth, and sixth rows:
 
 ```{r}
-Ap4e1_HG[c(1,2,5,6), ]
+Ap4e1_HG[c(1, 2, 5, 6), ]
 ```
 
 The same is true for named indexing:
 
     data_frame[row_name(s), column_name(s)]
 
-For example, if we want to retrieve sex and mutant status for rows one and seven:
+For example, if we want to retrieve sex and mutant status for rows 1 and 7:
 
 ```{r}
-Ap4e1_HG[c("1","7"),c("sex", "mutant")]
+Ap4e1_HG[c("1", "7"), c("sex", "mutant")]
 ```
 
 Remember that the row names were automatically assigned when we created this data frame, so in this example the row names are the same as the positional indices. Unless row names are assigned to be meaningful character values, it is generally easier to use positional indices for row indexing:
 
 ```{r}
-Ap4e1_HG[c(1,7),c("sex", "mutant")]
+Ap4e1_HG[c(1, 7), c("sex", "mutant")]
 ```
 
 ---
@@ -223,12 +224,12 @@ Ap4e1_HG[c(1,7),c("sex", "mutant")]
 
 Data frames are actually a type of list, with each column being a different element. They differ from regular lists in that all elements must be vectors of equal length, and in that they are strictly 2-dimensional like matrices.
 
-Because data frames are a type of list we can access columns with the indexing strategies used for lists:
+Fortunately, since data frames are a type of list we can access columns with the same indexing strategies used for lists:
 
     data_frame$column_name
     data_frame[["column_name"]]
 
-For example, we can retrieve the `mutant` column with the `$` indexing:
+For example, we can retrieve the `mutant` column with `$` indexing:
 
 ```{r}
 Ap4e1_HG$mutant
@@ -251,11 +252,11 @@ Remember that to use indexing with a `$`, column names should never have spaces 
 With all of these methods there are five unique ways to access a column. For example, to access the fourth element of the third column ("HG"):
 
 ```{r}
-Ap4e1_HG[4,3]
+Ap4e1_HG[4, 3]
 ```
 
 ```{r}
-Ap4e1_HG[4,"HG"]
+Ap4e1_HG[4, "HG"]
 ```
 
 ```{r}
@@ -274,7 +275,7 @@ When writing your own code, choose the style that is easiest and most convenient
 
 ---
 
-## 5.1.4: Data Frame Modification
+## 5.1.4 Data Frame Modification
 
 ---
 
@@ -302,21 +303,21 @@ Some matrix modification methods can also be used for data frames:
 
 ### Modifying & Adding Rows
 
-Modifying or adding a row is more difficult with data frames than it is with matrices. Because data frame columns can contain different data types, you cannot simply create a vector to replace a row. 
+Modifying or adding a row is more difficult with data frames than it is with matrices. Because data frame columns can contain different data types, you cannot simply create a vector to replace a row (because vectors can only contain one data type).
 
-Instead, we can create a data frame with one row that has the same columns as the data frame in which we need to add or replace a row.
+Instead, we can create a data frame with one row that has the same columns as the data frame in which we need to add or replace a row:
 
         new_row <- data.frame(column_name1 = value1, column_name2 = value2, ...)
 
-To modify a row, assign the new row to the data frame at a specific index.
+To modify a row, assign the new row data frame to the original data frame at a specific index:
         
         data_frame[row_index,] <- new_row
         
-To add a row, use `rbind()` to bind the row to the end of the data frame.
+To add a row, use `rbind()` to bind the new row data frame to the end of the original data frame:
         
         data_frame <- rbind(old_data_frame, new_row)
 
-Let's remove the last row of the data frame and then add it back:
+Let's remove the last row of the data frame (row 8) and then add it back:
 
 ```{r}
 Ap4e1_HG <- Ap4e1_HG[1:7, ]
@@ -325,7 +326,7 @@ Ap4e1_HG <- Ap4e1_HG[1:7, ]
 We can add it back by creating a single row data frame and using `rbind()`:
 
 ```{r}
-mouse8 <- data.frame(sex="male", mutant=FALSE, HG=14.9)
+mouse8 <- data.frame(sex = "male", mutant = FALSE, HG = 14.9)
 Ap4e1_HG <- rbind(Ap4e1_HG, mouse8)
 Ap4e1_HG
 ```
@@ -344,19 +345,19 @@ However, since data frame columns have more methods for column indexing, more me
         data_frame$column_name <- new_vector
         data_frame[["column_name"]] <- new_vector
 
-For example, we have more information about this set of mice, including the weight of each mouse in grams. We can add a vector of weights to `Ap4e1_HG` by creating a new column with `$` indexing:
+For example, let's say we have more information about this set of mice, including the weight of each mouse in grams. We can add a vector of weights to `Ap4e1_HG` by creating a new column with `$` indexing:
 
 ```{r}
 Ap4e1_HG$weight <- c(22.0, 23.1, 29.2, 29.1, 24.3, 23.7, 29.5, 30.9)
 ```
 
-Another measurement taken for each mouse is grip strength. Grip strength measures the force of strength exerted by each mouse in grams. We can add a new vector with mouse grip strength measurements to `Ap4e1_HG` with `[[]]` indexing: 
+Another measurement taken for each mouse is grip strength. Grip strength measures the force of strength (in grams) exerted by each mouse. We can add a new vector with mouse grip strength measurements to `Ap4e1_HG` with `[[]]` indexing: 
 
 ```{r}
 Ap4e1_HG[["grip"]] <- c(124.08, 176.92, 164.09, 145.33, 235.70, 241.73, 231.11, 210.68)
 ```
 
-We can see both of the new columns in the output data frame:
+We can see both of the new columns in the output data frame below:
 
 ```{r}
 Ap4e1_HG
