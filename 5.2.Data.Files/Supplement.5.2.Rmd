@@ -30,7 +30,7 @@ On your computer, your files are organized into folders. This system of folders 
           file1.txt     file2.txt          file3.txt        file
                            
                            
-This tree structure has 4 levels, starting at the top level which has one directory. This top level is called the *root directory* and it is the directory that contains all other files and directories. All hierarchical directory structures have a root directory, and the root directory does not have a name.
+This tree structure has four levels, starting at the top level which has one directory. This top level is called the *root directory* and it is the directory that contains all other files and directories. All hierarchical directory structures have a root directory, and the root directory does not have a name.
  
 In this example, the root directory contains two other directories, `dir_A` and `dir_B`, and one file. `dir_A` and `dir_B` are *child directories* of the `root directory`. A child directory is a directory contained within another directory. 
 

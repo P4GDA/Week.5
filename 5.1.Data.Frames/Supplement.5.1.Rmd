@@ -19,7 +19,7 @@ Previously we learned how to store 2D data in a matrix. However, in biology we o
 
 “The IMPC is an international effort by 21 research institutions to identify the function of every protein-coding gene in the mouse genome.” (https://www.mousephenotype.org). To achieve this the IMPC knocks out each mouse gene individually and uses a panel of hundreds of standardized tests to assess mouse phenotypes. This includes (but is not limited to): assessment of behavioural tendencies, x-rays to examine the skeletal system, blood tests, and observations of morphological differences. These can be compared to controls to determine which phenotypes are affected by the knocked out gene.
 
-For example, here are data for 4 mice with the Ap4e1 gene knocked out (mutant mice), and data for 4 control mice. This table shows the results of a test to assess the hemoglobin content (in g/dL) along with mouse sex and mutant status (data from: https://www.mousephenotype.org).
+For example, here are data for four mice with the Ap4e1 gene knocked out (mutant mice), and data for four control mice. This table shows the results of a test to assess the hemoglobin content (in g/dL) along with mouse sex and mutant status (data from: https://www.mousephenotype.org).
 
 | Sex    | Mutant | Hemoglobin (g/dL) |
 | ------ | ------ | ----------------- |
@@ -42,7 +42,7 @@ A data frame is an R data structure that stores a collection of vectors. Each ve
 
 Data frames are like spreadsheets. In a data frame, generally, each row represents a sample (individual patients, mice, genes, tissues, proteins, tubes, etc.) and each column represents a feature or attribute of the samples. These are measurements, categories, and/or information about each sample.
 
-For our Ap4e1 data, we have 8 individual samples, two categorical values (sex and mutant status), and one measurement (hemoglobin content).
+For our Ap4e1 data, we have eight individual samples, two categorical values (sex and mutant status), and one measurement (hemoglobin content).
 
 ---
 
@@ -354,7 +354,8 @@ Ap4e1_HG$weight <- c(22.0, 23.1, 29.2, 29.1, 24.3, 23.7, 29.5, 30.9)
 Another measurement taken for each mouse is grip strength. Grip strength measures the force of strength (in grams) exerted by each mouse. We can add a new vector with mouse grip strength measurements to `Ap4e1_HG` with `[[]]` indexing: 
 
 ```{r}
-Ap4e1_HG[["grip"]] <- c(124.08, 176.92, 164.09, 145.33, 235.70, 241.73, 231.11, 210.68)
+Ap4e1_HG[["grip"]] <- c(124.08, 176.92, 164.09, 145.33, 
+                        235.70, 241.73, 231.11, 210.68)
 ```
 
 We can see both of the new columns in the output data frame below:

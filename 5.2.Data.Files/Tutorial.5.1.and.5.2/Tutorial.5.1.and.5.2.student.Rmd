@@ -29,14 +29,15 @@ This tutorial differs from previous tutorials in that sections 5.1 & 5.2 will no
 
 ---
 
-## 5.1.2: Data Frame Creation
+## 5.1.2 Data Frame Creation
 
 ---
 
 In this tutorial we will work with data from:
-Enzel, P. et al. Comparative Metagenomics of Eight Geographically Remote Terrestrial Hot Springs. Microb Ecol. 2015 Aug. 70(2):411-24
 
-This paper looks at the types of microorganisms living in 8 terrestrial hot springs. This table holds information about each of the hot springs examined.
+Enzel, P. et al. *Comparative Metagenomics of Eight Geographically Remote Terrestrial Hot Springs.* Microb Ecol. 2015 Aug. 70(2):411-24
+
+This paper looks at the types of microorganisms living in eight terrestrial hot springs. The table below holds information about each of the hot springs examined:
 
 | Sample     | Temperature (C) | pH  |
 | ---------- | --------------- | --- |
@@ -51,7 +52,7 @@ This paper looks at the types of microorganisms living in 8 terrestrial hot spri
 
 * Note: Where a temperature range or pH range was given, the median temperature or pH is used.
 
-Create a data frame called "hot_springs" with 3 columns named "sample", "temp", and "pH", containing the information above. Use the appropriate data type for each column.
+Create a data frame named "hot_springs" with 3 columns named "sample", "temp", and "pH", containing the information above. Use the appropriate data type for each column.
 
 ```{r}
 # Write and execute your code here
@@ -66,8 +67,10 @@ Create a data frame called "hot_springs" with 3 columns named "sample", "temp", 
 Below are two vectors providing the location of each hot spring (in the same order as the hot springs in the table above). One contains the city each hot spring is in (`cities`) and the other contains the country (`countries`). 
 
 ```{r}
-cities <- c("Eryuan", "Uzon Caldera", "Pozzuoli", "Pisciarelli", "Grensdalur", "Krisuvik", "YNP", "YNP")
-countries <- c("China", "Russia", "Italy", "Italy", "Iceland", "Iceland", "USA", "USA")
+cities <- c("Eryuan", "Uzon Caldera", "Pozzuoli", "Pisciarelli", 
+            "Grensdalur", "Krisuvik", "YNP", "YNP")
+countries <- c("China", "Russia", "Italy", "Italy", 
+               "Iceland", "Iceland", "USA", "USA")
 ```
 
 Use the `cbind()` function to add `cities` and `countries` to `hot_springs` (in that order). 
@@ -98,7 +101,7 @@ Samples from each of these hot springs were sequenced, then the sequencing reads
 
 A CSV file called "hot_springs_illumina_read_info.csv" contains information about sequencing reads for the four samples that were sequenced using Illumina sequencing technology.  
 
-Use the `read.csv()` function to read in the data from the file and save it as a data frame called "illumina_read_info". 
+Use the `read.csv()` function to read in the data from the file and save it as a data frame named "illumina_read_info". 
 
 Note: the file has a header and is located in the directory: "/home/jovyan/Week.5/5.2.Data.Files/Tutorial.5.1.and.5.2".
 
@@ -114,7 +117,7 @@ Note: the file has a header and is located in the directory: "/home/jovyan/Week.
 
 A TSV file called "hot_springs_454_read_info.txt" contains information about sequencing reads for the four samples that were sequenced using a different sequencing technology with much longer reads (called 454).  
 
-Use the `read.table()` function to read in the data from the file and save it as a data frame called "s454_read_info". 
+Use the `read.table()` function to read in the data from the file and save it as a data frame named "s454_read_info". 
 
 Note: the file has a header and is located in the directory: "/home/jovyan/Week.5/5.2.Data.Files/Tutorial.5.1.and.5.2".
 
@@ -128,7 +131,7 @@ Note: the file has a header and is located in the directory: "/home/jovyan/Week.
 ```
 **Check your answer by running the above block** 
 
-Combine `illumina_read_info` and `s454_read_info` into one data frame called "sequencing_reads".
+Combine `illumina_read_info` and `s454_read_info` into one data frame named "sequencing_reads".
 
 ```{r}
 # Write and execute your code here
@@ -142,7 +145,7 @@ Combine `illumina_read_info` and `s454_read_info` into one data frame called "se
 
 ---
 
-## 5.1.3: Data Frame Indexing
+## 5.1.3 Data Frame Indexing
 
 ---
 
@@ -158,7 +161,7 @@ Calculate the mean hot spring temperature. Save the value to a variable named "m
 ```
 **Check your answer by running the above block** 
 
-Use any type of indexing to return a data frame containing the sample, city, and country names for rows 3 and 7 in `hot_springs`. Save the new data frame to a variable called "hot_spring_3_7_location".
+Use any type of indexing to return a data frame containing the sample, city, and country names for rows 3 and 7 in `hot_springs`. Save the new data frame to a variable named "hot_spring_3_7_location".
 
 ```{r}
 # Write and execute your code here
@@ -172,11 +175,11 @@ Use any type of indexing to return a data frame containing the sample, city, and
 
 ---
 
-## 5.1.4: Data Frame Modification
+## 5.1.4 Data Frame Modification
 
 ---
 
-Add a new column to `sequencing_reads` called "sequencing_tech". The first 4 values should be "illumina" and the last 4 values should be "454".
+Add a new column to `sequencing_reads` named "sequencing_tech". The first four values should be "illumina" and the last four values should be "454".
 
 ```{r}
 # Write and execute your code here
@@ -188,7 +191,7 @@ Add a new column to `sequencing_reads` called "sequencing_tech". The first 4 val
 ```
 **Check your answer by running the above block** 
 
-Not all of the sequencing reads mapped to a Bacterial or Archeal species. Some mapped to a Eukaryotic or Viral species, or were unclassified. Subtract the columns `archea_reads` and `bacteria_reads` from `total_reads` to get the number of reads that mapped to something else to create a new vector called "other_reads".
+Not all of the sequencing reads mapped to a Bacterial or Archeal species. Some mapped to a Eukaryotic or Viral species, or were unclassified. Subtract the columns `archea_reads` and `bacteria_reads` from `total_reads` to get the number of reads that mapped to something else to create a new vector named "other_reads".
 
 ```{r}
 # Write and execute your code here
@@ -200,7 +203,7 @@ Not all of the sequencing reads mapped to a Bacterial or Archeal species. Some m
 ```
 **Check your answer by running the above block** 
 
-Add a new column called "other_reads" to `sequencing_reads` with the `other_reads` vector created above. 
+Add a new column named "other_reads" to `sequencing_reads` with the `other_reads` vector created above. 
 
 ```{r}
 # Write and execute your code here
@@ -212,7 +215,7 @@ Add a new column called "other_reads" to `sequencing_reads` with the `other_read
 ```
 **Check your answer by running the above block** 
 
-Write a new CSV file to the directory "/home/jovyan/Week.5/5.2.Data.Files/Tutorial.5.1.and.5.2" called "sequencing_reads.csv". The CSV file should contain the data frame `sequencing_reads`.
+Write a new CSV file to the directory "/home/jovyan/Week.5/5.2.Data.Files/Tutorial.5.1.and.5.2" named "sequencing_reads.csv". The CSV file should contain the data frame `sequencing_reads`.
 
 ```{r}
 # Write and execute your code here
@@ -224,7 +227,7 @@ Write a new CSV file to the directory "/home/jovyan/Week.5/5.2.Data.Files/Tutori
 ```
 **Check your answer by running the above block** 
 
-To confirm the CSV was written correctly, read in the CSV you just created and save it to a variable called "my_CSV".
+To confirm the CSV was written correctly, read in the CSV you just created and save it to a variable named "my_CSV".
 
 ```{r}
 # Write and execute your code here
