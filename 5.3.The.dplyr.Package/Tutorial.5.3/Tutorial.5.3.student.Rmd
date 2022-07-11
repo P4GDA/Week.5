@@ -1,0 +1,188 @@
+---
+title: "5.3 The dplyr Package - Tutorial"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, error = TRUE, warning = TRUE)
+
+library(ottr)
+library(testthat)
+library(dplyr)
+```
+**Run the above block to load required packages**
+
+---
+
+At the end of this tutorial you should be able to:
+
+* Use the `filter()` function
+* Use the `select()` function
+* Use the `mutate()` function
+* Use the `summarise()` function
+* Use the `group_by()` function
+* Pipe dplyr functions together
+
+---
+
+## 5.3.1: Basic dplyr Functions
+
+---
+
+In this tutorial we will work with data from:
+Enzel, P. et al. Comparative Metagenomics of Eight Geographically Remote Terrestrial Hot Springs. Microb Ecol. 2015 Aug. 70(2):411-24
+
+Refer to the previous tutorial (5.1 and 5.2) for more information. 
+
+The dplyr package has already been loaded for you.
+
+Read in the CSV "hot_springs_data.csv" which will be in the directory "/home/jovyan/Week.5/5.3.The.dplyr.Package/Tutorial.5.3". Save the data to a variable called "hot_springs".
+
+```{r}
+# Write and execute your code here
+
+```
+
+```{r}
+. = ottr::check("tests/Tutorial.W5.3.1.a.R")
+```
+**Check your answer by running the above block** 
+
+Run this code block to output the data to use as a reference to help answer the next questions.
+
+```{r}
+hot_springs
+```
+
+Use the `mutate()` function to add 3 new columns to `hot_springs` that contain the *proportion* of the total reads for the hot spring that belong to Archea, Bacteria, or other species:
+- "prop_archea"
+- "prop_bacteria"
+- "prop_other"
+
+Hint: prop_archea = archea_reads/total_reads
+Hint: remember that you must save the output of the mutate function back to `hot_springs` for it to add the columns.
+
+```{r}
+# Write and execute your code here
+
+```
+
+```{r}
+. = ottr::check("tests/Tutorial.W5.3.1.b.R")
+```
+**Check your answer by running the above block** 
+
+Use the `filter()` function to pick the rows for hot springs that are located in the country of Iceland. Save the output to a variable called "Iceland_hot_springs".
+
+```{r}
+# Write and execute your code here
+
+```
+
+```{r}
+. = ottr::check("tests/Tutorial.W5.3.1.c.R")
+```
+**Check your answer by running the above block** 
+
+Use the `select()` function to return the column `sample`, and all the columns that contain the word "bacteria". Save the output to a variable called "bacteria_data".
+
+```{r}
+# Write and execute your code here
+
+```
+
+```{r}
+. = ottr::check("tests/Tutorial.W5.3.1.d.R")
+```
+**Check your answer by running the above block** 
+
+---
+
+## 5.3.2: Piping dplyr Functions
+
+---
+
+Get the proportion of non-Archea, non-Bacteria reads (i.e. "other") for hot springs in YNP, USA by piping the `filter()` and `select()` functions. Save the output to the variable "YNP_prop_other".
+
+```{r}
+# Write and execute your code here
+
+```
+
+```{r}
+. = ottr::check("tests/Tutorial.W5.3.2.a.R")
+```
+**Check your answer by running the above block** 
+
+Create a data frame called "European_low_pH_bacteria" containing:
+- rows for hot springs in European countries (Russia, Italy & Iceland) that have a pH less than 4
+- the columns `sample`, `country`, and `prop_bacteria`
+Hint: You can use the "|" (or) operator.
+
+```{r}
+# Write and execute your code here
+
+```
+
+```{r}
+. = ottr::check("tests/Tutorial.W5.3.2.b.R")
+```
+**Check your answer by running the above block** 
+
+---
+
+## 5.3.2: Grouping with dplyr
+
+---
+
+Use the `summarise()` function to get the minimum, mean, and maximum proportion of archea reads across all hot springs. Call the three columns in the resulting data frame "min_archea", "mean_archea", "max_archea". Save the output data frame to a variable called "archea_info".
+
+```{r}
+# Write and execute your code here
+
+```
+
+```{r}
+. = ottr::check("tests/Tutorial.W5.3.2.c.R")
+```
+**Check your answer by running the above block** 
+
+Using the `group_by()` function, group rows by the type of sequencing technology used. Pipe the result to `summarise()` to get the mean number of mapped reads (`total_reads`) for each technology. Call the column "mean_reads". Save the output data frame as "sequencing_tech_mean_reads".
+
+```{r}
+# Write and execute your code here
+
+```
+
+```{r}
+. = ottr::check("tests/Tutorial.W5.3.2.d.R")
+```
+**Check your answer by running the above block** 
+
+The rest of the questions will not specify which function(s) to use. 
+
+Get the mean proportion of Archea for hot springs with a pH below 5. Save the returned data frame of 1 row and 1 column (named "mean_prop_archea") to a variable called "low_pH_archea_prop".
+
+```{r}
+# Write and execute your code here
+
+```
+
+```{r}
+. = ottr::check("tests/Tutorial.W5.3.2.e.R")
+```
+**Check your answer by running the above block** 
+
+Return the maximum hot spring temperature for each unique country. The column containing the maximum value should be called "max_temp". The resulting data frame should be assigned to a variable called "max_hot_spring_temp".
+
+```{r}
+# Write and execute your code here
+
+```
+
+```{r}
+. = ottr::check("tests/Tutorial.W5.3.2.f.R")
+```
+**Check your answer by running the above block** 
+
+---
